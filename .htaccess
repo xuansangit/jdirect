@@ -46,7 +46,7 @@ RewriteRule .* index.php [F]
 # redirects use the correct RewriteRule syntax and the [R=301,L] flags.
 #
 
-#Redirect 301 /featured http://joomladirect.com/
+Redirect 301 /featured http://joomladirect.com/
 
 ## End - Custom redirects
 
@@ -56,7 +56,7 @@ RewriteRule .* index.php [F]
 # Update Your Joomla! Directory (just / for root).
 ##
 
-# RewriteBase /
+#RewriteBase /joomladirect.com
 
 ## Begin - Joomla! core SEF Section.
 #
@@ -77,4 +77,4 @@ RewriteCond %{REQUEST_FILENAME} !-d
 RewriteRule .* index.php [L]
 #
 ## End - Joomla! core SEF Section.
-#AddHandler application/x-httpd-php53 .php .php5 .php4 .php3
+AddHandler application/x-httpd-php53 .php .php5 .php4 .php3
