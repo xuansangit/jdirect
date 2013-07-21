@@ -159,7 +159,7 @@ class SystemWidgetkitHelper extends WidgetkitHelper {
 		if ($this->application->isSite() && is_a($this->document, 'JDocumentHTML')) {
 
 			$this['asset']->addString("js", 'window["WIDGETKIT_URL"]="'.$this['path']->url("widgetkit:").'";');
-			$this['asset']->addString("js", 'function wk_ajax_render_url(widgetid){ return "'.JRoute::_("index.php?option=com_widgetkit&format=raw&id=").'"+widgetid}');
+			$this['asset']->addString("js", 'function wk_ajax_render_url(widgetid){ return "'.JRoute::_("index.php?option=com_widgetkit&format=raw&id=", false).'"+widgetid}');
 
 			// set direction
 			$this->options->set('direction', $this->document->direction);

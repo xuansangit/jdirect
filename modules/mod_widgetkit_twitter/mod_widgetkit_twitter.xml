@@ -39,6 +39,10 @@
 			<option value="0">Hide</option>
 			<option value="1">Show</option>
 		</param>
+		<param name="consumer_key" type="text" default="" label="Consumer Key" description="" />
+		<param name="consumer_secret" type="text" default="" label="Consumer Secret" description="" />
+		<param name="access_token" type="text" default="" label="OAuth Access Token" description="" />
+		<param name="access_token_secret" type="text" default="" label="OAuth Access Token Secret" description="" />
 		<param name="moduleclass_sfx" type="text" default="" label="Module Class Suffix" description="Module Class Suffix" />
 	</params>
 	<config>
@@ -69,6 +73,10 @@
 					<option value="0">Hide</option>
 					<option value="1">Show</option>
 				</field>
+				<field name="consumer_key" type="text" default="" label="Consumer Key" description="" />
+				<field name="consumer_secret" type="text" default="" label="Consumer Secret" description="" />
+				<field name="access_token" type="text" default="" label="OAuth Access Token" description="" />
+				<field name="access_token_secret" type="text" default="" label="OAuth Access Token Secret" description="" />
 			</fieldset>
 			<fieldset name="advanced">
 				<field name="moduleclass_sfx" type="text" default="" label="Module Class Suffix" description="Module Class Suffix" />

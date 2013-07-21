@@ -65,6 +65,8 @@
 			<a class="" href="<?php echo $image['link'] ? $image['link'] : $image['url']; ?>" <?php echo $lightbox; ?> <?php echo $spotlight; ?>><?php echo $content; ?></a>
 		<?php elseif ($settings['effect'] == 'spotlight') : ?>
 			<div <?php echo $spotlight; ?>><?php echo $content; ?></div>
+		<?php elseif ($settings['effect'] == 'polaroid') : ?>
+			<div><?php echo $content; ?></div>
 		<?php else : ?>		
 			<?php echo $content; ?>
 		<?php endif; ?>

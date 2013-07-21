@@ -62,7 +62,9 @@ class LightboxWidgetkitHelper extends WidgetkitHelper {
 			$this['asset']->addFile('css', 'lightbox:css/lightbox.css');
 			$this['asset']->addString('js', "\$widgetkit.load('{$lightboxjs}').done(function(){ 
 					jQuery(function($){
-						$('{$selector}').lightbox({$params});
+						setTimeout(function() { 
+							$('{$selector}').lightbox({$params}); 
+						}, 500);
 					});
 			});");
 

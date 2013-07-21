@@ -13,7 +13,7 @@ jimport('joomla.plugin.plugin');
 
 class plgContentWidgetkit_Content extends JPlugin {
 	
-	public function onContentPrepare($context, &$article, &$params, $limitstart) {
+	public function onContentPrepare($context, &$article, &$params, $limitstart=0) {
 		
 		preg_match_all('#\[widgetkit id=(\d+)\]#', $article->text, $matches);
 

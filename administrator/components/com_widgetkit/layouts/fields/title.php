@@ -12,6 +12,7 @@ $attributes['type']  = 'text';
 $attributes['name']  = $name;
 $attributes['value'] = $value;
 $attributes['class'] = 'title widefat '.(isset($class) ? $class : '');
+$attributes['data-id'] = uniqid("title-");
 
 printf('<input %s />', $this['field']->attributes($attributes, array('label', 'description', 'default')));
 
@@ -21,7 +22,7 @@ printf('<input %s />', $this['field']->attributes($attributes, array('label', 'd
 
 	jQuery(function($){
 		
-		$('input.title').die('keyup.title').live('keyup.title', function() {
+		$('input.title[data-id="<?php echo $attributes['data-id'];?>"]').on('keyup.title', function() {
 			$(this).trigger('update');
 		});
 

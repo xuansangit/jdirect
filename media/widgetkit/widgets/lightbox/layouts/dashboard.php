@@ -14,9 +14,13 @@
 			<pre>&lt;a <code>data-lightbox="group:mygroup"</code> href="image1_lb.jpg"&gt;&lt;img src="image1.jpg" width="180" height="120" alt="" /&gt;&lt;/a&gt;
 &lt;a <code>data-lightbox="group:mygroup"</code> href="image2_lb.jpg"&gt;&lt;img src="image2.jpg" width="180" height="120" alt="" /&gt;&lt;/a&gt;</pre>
 
+			<p>Use inline elements as source for content. For example:</p>
+
+			<pre>&lt;a <code>data-lightbox="on"</code> href="<code>#element-id</code>"&gt;Lightbox&lt;/a&gt;</pre>
+
 			<p>You can set various other lightbox parameters to the data attribute. For example:</p>
 
-			<pre>&lt;a <code>data-lightbox="transitionIn:elastic;transitionOut:elastic;"</code> href="http://www.google.com"&gt;Lightbox&lt;/a&gt;</pre>
+			<pre>&lt;a <code>data-lightbox="transitionIn:elastic;transitionOut:elastic;"</code> href="http://www.wikipedia.org"&gt;Lightbox&lt;/a&gt;</pre>
 
 			<p>Here is a list of common parameters:</p>
 

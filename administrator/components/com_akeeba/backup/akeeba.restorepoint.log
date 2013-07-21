@@ -1,0 +1,1329 @@
+DEBUG   |130721 17:39:58|*** Batching successive steps (nesting level 1)
+DEBUG   |130721 17:39:58|====== Starting Step number 1 ======
+DEBUG   |130721 17:39:58|Kettenrad :: BREAKING STEP BEFORE SWITCHING DOMAIN
+DEBUG   |130721 17:39:59|AECoreDomainInit :: New instance
+DEBUG   |130721 17:39:59|----- Finished operation 1 ------
+INFO    |130721 17:39:59|--------------------------------------------------------------------------------
+INFO    |130721 17:39:59|Akeeba Backup 3.7.10 (2013-06-29)
+INFO    |130721 17:39:59|Got backup?
+INFO    |130721 17:39:59|--------------------------------------------------------------------------------
+INFO    |130721 17:39:59|--- System Information ---
+INFO    |130721 17:39:59|PHP Version        :5.4.4
+INFO    |130721 17:39:59|PHP OS             :Darwin
+INFO    |130721 17:39:59|PHP SAPI           :apache2handler
+INFO    |130721 17:39:59|OS Version         :Darwin
+INFO    |130721 17:39:59|DB Version         :5.5.25
+INFO    |130721 17:39:59|Web Server         :Apache/2.2.22 (Unix) mod_ssl/2.2.22 OpenSSL/0.9.8x DAV/2 PHP/5.4.4
+INFO    |130721 17:39:59|Joomla! version    :2.5.11
+INFO    |130721 17:39:59|Mozilla/5.0 (Macintosh; Intel Mac OS X 10_7_5) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/28.0.1500.71 Safari/537.36
+INFO    |130721 17:39:59|Safe mode          :
+INFO    |130721 17:39:59|Display errors     :
+INFO    |130721 17:39:59|Error reporting    :E_ALL
+INFO    |130721 17:39:59|Error display      :off
+INFO    |130721 17:39:59|Disabled functions :
+INFO    |130721 17:39:59|open_basedir restr.:
+INFO    |130721 17:39:59|Max. exec. time    :30
+INFO    |130721 17:39:59|Memory limit       :1024M
+INFO    |130721 17:39:59|Current mem. usage :5795480
+INFO    |130721 17:39:59|GZIP Compression   : available (good)
+INFO    |130721 17:39:59|JPATH_BASE         :<root>/administrator
+INFO    |130721 17:39:59|JPATH_SITE         :<root>
+INFO    |130721 17:39:59|JPATH_ROOT         :<root>
+INFO    |130721 17:39:59|JPATH_CACHE        :<root>/cache
+INFO    |130721 17:39:59|Computed root      :<root>
+INFO    |130721 17:39:59|Output directory   :<root>/administrator/components/com_akeeba/backup
+INFO    |130721 17:39:59|--------------------------------------------------------------------------------
+INFO    |130721 17:39:59|Akeeba Backup has detected the following potential problems:
+INFO    |130721 17:39:59|- 203 Default output directory in use (low)
+INFO    |130721 17:39:59|You probably do not have to worry about them, but you should be aware of them.
+INFO    |130721 17:39:59|--------------------------------------------------------------------------------
+INFO    |130721 17:39:59|Loaded profile #1
+DEBUG   |130721 17:39:59|Archive template name: restore-point-[DATE]-[TIME]
+DEBUG   |130721 17:39:59|Expanded template name: restore-point-20130721-153959
+DEBUG   |130721 17:39:59|Backup type is now set to 'full'
+DEBUG   |130721 17:39:59|Expanded archive file name: <root>/administrator/components/com_akeeba/backup/restore-point-20130721-153959.jpa
+DEBUG   |130721 17:39:59|Initializing archiver engine
+DEBUG   |130721 17:39:59|AEArchiverJpa :: new instance - archive <root>/administrator/components/com_akeeba/backup/restore-point-20130721-153959.jpa
+DEBUG   |130721 17:39:59|Updating multipart status to 1
+INFO    |130721 17:39:59|AEArchiverJpa :: Spanned JPA creation enabled
+DEBUG   |130721 17:39:59|AEArchiverJpa :: Killing old archive
+DEBUG   |130721 17:39:59|----- Finished operation 2 ------
+DEBUG   |130721 17:39:59|----- Finished operation 3 ------
+DEBUG   |130721 17:39:59|Successful Smart algorithm on AECoreDomainInit
+DEBUG   |130721 17:39:59|Kettenrad :: Domain 'init' has finished.
+DEBUG   |130721 17:39:59|====== Finished Step number 1 ======
+DEBUG   |130721 17:39:59|*** Engine steps batching: Break flag detected.
+DEBUG   |130721 17:39:59|*** Batching of engine steps finished. I will now return control to the caller.
+DEBUG   |130721 17:39:59|Sleeping for 1724.26104546 msec, using usleep()
+DEBUG   |130721 17:40:01|Saving Kettenrad instance restorepoint
+DEBUG   |130721 17:40:01|
+DEBUG   |130721 17:40:01| -- Loaded stored Akeeba Factory (restorepoint)
+DEBUG   |130721 17:40:01|====== Starting Step number 1 ======
+DEBUG   |130721 17:40:01|Kettenrad :: BREAKING STEP BEFORE SWITCHING DOMAIN
+DEBUG   |130721 17:40:01|AECoreDomainInstaller :: New instance
+DEBUG   |130721 17:40:01|PHP NOTICE on line 56 in file <root>/administrator/components/com_akeeba/akeeba/core/domain/installer.php:
+DEBUG   |130721 17:40:01|Undefined property: stdClassàK´cðËÛ::$password
+DEBUG   |130721 17:40:01|----- Finished operation 1 ------
+DEBUG   |130721 17:40:01|AECoreDomainInstaller:: archive is initialized
+DEBUG   |130721 17:40:01|----- Finished operation 2 ------
+DEBUG   |130721 17:40:01|Successful Smart algorithm on AECoreDomainInstaller
+DEBUG   |130721 17:40:01|Kettenrad :: Domain 'installer' has finished.
+DEBUG   |130721 17:40:01|====== Finished Step number 1 ======
+DEBUG   |130721 17:40:01|*** Engine steps batching: Break flag detected.
+DEBUG   |130721 17:40:01|*** Batching of engine steps finished. I will now return control to the caller.
+DEBUG   |130721 17:40:01|Sleeping for 1944.0331459 msec, using usleep()
+DEBUG   |130721 17:40:03|Saving Kettenrad instance restorepoint
+DEBUG   |130721 17:40:04| -- Loaded stored Akeeba Factory (restorepoint)
+DEBUG   |130721 17:40:04|====== Starting Step number 2 ======
+DEBUG   |130721 17:40:04|Kettenrad :: BREAKING STEP BEFORE SWITCHING DOMAIN
+DEBUG   |130721 17:40:04|AECoreDomainDb :: New instance
+DEBUG   |130721 17:40:04|AECoreDomainDb :: Preparing instance
+DEBUG   |130721 17:40:04|Fetching filter data from database
+DEBUG   |130721 17:40:04|Loading filters
+DEBUG   |130721 17:40:04|-- Loading filter Components
+DEBUG   |130721 17:40:04|-- Loading filter Extensiondirs
+DEBUG   |130721 17:40:04|-- Loading filter Extensionfiles
+DEBUG   |130721 17:40:04|-- Loading filter Extradirs
+DEBUG   |130721 17:40:04|-- Loading filter Languages
+DEBUG   |130721 17:40:04|-- Loading filter Modules
+DEBUG   |130721 17:40:04|-- Loading filter Multidb
+DEBUG   |130721 17:40:04|-- Loading filter Plugins
+DEBUG   |130721 17:40:04|-- Loading filter Regexdirectories
+DEBUG   |130721 17:40:04|-- Loading filter Regexfiles
+DEBUG   |130721 17:40:04|-- Loading filter Regexskipdirs
+DEBUG   |130721 17:40:04|-- Loading filter Regexskipfiles
+DEBUG   |130721 17:40:04|-- Loading filter Regextabledata
+DEBUG   |130721 17:40:04|-- Loading filter Regextables
+DEBUG   |130721 17:40:04|-- Loading filter Templates
+DEBUG   |130721 17:40:04|-- Loading filter Directories
+DEBUG   |130721 17:40:04|-- Loading filter Files
+DEBUG   |130721 17:40:04|-- Loading filter Incremental
+DEBUG   |130721 17:40:04|-- Loading filter Skipdirs
+DEBUG   |130721 17:40:04|-- Loading filter Skipfiles
+DEBUG   |130721 17:40:04|-- Loading filter Srpdata
+DEBUG   |130721 17:40:04|-- Loading filter Srpdirs
+DEBUG   |130721 17:40:04|-- Loading filter Srpfiles
+DEBUG   |130721 17:40:04|-- Loading filter Srpskipdata
+DEBUG   |130721 17:40:04|-- Loading filter Srpskipfiles
+DEBUG   |130721 17:40:04|-- Loading filter Tabledata
+DEBUG   |130721 17:40:04|-- Loading filter Tables
+DEBUG   |130721 17:40:04|-- Loading filter PlatformFiles
+DEBUG   |130721 17:40:04|-- Loading filter PlatformFolders
+DEBUG   |130721 17:40:04|-- Loading filter PlatformLibraries
+DEBUG   |130721 17:40:04|-- Loading filter PlatformSitedb
+DEBUG   |130721 17:40:04|-- Loading filter PlatformSiteroot
+DEBUG   |130721 17:40:04|-- Loading filter PlatformSkipdirs
+DEBUG   |130721 17:40:04|-- Loading filter PlatformSkipfiles
+DEBUG   |130721 17:40:04|-- Loading filter PlatformSystemcachefiles
+DEBUG   |130721 17:40:04|-- Loading filter PlatformTabledata
+DEBUG   |130721 17:40:04|Loading optional filters
+DEBUG   |130721 17:40:04|-- Loading optional filter StackPlatformFinder
+DEBUG   |130721 17:40:04|----- Finished operation 1 ------
+DEBUG   |130721 17:40:04|AECoreDomainDb :: Iterating next database
+DEBUG   |130721 17:40:04|AEDumpNative :: New instance
+DEBUG   |130721 17:40:04|AEDumpNative :: Processing parameters
+DEBUG   |130721 17:40:04|AEDumpNative :: Instanciating new native database dump engine AEDumpNativeMysql
+DEBUG   |130721 17:40:04|AEDumpNativeMysql :: New instance
+DEBUG   |130721 17:40:04|AEAbstractDump :: Processing parameters
+DEBUG   |130721 17:40:04|AEDumpNativeMysql :: Finding tables to include in the backup set
+INFO    |130721 17:40:04|AEDumpNativeMysql :: Skipping g5i1k_admintools_acl (internal name #__admintools_acl)
+INFO    |130721 17:40:04|AEDumpNativeMysql :: Skipping g5i1k_admintools_adminiplist (internal name #__admintools_adminiplist)
+INFO    |130721 17:40:04|AEDumpNativeMysql :: Skipping g5i1k_admintools_badwords (internal name #__admintools_badwords)
+INFO    |130721 17:40:04|AEDumpNativeMysql :: Skipping g5i1k_admintools_customperms (internal name #__admintools_customperms)
+INFO    |130721 17:40:04|AEDumpNativeMysql :: Skipping g5i1k_admintools_filescache (internal name #__admintools_filescache)
+INFO    |130721 17:40:04|AEDumpNativeMysql :: Skipping g5i1k_admintools_ipautoban (internal name #__admintools_ipautoban)
+INFO    |130721 17:40:04|AEDumpNativeMysql :: Skipping g5i1k_admintools_ipblock (internal name #__admintools_ipblock)
+INFO    |130721 17:40:04|AEDumpNativeMysql :: Skipping g5i1k_admintools_log (internal name #__admintools_log)
+INFO    |130721 17:40:04|AEDumpNativeMysql :: Skipping g5i1k_admintools_profiles (internal name #__admintools_profiles)
+INFO    |130721 17:40:04|AEDumpNativeMysql :: Skipping g5i1k_admintools_redirects (internal name #__admintools_redirects)
+INFO    |130721 17:40:04|AEDumpNativeMysql :: Skipping g5i1k_admintools_scanalerts (internal name #__admintools_scanalerts)
+INFO    |130721 17:40:04|AEDumpNativeMysql :: Skipping g5i1k_admintools_scans (internal name #__admintools_scans)
+INFO    |130721 17:40:04|AEDumpNativeMysql :: Skipping g5i1k_admintools_storage (internal name #__admintools_storage)
+INFO    |130721 17:40:04|AEDumpNativeMysql :: Skipping g5i1k_admintools_wafexceptions (internal name #__admintools_wafexceptions)
+INFO    |130721 17:40:04|AEDumpNativeMysql :: Skipping g5i1k_ak_profiles (internal name #__ak_profiles)
+INFO    |130721 17:40:04|AEDumpNativeMysql :: Skipping g5i1k_ak_stats (internal name #__ak_stats)
+INFO    |130721 17:40:04|AEDumpNativeMysql :: Skipping g5i1k_ak_storage (internal name #__ak_storage)
+INFO    |130721 17:40:04|AEDumpNativeMysql :: Skipping g5i1k_assets (internal name #__assets)
+INFO    |130721 17:40:04|AEDumpNativeMysql :: Skipping g5i1k_associations (internal name #__associations)
+INFO    |130721 17:40:04|AEDumpNativeMysql :: Skipping g5i1k_banner_clients (internal name #__banner_clients)
+INFO    |130721 17:40:04|AEDumpNativeMysql :: Skipping g5i1k_banner_tracks (internal name #__banner_tracks)
+INFO    |130721 17:40:04|AEDumpNativeMysql :: Skipping g5i1k_banners (internal name #__banners)
+INFO    |130721 17:40:04|AEDumpNativeMysql :: Skipping g5i1k_categories (internal name #__categories)
+INFO    |130721 17:40:04|AEDumpNativeMysql :: Skipping g5i1k_contact_details (internal name #__contact_details)
+INFO    |130721 17:40:04|AEDumpNativeMysql :: Skipping g5i1k_content (internal name #__content)
+INFO    |130721 17:40:04|AEDumpNativeMysql :: Skipping g5i1k_content_frontpage (internal name #__content_frontpage)
+INFO    |130721 17:40:04|AEDumpNativeMysql :: Skipping g5i1k_content_rating (internal name #__content_rating)
+INFO    |130721 17:40:04|AEDumpNativeMysql :: Skipping g5i1k_core_log_searches (internal name #__core_log_searches)
+INFO    |130721 17:40:04|AEDumpNativeMysql :: Skipping g5i1k_extensions (internal name #__extensions)
+INFO    |130721 17:40:04|AEDumpNativeMysql :: Skipping g5i1k_finder_filters (internal name #__finder_filters)
+INFO    |130721 17:40:04|AEDumpNativeMysql :: Skipping g5i1k_finder_links (internal name #__finder_links)
+INFO    |130721 17:40:04|AEDumpNativeMysql :: Skipping g5i1k_finder_links_terms0 (internal name #__finder_links_terms0)
+INFO    |130721 17:40:04|AEDumpNativeMysql :: Skipping g5i1k_finder_links_terms1 (internal name #__finder_links_terms1)
+INFO    |130721 17:40:04|AEDumpNativeMysql :: Skipping g5i1k_finder_links_terms2 (internal name #__finder_links_terms2)
+INFO    |130721 17:40:04|AEDumpNativeMysql :: Skipping g5i1k_finder_links_terms3 (internal name #__finder_links_terms3)
+INFO    |130721 17:40:04|AEDumpNativeMysql :: Skipping g5i1k_finder_links_terms4 (internal name #__finder_links_terms4)
+INFO    |130721 17:40:04|AEDumpNativeMysql :: Skipping g5i1k_finder_links_terms5 (internal name #__finder_links_terms5)
+INFO    |130721 17:40:04|AEDumpNativeMysql :: Skipping g5i1k_finder_links_terms6 (internal name #__finder_links_terms6)
+INFO    |130721 17:40:04|AEDumpNativeMysql :: Skipping g5i1k_finder_links_terms7 (internal name #__finder_links_terms7)
+INFO    |130721 17:40:04|AEDumpNativeMysql :: Skipping g5i1k_finder_links_terms8 (internal name #__finder_links_terms8)
+INFO    |130721 17:40:04|AEDumpNativeMysql :: Skipping g5i1k_finder_links_terms9 (internal name #__finder_links_terms9)
+INFO    |130721 17:40:04|AEDumpNativeMysql :: Skipping g5i1k_finder_links_termsa (internal name #__finder_links_termsa)
+INFO    |130721 17:40:04|AEDumpNativeMysql :: Skipping g5i1k_finder_links_termsb (internal name #__finder_links_termsb)
+INFO    |130721 17:40:04|AEDumpNativeMysql :: Skipping g5i1k_finder_links_termsc (internal name #__finder_links_termsc)
+INFO    |130721 17:40:04|AEDumpNativeMysql :: Skipping g5i1k_finder_links_termsd (internal name #__finder_links_termsd)
+INFO    |130721 17:40:04|AEDumpNativeMysql :: Skipping g5i1k_finder_links_termse (internal name #__finder_links_termse)
+INFO    |130721 17:40:04|AEDumpNativeMysql :: Skipping g5i1k_finder_links_termsf (internal name #__finder_links_termsf)
+INFO    |130721 17:40:04|AEDumpNativeMysql :: Skipping g5i1k_finder_taxonomy (internal name #__finder_taxonomy)
+INFO    |130721 17:40:04|AEDumpNativeMysql :: Skipping g5i1k_finder_taxonomy_map (internal name #__finder_taxonomy_map)
+INFO    |130721 17:40:04|AEDumpNativeMysql :: Skipping g5i1k_finder_terms (internal name #__finder_terms)
+INFO    |130721 17:40:04|AEDumpNativeMysql :: Skipping g5i1k_finder_terms_common (internal name #__finder_terms_common)
+INFO    |130721 17:40:04|AEDumpNativeMysql :: Skipping g5i1k_finder_tokens (internal name #__finder_tokens)
+INFO    |130721 17:40:04|AEDumpNativeMysql :: Skipping g5i1k_finder_tokens_aggregate (internal name #__finder_tokens_aggregate)
+INFO    |130721 17:40:04|AEDumpNativeMysql :: Skipping g5i1k_finder_types (internal name #__finder_types)
+INFO    |130721 17:40:04|AEDumpNativeMysql :: Skipping g5i1k_languages (internal name #__languages)
+INFO    |130721 17:40:04|AEDumpNativeMysql :: Skipping g5i1k_menu (internal name #__menu)
+INFO    |130721 17:40:04|AEDumpNativeMysql :: Skipping g5i1k_menu_types (internal name #__menu_types)
+INFO    |130721 17:40:04|AEDumpNativeMysql :: Skipping g5i1k_messages (internal name #__messages)
+INFO    |130721 17:40:04|AEDumpNativeMysql :: Skipping g5i1k_messages_cfg (internal name #__messages_cfg)
+INFO    |130721 17:40:04|AEDumpNativeMysql :: Skipping g5i1k_modules (internal name #__modules)
+INFO    |130721 17:40:04|AEDumpNativeMysql :: Skipping g5i1k_modules_menu (internal name #__modules_menu)
+INFO    |130721 17:40:04|AEDumpNativeMysql :: Skipping g5i1k_newsfeeds (internal name #__newsfeeds)
+INFO    |130721 17:40:04|AEDumpNativeMysql :: Skipping g5i1k_oneclickaction_actions (internal name #__oneclickaction_actions)
+INFO    |130721 17:40:04|AEDumpNativeMysql :: Skipping g5i1k_overrider (internal name #__overrider)
+INFO    |130721 17:40:04|AEDumpNativeMysql :: Skipping g5i1k_redirect_links (internal name #__redirect_links)
+INFO    |130721 17:40:04|AEDumpNativeMysql :: Skipping g5i1k_rsform_component_type_fields (internal name #__rsform_component_type_fields)
+INFO    |130721 17:40:04|AEDumpNativeMysql :: Skipping g5i1k_rsform_component_types (internal name #__rsform_component_types)
+INFO    |130721 17:40:04|AEDumpNativeMysql :: Skipping g5i1k_rsform_components (internal name #__rsform_components)
+INFO    |130721 17:40:04|AEDumpNativeMysql :: Skipping g5i1k_rsform_condition_details (internal name #__rsform_condition_details)
+INFO    |130721 17:40:04|AEDumpNativeMysql :: Skipping g5i1k_rsform_conditions (internal name #__rsform_conditions)
+INFO    |130721 17:40:04|AEDumpNativeMysql :: Skipping g5i1k_rsform_config (internal name #__rsform_config)
+INFO    |130721 17:40:04|AEDumpNativeMysql :: Skipping g5i1k_rsform_emails (internal name #__rsform_emails)
+INFO    |130721 17:40:04|AEDumpNativeMysql :: Skipping g5i1k_rsform_forms (internal name #__rsform_forms)
+INFO    |130721 17:40:04|AEDumpNativeMysql :: Skipping g5i1k_rsform_mappings (internal name #__rsform_mappings)
+INFO    |130721 17:40:04|AEDumpNativeMysql :: Skipping g5i1k_rsform_posts (internal name #__rsform_posts)
+INFO    |130721 17:40:04|AEDumpNativeMysql :: Skipping g5i1k_rsform_properties (internal name #__rsform_properties)
+INFO    |130721 17:40:04|AEDumpNativeMysql :: Skipping g5i1k_rsform_registration (internal name #__rsform_registration)
+INFO    |130721 17:40:04|AEDumpNativeMysql :: Skipping g5i1k_rsform_submission_columns (internal name #__rsform_submission_columns)
+INFO    |130721 17:40:04|AEDumpNativeMysql :: Skipping g5i1k_rsform_submission_values (internal name #__rsform_submission_values)
+INFO    |130721 17:40:04|AEDumpNativeMysql :: Skipping g5i1k_rsform_submissions (internal name #__rsform_submissions)
+INFO    |130721 17:40:04|AEDumpNativeMysql :: Skipping g5i1k_rsform_translations (internal name #__rsform_translations)
+INFO    |130721 17:40:04|AEDumpNativeMysql :: Skipping g5i1k_schemas (internal name #__schemas)
+INFO    |130721 17:40:04|AEDumpNativeMysql :: Skipping g5i1k_sef_statistics (internal name #__sef_statistics)
+INFO    |130721 17:40:04|AEDumpNativeMysql :: Skipping g5i1k_sef_subdomains (internal name #__sef_subdomains)
+INFO    |130721 17:40:04|AEDumpNativeMysql :: Skipping g5i1k_sefaliases (internal name #__sefaliases)
+INFO    |130721 17:40:04|AEDumpNativeMysql :: Skipping g5i1k_sefexts (internal name #__sefexts)
+INFO    |130721 17:40:04|AEDumpNativeMysql :: Skipping g5i1k_sefexttexts (internal name #__sefexttexts)
+INFO    |130721 17:40:04|AEDumpNativeMysql :: Skipping g5i1k_seflog (internal name #__seflog)
+INFO    |130721 17:40:04|AEDumpNativeMysql :: Skipping g5i1k_sefmoved (internal name #__sefmoved)
+INFO    |130721 17:40:04|AEDumpNativeMysql :: Skipping g5i1k_sefurls (internal name #__sefurls)
+INFO    |130721 17:40:04|AEDumpNativeMysql :: Skipping g5i1k_sefurlword_xref (internal name #__sefurlword_xref)
+INFO    |130721 17:40:04|AEDumpNativeMysql :: Skipping g5i1k_sefwords (internal name #__sefwords)
+INFO    |130721 17:40:04|AEDumpNativeMysql :: Skipping g5i1k_session (internal name #__session)
+INFO    |130721 17:40:04|AEDumpNativeMysql :: Skipping g5i1k_template_styles (internal name #__template_styles)
+INFO    |130721 17:40:04|AEDumpNativeMysql :: Skipping g5i1k_update_categories (internal name #__update_categories)
+INFO    |130721 17:40:04|AEDumpNativeMysql :: Skipping g5i1k_update_sites (internal name #__update_sites)
+INFO    |130721 17:40:04|AEDumpNativeMysql :: Skipping g5i1k_update_sites_extensions (internal name #__update_sites_extensions)
+INFO    |130721 17:40:04|AEDumpNativeMysql :: Skipping g5i1k_updates (internal name #__updates)
+INFO    |130721 17:40:04|AEDumpNativeMysql :: Skipping g5i1k_user_notes (internal name #__user_notes)
+INFO    |130721 17:40:04|AEDumpNativeMysql :: Skipping g5i1k_user_profiles (internal name #__user_profiles)
+INFO    |130721 17:40:04|AEDumpNativeMysql :: Skipping g5i1k_user_usergroup_map (internal name #__user_usergroup_map)
+INFO    |130721 17:40:04|AEDumpNativeMysql :: Skipping g5i1k_usergroups (internal name #__usergroups)
+INFO    |130721 17:40:04|AEDumpNativeMysql :: Skipping g5i1k_users (internal name #__users)
+INFO    |130721 17:40:04|AEDumpNativeMysql :: Skipping g5i1k_viewlevels (internal name #__viewlevels)
+INFO    |130721 17:40:04|AEDumpNativeMysql :: Skipping g5i1k_weblinks (internal name #__weblinks)
+INFO    |130721 17:40:04|AEDumpNativeMysql :: Skipping g5i1k_wf_profiles (internal name #__wf_profiles)
+INFO    |130721 17:40:04|AEDumpNativeMysql :: Adding g5i1k_widgetkit_widget (internal name #__widgetkit_widget)
+INFO    |130721 17:40:04|AEDumpNativeMysql :: Skipping g5i1k_xmap_items (internal name #__xmap_items)
+INFO    |130721 17:40:04|AEDumpNativeMysql :: Skipping g5i1k_xmap_sitemap (internal name #__xmap_sitemap)
+INFO    |130721 17:40:04|AEDumpNativeMysql :: Skipping g5i1k_zoo_application (internal name #__zoo_application)
+INFO    |130721 17:40:04|AEDumpNativeMysql :: Skipping g5i1k_zoo_category (internal name #__zoo_category)
+INFO    |130721 17:40:04|AEDumpNativeMysql :: Skipping g5i1k_zoo_category_item (internal name #__zoo_category_item)
+INFO    |130721 17:40:04|AEDumpNativeMysql :: Skipping g5i1k_zoo_comment (internal name #__zoo_comment)
+INFO    |130721 17:40:04|AEDumpNativeMysql :: Skipping g5i1k_zoo_item (internal name #__zoo_item)
+INFO    |130721 17:40:04|AEDumpNativeMysql :: Skipping g5i1k_zoo_rating (internal name #__zoo_rating)
+INFO    |130721 17:40:04|AEDumpNativeMysql :: Skipping g5i1k_zoo_search_index (internal name #__zoo_search_index)
+INFO    |130721 17:40:04|AEDumpNativeMysql :: Skipping g5i1k_zoo_submission (internal name #__zoo_submission)
+INFO    |130721 17:40:04|AEDumpNativeMysql :: Skipping g5i1k_zoo_tag (internal name #__zoo_tag)
+INFO    |130721 17:40:04|AEDumpNativeMysql :: Skipping g5i1k_zoo_version (internal name #__zoo_version)
+DEBUG   |130721 17:40:04|AEDumpNativeMysql :: Starting CREATE TABLE and dependency scanning
+DEBUG   |130721 17:40:04|AEDumpNativeMysql :: Got database connection
+DEBUG   |130721 17:40:04|AEDumpNativeMysql :: Got SHOW TABLES
+DEBUG   |130721 17:40:04|AEDumpNativeMysql :: Got table list
+DEBUG   |130721 17:40:04|AEDumpNativeMysql :: Processed dependencies
+DEBUG   |130721 17:40:04|AEAbstractDump :: Getting temporary file
+DEBUG   |130721 17:40:04|AEAbstractDump :: Temporary file is <root>/administrator/components/com_akeeba/backup/c7f10897.sql
+DEBUG   |130721 17:40:04|AkeebaDomainDBBackup :: SQL temp file is <root>/administrator/components/com_akeeba/backup/c7f10897.sql
+DEBUG   |130721 17:40:04|AkeebaDomainDBBackup :: SQL file location in archive is sql/joomla.sql
+DEBUG   |130721 17:40:04|AkeebaDomainDBBackup :: Deleting leftover files, if any
+DEBUG   |130721 17:40:04|AEAbstractDump :: Initializing algorithm for first run
+DEBUG   |130721 17:40:04|----- Finished operation 2 ------
+DEBUG   |130721 17:40:04|Rows on #__widgetkit_widget : 2
+INFO    |130721 17:40:04|Beginning dump of #__widgetkit_widget
+DEBUG   |130721 17:40:04|Done dumping #__widgetkit_widget
+INFO    |130721 17:40:04|End of database detected; flushing the dump buffers...
+DEBUG   |130721 17:40:04|Writing 1831 bytes to the dump file
+INFO    |130721 17:40:04|Database has been successfully dumped to SQL file(s)
+DEBUG   |130721 17:40:04|----- Finished operation 3 ------
+DEBUG   |130721 17:40:04|Adding any extra SQL statements imposed by the filters
+DEBUG   |130721 17:40:04|Closing SQL dump file.
+DEBUG   |130721 17:40:04|Adding the final SQL dump to the archive
+DEBUG   |130721 17:40:04|-- Adding sql/joomla.sql to archive (source: <root>/administrator/components/com_akeeba/backup/c7f10897.sql)
+DEBUG   |130721 17:40:04|Removing temporary file of final SQL dump
+DEBUG   |130721 17:40:04|-- Removing temporary file c7f10897.sql
+DEBUG   |130721 17:40:04|AECoreDomainDb :: No more databases left to iterate
+DEBUG   |130721 17:40:04|----- Finished operation 4 ------
+DEBUG   |130721 17:40:04|----- Finished operation 5 ------
+DEBUG   |130721 17:40:04|Successful Smart algorithm on AECoreDomainDb
+DEBUG   |130721 17:40:04|Kettenrad :: Domain 'PackDB' has finished.
+DEBUG   |130721 17:40:04|====== Finished Step number 2 ======
+DEBUG   |130721 17:40:04|*** Engine steps batching: Break flag detected.
+DEBUG   |130721 17:40:04|*** Batching of engine steps finished. I will now return control to the caller.
+DEBUG   |130721 17:40:04|Sleeping for 1781.05211258 msec, using usleep()
+DEBUG   |130721 17:40:06|Saving Kettenrad instance restorepoint
+DEBUG   |130721 17:40:06|Closing SQL dump file.
+DEBUG   |130721 17:40:06| -- Loaded stored Akeeba Factory (restorepoint)
+DEBUG   |130721 17:40:06|====== Starting Step number 3 ======
+DEBUG   |130721 17:40:06|Kettenrad :: BREAKING STEP BEFORE SWITCHING DOMAIN
+DEBUG   |130721 17:40:06|AECoreDomainPack :: new instance
+DEBUG   |130721 17:40:06|AECoreDomainPack :: Starting _prepare()
+DEBUG   |130721 17:40:06|AECoreDomainPack :: Getting directory inclusion filters
+DEBUG   |130721 17:40:06|AECoreDomainPack :: prepared
+DEBUG   |130721 17:40:06|----- Finished operation 1 ------
+INFO    |130721 17:40:06|Scanning directories of <root>
+INFO    |130721 17:40:06|Skipping files of directory <root>
+INFO    |130721 17:40:06|Empty directory <root>
+INFO    |130721 17:40:06|Skipping directory <root>/tmp
+INFO    |130721 17:40:06|Skipping directory <root>/templates
+INFO    |130721 17:40:06|Skipping directory <root>/sendy
+INFO    |130721 17:40:06|Skipping directory <root>/plugins
+INFO    |130721 17:40:06|Skipping directory <root>/newsletters
+INFO    |130721 17:40:06|Skipping directory <root>/modules
+INFO    |130721 17:40:06|Scanning directories of <root>/media
+INFO    |130721 17:40:06|Skipping files of directory <root>/media
+DEBUG   |130721 17:40:06|-- Adding media to archive (source: <root>/media)
+INFO    |130721 17:40:06|Empty directory <root>/media
+INFO    |130721 17:40:06|Skipping directory <root>/media/zoo
+INFO    |130721 17:40:06|Scanning directories of <root>/media/widgetkit
+INFO    |130721 17:40:06|Scanning files of <root>/media/widgetkit
+DEBUG   |130721 17:40:06|-- Adding media/widgetkit to archive (source: <root>/media/widgetkit)
+INFO    |130721 17:40:06|Empty directory <root>/media/widgetkit
+INFO    |130721 17:40:06|Scanning directories of <root>/media/widgetkit/widgets
+INFO    |130721 17:40:06|Scanning files of <root>/media/widgetkit/widgets
+DEBUG   |130721 17:40:06|-- Adding media/widgetkit/widgets to archive (source: <root>/media/widgetkit/widgets)
+INFO    |130721 17:40:06|Empty directory <root>/media/widgetkit/widgets
+INFO    |130721 17:40:06|Scanning directories of <root>/media/widgetkit/widgets/twitter
+INFO    |130721 17:40:06|Scanning files of <root>/media/widgetkit/widgets/twitter
+DEBUG   |130721 17:40:06|Packing files
+DEBUG   |130721 17:40:06|-- Adding media/widgetkit/widgets/twitter/twitter.js to archive (source: <root>/media/widgetkit/widgets/twitter/twitter.js)
+DEBUG   |130721 17:40:07|-- Adding media/widgetkit/widgets/twitter/twitter.php to archive (source: <root>/media/widgetkit/widgets/twitter/twitter.php)
+INFO    |130721 17:40:07|Scanning directories of <root>/media/widgetkit/widgets/twitter/styles
+INFO    |130721 17:40:07|Scanning files of <root>/media/widgetkit/widgets/twitter/styles
+DEBUG   |130721 17:40:07|Packing files
+DEBUG   |130721 17:40:07|-- Adding media/widgetkit/widgets/twitter/styles/rtl.css to archive (source: <root>/media/widgetkit/widgets/twitter/styles/rtl.css)
+DEBUG   |130721 17:40:07|-- Adding media/widgetkit/widgets/twitter/styles/style.css to archive (source: <root>/media/widgetkit/widgets/twitter/styles/style.css)
+INFO    |130721 17:40:07|Scanning directories of <root>/media/widgetkit/widgets/twitter/styles/single
+INFO    |130721 17:40:07|Scanning files of <root>/media/widgetkit/widgets/twitter/styles/single
+DEBUG   |130721 17:40:07|Packing files
+DEBUG   |130721 17:40:07|-- Adding media/widgetkit/widgets/twitter/styles/single/template.php to archive (source: <root>/media/widgetkit/widgets/twitter/styles/single/template.php)
+INFO    |130721 17:40:07|Scanning directories of <root>/media/widgetkit/widgets/twitter/styles/single/images
+INFO    |130721 17:40:07|Scanning files of <root>/media/widgetkit/widgets/twitter/styles/single/images
+DEBUG   |130721 17:40:07|Packing files
+DEBUG   |130721 17:40:07|-- Adding media/widgetkit/widgets/twitter/styles/single/images/bird.png to archive (source: <root>/media/widgetkit/widgets/twitter/styles/single/images/bird.png)
+INFO    |130721 17:40:07|Scanning directories of <root>/media/widgetkit/widgets/twitter/styles/list
+INFO    |130721 17:40:07|Scanning files of <root>/media/widgetkit/widgets/twitter/styles/list
+DEBUG   |130721 17:40:07|Packing files
+DEBUG   |130721 17:40:07|-- Adding media/widgetkit/widgets/twitter/styles/list/template.php to archive (source: <root>/media/widgetkit/widgets/twitter/styles/list/template.php)
+INFO    |130721 17:40:07|Scanning directories of <root>/media/widgetkit/widgets/twitter/styles/bubbles
+INFO    |130721 17:40:07|Scanning files of <root>/media/widgetkit/widgets/twitter/styles/bubbles
+DEBUG   |130721 17:40:07|Packing files
+DEBUG   |130721 17:40:07|-- Adding media/widgetkit/widgets/twitter/styles/bubbles/template.php to archive (source: <root>/media/widgetkit/widgets/twitter/styles/bubbles/template.php)
+INFO    |130721 17:40:07|Scanning directories of <root>/media/widgetkit/widgets/twitter/styles/bubbles/images
+INFO    |130721 17:40:07|Scanning files of <root>/media/widgetkit/widgets/twitter/styles/bubbles/images
+DEBUG   |130721 17:40:07|Packing files
+DEBUG   |130721 17:40:07|-- Adding media/widgetkit/widgets/twitter/styles/bubbles/images/arrow.png to archive (source: <root>/media/widgetkit/widgets/twitter/styles/bubbles/images/arrow.png)
+INFO    |130721 17:40:07|Scanning directories of <root>/media/widgetkit/widgets/spotlight
+INFO    |130721 17:40:07|Scanning files of <root>/media/widgetkit/widgets/spotlight
+DEBUG   |130721 17:40:07|Packing files
+DEBUG   |130721 17:40:07|-- Adding media/widgetkit/widgets/spotlight/spotlight.php to archive (source: <root>/media/widgetkit/widgets/spotlight/spotlight.php)
+DEBUG   |130721 17:40:07|-- Adding media/widgetkit/widgets/spotlight/spotlight.xml to archive (source: <root>/media/widgetkit/widgets/spotlight/spotlight.xml)
+INFO    |130721 17:40:07|Scanning directories of <root>/media/widgetkit/widgets/spotlight/layouts
+INFO    |130721 17:40:07|Scanning files of <root>/media/widgetkit/widgets/spotlight/layouts
+DEBUG   |130721 17:40:07|Packing files
+DEBUG   |130721 17:40:07|-- Adding media/widgetkit/widgets/spotlight/layouts/dashboard.php to archive (source: <root>/media/widgetkit/widgets/spotlight/layouts/dashboard.php)
+INFO    |130721 17:40:07|Scanning directories of <root>/media/widgetkit/widgets/spotlight/js
+INFO    |130721 17:40:07|Scanning files of <root>/media/widgetkit/widgets/spotlight/js
+DEBUG   |130721 17:40:07|Packing files
+DEBUG   |130721 17:40:07|-- Adding media/widgetkit/widgets/spotlight/js/dashboard.js to archive (source: <root>/media/widgetkit/widgets/spotlight/js/dashboard.js)
+DEBUG   |130721 17:40:07|-- Adding media/widgetkit/widgets/spotlight/js/spotlight.js to archive (source: <root>/media/widgetkit/widgets/spotlight/js/spotlight.js)
+INFO    |130721 17:40:07|Scanning directories of <root>/media/widgetkit/widgets/spotlight/images
+INFO    |130721 17:40:07|Scanning files of <root>/media/widgetkit/widgets/spotlight/images
+DEBUG   |130721 17:40:07|Packing files
+DEBUG   |130721 17:40:07|-- Adding media/widgetkit/widgets/spotlight/images/magnifier.png to archive (source: <root>/media/widgetkit/widgets/spotlight/images/magnifier.png)
+INFO    |130721 17:40:07|Scanning directories of <root>/media/widgetkit/widgets/spotlight/css
+INFO    |130721 17:40:07|Scanning files of <root>/media/widgetkit/widgets/spotlight/css
+DEBUG   |130721 17:40:07|Packing files
+DEBUG   |130721 17:40:07|-- Adding media/widgetkit/widgets/spotlight/css/spotlight.css to archive (source: <root>/media/widgetkit/widgets/spotlight/css/spotlight.css)
+INFO    |130721 17:40:07|Scanning directories of <root>/media/widgetkit/widgets/slideshow
+INFO    |130721 17:40:07|Scanning files of <root>/media/widgetkit/widgets/slideshow
+DEBUG   |130721 17:40:07|Packing files
+DEBUG   |130721 17:40:07|-- Adding media/widgetkit/widgets/slideshow/slideshow.php to archive (source: <root>/media/widgetkit/widgets/slideshow/slideshow.php)
+DEBUG   |130721 17:40:07|-- Adding media/widgetkit/widgets/slideshow/slideshow.xml to archive (source: <root>/media/widgetkit/widgets/slideshow/slideshow.xml)
+INFO    |130721 17:40:07|Scanning directories of <root>/media/widgetkit/widgets/slideshow/styles
+INFO    |130721 17:40:07|Scanning files of <root>/media/widgetkit/widgets/slideshow/styles
+DEBUG   |130721 17:40:07|-- Adding media/widgetkit/widgets/slideshow/styles to archive (source: <root>/media/widgetkit/widgets/slideshow/styles)
+INFO    |130721 17:40:07|Empty directory <root>/media/widgetkit/widgets/slideshow/styles
+INFO    |130721 17:40:07|Scanning directories of <root>/media/widgetkit/widgets/slideshow/styles/tabs_bar
+INFO    |130721 17:40:07|Scanning files of <root>/media/widgetkit/widgets/slideshow/styles/tabs_bar
+DEBUG   |130721 17:40:07|Packing files
+DEBUG   |130721 17:40:07|-- Adding media/widgetkit/widgets/slideshow/styles/tabs_bar/config.xml to archive (source: <root>/media/widgetkit/widgets/slideshow/styles/tabs_bar/config.xml)
+DEBUG   |130721 17:40:07|-- Adding media/widgetkit/widgets/slideshow/styles/tabs_bar/rtl.css to archive (source: <root>/media/widgetkit/widgets/slideshow/styles/tabs_bar/rtl.css)
+DEBUG   |130721 17:40:07|-- Adding media/widgetkit/widgets/slideshow/styles/tabs_bar/style.css to archive (source: <root>/media/widgetkit/widgets/slideshow/styles/tabs_bar/style.css)
+DEBUG   |130721 17:40:07|-- Adding media/widgetkit/widgets/slideshow/styles/tabs_bar/template.php to archive (source: <root>/media/widgetkit/widgets/slideshow/styles/tabs_bar/template.php)
+INFO    |130721 17:40:07|Scanning directories of <root>/media/widgetkit/widgets/slideshow/styles/tabs
+INFO    |130721 17:40:07|Scanning files of <root>/media/widgetkit/widgets/slideshow/styles/tabs
+DEBUG   |130721 17:40:07|Packing files
+DEBUG   |130721 17:40:07|-- Adding media/widgetkit/widgets/slideshow/styles/tabs/config.xml to archive (source: <root>/media/widgetkit/widgets/slideshow/styles/tabs/config.xml)
+DEBUG   |130721 17:40:07|-- Adding media/widgetkit/widgets/slideshow/styles/tabs/rtl.css to archive (source: <root>/media/widgetkit/widgets/slideshow/styles/tabs/rtl.css)
+DEBUG   |130721 17:40:07|-- Adding media/widgetkit/widgets/slideshow/styles/tabs/style.css to archive (source: <root>/media/widgetkit/widgets/slideshow/styles/tabs/style.css)
+DEBUG   |130721 17:40:07|-- Adding media/widgetkit/widgets/slideshow/styles/tabs/template.php to archive (source: <root>/media/widgetkit/widgets/slideshow/styles/tabs/template.php)
+INFO    |130721 17:40:07|Scanning directories of <root>/media/widgetkit/widgets/slideshow/styles/showcase_buttons
+INFO    |130721 17:40:07|Scanning files of <root>/media/widgetkit/widgets/slideshow/styles/showcase_buttons
+DEBUG   |130721 17:40:07|Packing files
+DEBUG   |130721 17:40:07|-- Adding media/widgetkit/widgets/slideshow/styles/showcase_buttons/config.xml to archive (source: <root>/media/widgetkit/widgets/slideshow/styles/showcase_buttons/config.xml)
+DEBUG   |130721 17:40:07|-- Adding media/widgetkit/widgets/slideshow/styles/showcase_buttons/rtl.css to archive (source: <root>/media/widgetkit/widgets/slideshow/styles/showcase_buttons/rtl.css)
+DEBUG   |130721 17:40:07|-- Adding media/widgetkit/widgets/slideshow/styles/showcase_buttons/style.css to archive (source: <root>/media/widgetkit/widgets/slideshow/styles/showcase_buttons/style.css)
+DEBUG   |130721 17:40:07|-- Adding media/widgetkit/widgets/slideshow/styles/showcase_buttons/template.php to archive (source: <root>/media/widgetkit/widgets/slideshow/styles/showcase_buttons/template.php)
+INFO    |130721 17:40:07|Scanning directories of <root>/media/widgetkit/widgets/slideshow/styles/showcase_buttons/images
+INFO    |130721 17:40:07|Scanning files of <root>/media/widgetkit/widgets/slideshow/styles/showcase_buttons/images
+DEBUG   |130721 17:40:07|Packing files
+DEBUG   |130721 17:40:07|-- Adding media/widgetkit/widgets/slideshow/styles/showcase_buttons/images/buttons.png to archive (source: <root>/media/widgetkit/widgets/slideshow/styles/showcase_buttons/images/buttons.png)
+DEBUG   |130721 17:40:07|-- Adding media/widgetkit/widgets/slideshow/styles/showcase_buttons/images/navigation_buttons.png to archive (source: <root>/media/widgetkit/widgets/slideshow/styles/showcase_buttons/images/navigation_buttons.png)
+INFO    |130721 17:40:07|Scanning directories of <root>/media/widgetkit/widgets/slideshow/styles/showcase_box
+INFO    |130721 17:40:07|Scanning files of <root>/media/widgetkit/widgets/slideshow/styles/showcase_box
+DEBUG   |130721 17:40:07|Packing files
+DEBUG   |130721 17:40:07|-- Adding media/widgetkit/widgets/slideshow/styles/showcase_box/config.xml to archive (source: <root>/media/widgetkit/widgets/slideshow/styles/showcase_box/config.xml)
+DEBUG   |130721 17:40:07|-- Adding media/widgetkit/widgets/slideshow/styles/showcase_box/rtl.css to archive (source: <root>/media/widgetkit/widgets/slideshow/styles/showcase_box/rtl.css)
+DEBUG   |130721 17:40:07|-- Adding media/widgetkit/widgets/slideshow/styles/showcase_box/style.css to archive (source: <root>/media/widgetkit/widgets/slideshow/styles/showcase_box/style.css)
+DEBUG   |130721 17:40:07|-- Adding media/widgetkit/widgets/slideshow/styles/showcase_box/template.php to archive (source: <root>/media/widgetkit/widgets/slideshow/styles/showcase_box/template.php)
+INFO    |130721 17:40:07|Scanning directories of <root>/media/widgetkit/widgets/slideshow/styles/showcase_box/images
+INFO    |130721 17:40:07|Scanning files of <root>/media/widgetkit/widgets/slideshow/styles/showcase_box/images
+DEBUG   |130721 17:40:07|Packing files
+DEBUG   |130721 17:40:07|-- Adding media/widgetkit/widgets/slideshow/styles/showcase_box/images/buttons.png to archive (source: <root>/media/widgetkit/widgets/slideshow/styles/showcase_box/images/buttons.png)
+DEBUG   |130721 17:40:07|-- Adding media/widgetkit/widgets/slideshow/styles/showcase_box/images/navigation_buttons.png to archive (source: <root>/media/widgetkit/widgets/slideshow/styles/showcase_box/images/navigation_buttons.png)
+INFO    |130721 17:40:07|Scanning directories of <root>/media/widgetkit/widgets/slideshow/styles/screen
+INFO    |130721 17:40:07|Scanning files of <root>/media/widgetkit/widgets/slideshow/styles/screen
+DEBUG   |130721 17:40:07|Packing files
+DEBUG   |130721 17:40:07|-- Adding media/widgetkit/widgets/slideshow/styles/screen/config.xml to archive (source: <root>/media/widgetkit/widgets/slideshow/styles/screen/config.xml)
+DEBUG   |130721 17:40:07|-- Adding media/widgetkit/widgets/slideshow/styles/screen/rtl.css to archive (source: <root>/media/widgetkit/widgets/slideshow/styles/screen/rtl.css)
+DEBUG   |130721 17:40:07|-- Adding media/widgetkit/widgets/slideshow/styles/screen/style.css to archive (source: <root>/media/widgetkit/widgets/slideshow/styles/screen/style.css)
+DEBUG   |130721 17:40:07|-- Adding media/widgetkit/widgets/slideshow/styles/screen/template.php to archive (source: <root>/media/widgetkit/widgets/slideshow/styles/screen/template.php)
+INFO    |130721 17:40:07|Scanning directories of <root>/media/widgetkit/widgets/slideshow/styles/screen/images
+INFO    |130721 17:40:07|Scanning files of <root>/media/widgetkit/widgets/slideshow/styles/screen/images
+DEBUG   |130721 17:40:07|Packing files
+DEBUG   |130721 17:40:07|-- Adding media/widgetkit/widgets/slideshow/styles/screen/images/buttons.png to archive (source: <root>/media/widgetkit/widgets/slideshow/styles/screen/images/buttons.png)
+DEBUG   |130721 17:40:07|-- Adding media/widgetkit/widgets/slideshow/styles/screen/images/nav.png to archive (source: <root>/media/widgetkit/widgets/slideshow/styles/screen/images/nav.png)
+DEBUG   |130721 17:40:07|-- Adding media/widgetkit/widgets/slideshow/styles/screen/images/shadow.png to archive (source: <root>/media/widgetkit/widgets/slideshow/styles/screen/images/shadow.png)
+INFO    |130721 17:40:07|Scanning directories of <root>/media/widgetkit/widgets/slideshow/styles/list
+INFO    |130721 17:40:07|Scanning files of <root>/media/widgetkit/widgets/slideshow/styles/list
+DEBUG   |130721 17:40:07|Packing files
+DEBUG   |130721 17:40:07|-- Adding media/widgetkit/widgets/slideshow/styles/list/config.xml to archive (source: <root>/media/widgetkit/widgets/slideshow/styles/list/config.xml)
+DEBUG   |130721 17:40:07|-- Adding media/widgetkit/widgets/slideshow/styles/list/rtl.css to archive (source: <root>/media/widgetkit/widgets/slideshow/styles/list/rtl.css)
+DEBUG   |130721 17:40:07|-- Adding media/widgetkit/widgets/slideshow/styles/list/style.css to archive (source: <root>/media/widgetkit/widgets/slideshow/styles/list/style.css)
+DEBUG   |130721 17:40:07|-- Adding media/widgetkit/widgets/slideshow/styles/list/template.php to archive (source: <root>/media/widgetkit/widgets/slideshow/styles/list/template.php)
+INFO    |130721 17:40:07|Scanning directories of <root>/media/widgetkit/widgets/slideshow/styles/default
+INFO    |130721 17:40:07|Scanning files of <root>/media/widgetkit/widgets/slideshow/styles/default
+DEBUG   |130721 17:40:07|Packing files
+DEBUG   |130721 17:40:07|-- Adding media/widgetkit/widgets/slideshow/styles/default/config.xml to archive (source: <root>/media/widgetkit/widgets/slideshow/styles/default/config.xml)
+DEBUG   |130721 17:40:07|-- Adding media/widgetkit/widgets/slideshow/styles/default/rtl.css to archive (source: <root>/media/widgetkit/widgets/slideshow/styles/default/rtl.css)
+DEBUG   |130721 17:40:07|-- Adding media/widgetkit/widgets/slideshow/styles/default/style.css to archive (source: <root>/media/widgetkit/widgets/slideshow/styles/default/style.css)
+DEBUG   |130721 17:40:07|-- Adding media/widgetkit/widgets/slideshow/styles/default/template.php to archive (source: <root>/media/widgetkit/widgets/slideshow/styles/default/template.php)
+INFO    |130721 17:40:07|Scanning directories of <root>/media/widgetkit/widgets/slideshow/styles/default/images
+INFO    |130721 17:40:07|Scanning files of <root>/media/widgetkit/widgets/slideshow/styles/default/images
+DEBUG   |130721 17:40:07|Packing files
+DEBUG   |130721 17:40:07|-- Adding media/widgetkit/widgets/slideshow/styles/default/images/buttons.png to archive (source: <root>/media/widgetkit/widgets/slideshow/styles/default/images/buttons.png)
+DEBUG   |130721 17:40:07|-- Adding media/widgetkit/widgets/slideshow/styles/default/images/nav.png to archive (source: <root>/media/widgetkit/widgets/slideshow/styles/default/images/nav.png)
+INFO    |130721 17:40:07|Scanning directories of <root>/media/widgetkit/widgets/slideshow/layouts
+INFO    |130721 17:40:07|Scanning files of <root>/media/widgetkit/widgets/slideshow/layouts
+DEBUG   |130721 17:40:07|Packing files
+DEBUG   |130721 17:40:07|-- Adding media/widgetkit/widgets/slideshow/layouts/dashboard.php to archive (source: <root>/media/widgetkit/widgets/slideshow/layouts/dashboard.php)
+DEBUG   |130721 17:40:07|-- Adding media/widgetkit/widgets/slideshow/layouts/edit.php to archive (source: <root>/media/widgetkit/widgets/slideshow/layouts/edit.php)
+DEBUG   |130721 17:40:07|-- Adding media/widgetkit/widgets/slideshow/layouts/item.php to archive (source: <root>/media/widgetkit/widgets/slideshow/layouts/item.php)
+INFO    |130721 17:40:07|Scanning directories of <root>/media/widgetkit/widgets/slideshow/js
+INFO    |130721 17:40:07|Scanning files of <root>/media/widgetkit/widgets/slideshow/js
+DEBUG   |130721 17:40:07|Packing files
+DEBUG   |130721 17:40:07|-- Adding media/widgetkit/widgets/slideshow/js/dashboard.js to archive (source: <root>/media/widgetkit/widgets/slideshow/js/dashboard.js)
+DEBUG   |130721 17:40:07|-- Adding media/widgetkit/widgets/slideshow/js/edit.js to archive (source: <root>/media/widgetkit/widgets/slideshow/js/edit.js)
+DEBUG   |130721 17:40:07|-- Adding media/widgetkit/widgets/slideshow/js/lazyloader.js to archive (source: <root>/media/widgetkit/widgets/slideshow/js/lazyloader.js)
+DEBUG   |130721 17:40:07|-- Adding media/widgetkit/widgets/slideshow/js/slideshow.js to archive (source: <root>/media/widgetkit/widgets/slideshow/js/slideshow.js)
+INFO    |130721 17:40:07|Scanning directories of <root>/media/widgetkit/widgets/slideset
+INFO    |130721 17:40:07|Scanning files of <root>/media/widgetkit/widgets/slideset
+DEBUG   |130721 17:40:07|Packing files
+DEBUG   |130721 17:40:07|-- Adding media/widgetkit/widgets/slideset/slideset.php to archive (source: <root>/media/widgetkit/widgets/slideset/slideset.php)
+DEBUG   |130721 17:40:07|-- Adding media/widgetkit/widgets/slideset/slideset.xml to archive (source: <root>/media/widgetkit/widgets/slideset/slideset.xml)
+INFO    |130721 17:40:07|Scanning directories of <root>/media/widgetkit/widgets/slideset/styles
+INFO    |130721 17:40:07|Scanning files of <root>/media/widgetkit/widgets/slideset/styles
+DEBUG   |130721 17:40:07|-- Adding media/widgetkit/widgets/slideset/styles to archive (source: <root>/media/widgetkit/widgets/slideset/styles)
+INFO    |130721 17:40:07|Empty directory <root>/media/widgetkit/widgets/slideset/styles
+INFO    |130721 17:40:07|Scanning directories of <root>/media/widgetkit/widgets/slideset/styles/default
+INFO    |130721 17:40:07|Scanning files of <root>/media/widgetkit/widgets/slideset/styles/default
+DEBUG   |130721 17:40:07|Packing files
+DEBUG   |130721 17:40:07|-- Adding media/widgetkit/widgets/slideset/styles/default/config.xml to archive (source: <root>/media/widgetkit/widgets/slideset/styles/default/config.xml)
+DEBUG   |130721 17:40:07|-- Adding media/widgetkit/widgets/slideset/styles/default/rtl.css to archive (source: <root>/media/widgetkit/widgets/slideset/styles/default/rtl.css)
+DEBUG   |130721 17:40:07|-- Adding media/widgetkit/widgets/slideset/styles/default/style.css to archive (source: <root>/media/widgetkit/widgets/slideset/styles/default/style.css)
+DEBUG   |130721 17:40:07|-- Adding media/widgetkit/widgets/slideset/styles/default/template.php to archive (source: <root>/media/widgetkit/widgets/slideset/styles/default/template.php)
+INFO    |130721 17:40:07|Scanning directories of <root>/media/widgetkit/widgets/slideset/styles/default/images
+INFO    |130721 17:40:07|Scanning files of <root>/media/widgetkit/widgets/slideset/styles/default/images
+DEBUG   |130721 17:40:07|Packing files
+DEBUG   |130721 17:40:07|-- Adding media/widgetkit/widgets/slideset/styles/default/images/buttons.png to archive (source: <root>/media/widgetkit/widgets/slideset/styles/default/images/buttons.png)
+DEBUG   |130721 17:40:07|-- Adding media/widgetkit/widgets/slideset/styles/default/images/nav.png to archive (source: <root>/media/widgetkit/widgets/slideset/styles/default/images/nav.png)
+INFO    |130721 17:40:07|Scanning directories of <root>/media/widgetkit/widgets/slideset/layouts
+INFO    |130721 17:40:07|Scanning files of <root>/media/widgetkit/widgets/slideset/layouts
+DEBUG   |130721 17:40:07|Packing files
+DEBUG   |130721 17:40:07|-- Adding media/widgetkit/widgets/slideset/layouts/dashboard.php to archive (source: <root>/media/widgetkit/widgets/slideset/layouts/dashboard.php)
+DEBUG   |130721 17:40:07|-- Adding media/widgetkit/widgets/slideset/layouts/edit.php to archive (source: <root>/media/widgetkit/widgets/slideset/layouts/edit.php)
+DEBUG   |130721 17:40:07|-- Adding media/widgetkit/widgets/slideset/layouts/item.php to archive (source: <root>/media/widgetkit/widgets/slideset/layouts/item.php)
+INFO    |130721 17:40:07|Scanning directories of <root>/media/widgetkit/widgets/slideset/js
+INFO    |130721 17:40:07|Scanning files of <root>/media/widgetkit/widgets/slideset/js
+DEBUG   |130721 17:40:07|Packing files
+DEBUG   |130721 17:40:07|-- Adding media/widgetkit/widgets/slideset/js/dashboard.js to archive (source: <root>/media/widgetkit/widgets/slideset/js/dashboard.js)
+DEBUG   |130721 17:40:07|-- Adding media/widgetkit/widgets/slideset/js/edit.js to archive (source: <root>/media/widgetkit/widgets/slideset/js/edit.js)
+DEBUG   |130721 17:40:07|-- Adding media/widgetkit/widgets/slideset/js/lazyloader.js to archive (source: <root>/media/widgetkit/widgets/slideset/js/lazyloader.js)
+DEBUG   |130721 17:40:07|-- Adding media/widgetkit/widgets/slideset/js/slideset.js to archive (source: <root>/media/widgetkit/widgets/slideset/js/slideset.js)
+INFO    |130721 17:40:07|Scanning directories of <root>/media/widgetkit/widgets/mediaplayer
+INFO    |130721 17:40:07|Scanning files of <root>/media/widgetkit/widgets/mediaplayer
+DEBUG   |130721 17:40:07|Packing files
+DEBUG   |130721 17:40:07|-- Adding media/widgetkit/widgets/mediaplayer/mediaplayer.php to archive (source: <root>/media/widgetkit/widgets/mediaplayer/mediaplayer.php)
+DEBUG   |130721 17:40:07|-- Adding media/widgetkit/widgets/mediaplayer/mediaplayer.xml to archive (source: <root>/media/widgetkit/widgets/mediaplayer/mediaplayer.xml)
+INFO    |130721 17:40:07|Scanning directories of <root>/media/widgetkit/widgets/mediaplayer/mediaelement
+INFO    |130721 17:40:07|Scanning files of <root>/media/widgetkit/widgets/mediaplayer/mediaelement
+DEBUG   |130721 17:40:07|Packing files
+DEBUG   |130721 17:40:07|-- Adding media/widgetkit/widgets/mediaplayer/mediaelement/background.png to archive (source: <root>/media/widgetkit/widgets/mediaplayer/mediaelement/background.png)
+DEBUG   |130721 17:40:07|-- Adding media/widgetkit/widgets/mediaplayer/mediaelement/bigplay.png to archive (source: <root>/media/widgetkit/widgets/mediaplayer/mediaelement/bigplay.png)
+DEBUG   |130721 17:40:07|-- Adding media/widgetkit/widgets/mediaplayer/mediaelement/bigplay.svg to archive (source: <root>/media/widgetkit/widgets/mediaplayer/mediaelement/bigplay.svg)
+DEBUG   |130721 17:40:07|-- Adding media/widgetkit/widgets/mediaplayer/mediaelement/controls-ted.png to archive (source: <root>/media/widgetkit/widgets/mediaplayer/mediaelement/controls-ted.png)
+DEBUG   |130721 17:40:07|-- Adding media/widgetkit/widgets/mediaplayer/mediaelement/controls-wmp-bg.png to archive (source: <root>/media/widgetkit/widgets/mediaplayer/mediaelement/controls-wmp-bg.png)
+DEBUG   |130721 17:40:07|-- Adding media/widgetkit/widgets/mediaplayer/mediaelement/controls-wmp.png to archive (source: <root>/media/widgetkit/widgets/mediaplayer/mediaelement/controls-wmp.png)
+DEBUG   |130721 17:40:07|-- Adding media/widgetkit/widgets/mediaplayer/mediaelement/controls.png to archive (source: <root>/media/widgetkit/widgets/mediaplayer/mediaelement/controls.png)
+DEBUG   |130721 17:40:07|-- Adding media/widgetkit/widgets/mediaplayer/mediaelement/controls.svg to archive (source: <root>/media/widgetkit/widgets/mediaplayer/mediaelement/controls.svg)
+DEBUG   |130721 17:40:07|-- Adding media/widgetkit/widgets/mediaplayer/mediaelement/flashmediaelement.swf to archive (source: <root>/media/widgetkit/widgets/mediaplayer/mediaelement/flashmediaelement.swf)
+DEBUG   |130721 17:40:07|-- Adding media/widgetkit/widgets/mediaplayer/mediaelement/loading.gif to archive (source: <root>/media/widgetkit/widgets/mediaplayer/mediaelement/loading.gif)
+DEBUG   |130721 17:40:07|-- Adding media/widgetkit/widgets/mediaplayer/mediaelement/mediaelement-and-player.js to archive (source: <root>/media/widgetkit/widgets/mediaplayer/mediaelement/mediaelement-and-player.js)
+DEBUG   |130721 17:40:07|-- Adding media/widgetkit/widgets/mediaplayer/mediaelement/mediaelementplayer.css to archive (source: <root>/media/widgetkit/widgets/mediaplayer/mediaelement/mediaelementplayer.css)
+DEBUG   |130721 17:40:07|-- Adding media/widgetkit/widgets/mediaplayer/mediaelement/mejs-skins.css to archive (source: <root>/media/widgetkit/widgets/mediaplayer/mediaelement/mejs-skins.css)
+DEBUG   |130721 17:40:07|-- Adding media/widgetkit/widgets/mediaplayer/mediaelement/silverlightmediaelement.xap to archive (source: <root>/media/widgetkit/widgets/mediaplayer/mediaelement/silverlightmediaelement.xap)
+INFO    |130721 17:40:07|Scanning directories of <root>/media/widgetkit/widgets/mediaplayer/layouts
+INFO    |130721 17:40:07|Scanning files of <root>/media/widgetkit/widgets/mediaplayer/layouts
+DEBUG   |130721 17:40:07|Packing files
+DEBUG   |130721 17:40:07|-- Adding media/widgetkit/widgets/mediaplayer/layouts/dashboard.php to archive (source: <root>/media/widgetkit/widgets/mediaplayer/layouts/dashboard.php)
+INFO    |130721 17:40:07|Scanning directories of <root>/media/widgetkit/widgets/mediaplayer/js
+INFO    |130721 17:40:07|Scanning files of <root>/media/widgetkit/widgets/mediaplayer/js
+DEBUG   |130721 17:40:07|Packing files
+DEBUG   |130721 17:40:07|-- Adding media/widgetkit/widgets/mediaplayer/js/dashboard.js to archive (source: <root>/media/widgetkit/widgets/mediaplayer/js/dashboard.js)
+INFO    |130721 17:40:07|Scanning directories of <root>/media/widgetkit/widgets/mediaplayer/images
+INFO    |130721 17:40:07|Scanning files of <root>/media/widgetkit/widgets/mediaplayer/images
+DEBUG   |130721 17:40:07|Packing files
+DEBUG   |130721 17:40:07|-- Adding media/widgetkit/widgets/mediaplayer/images/magnifier.png to archive (source: <root>/media/widgetkit/widgets/mediaplayer/images/magnifier.png)
+INFO    |130721 17:40:07|Scanning directories of <root>/media/widgetkit/widgets/mediaplayer/css
+INFO    |130721 17:40:07|Scanning files of <root>/media/widgetkit/widgets/mediaplayer/css
+DEBUG   |130721 17:40:07|Packing files
+DEBUG   |130721 17:40:07|-- Adding media/widgetkit/widgets/mediaplayer/css/spotlight.css to archive (source: <root>/media/widgetkit/widgets/mediaplayer/css/spotlight.css)
+INFO    |130721 17:40:07|Scanning directories of <root>/media/widgetkit/widgets/map
+INFO    |130721 17:40:07|Scanning files of <root>/media/widgetkit/widgets/map
+DEBUG   |130721 17:40:07|Packing files
+DEBUG   |130721 17:40:07|-- Adding media/widgetkit/widgets/map/map.php to archive (source: <root>/media/widgetkit/widgets/map/map.php)
+DEBUG   |130721 17:40:07|-- Adding media/widgetkit/widgets/map/map.xml to archive (source: <root>/media/widgetkit/widgets/map/map.xml)
+INFO    |130721 17:40:07|Scanning directories of <root>/media/widgetkit/widgets/map/styles
+INFO    |130721 17:40:07|Scanning files of <root>/media/widgetkit/widgets/map/styles
+DEBUG   |130721 17:40:07|-- Adding media/widgetkit/widgets/map/styles to archive (source: <root>/media/widgetkit/widgets/map/styles)
+INFO    |130721 17:40:07|Empty directory <root>/media/widgetkit/widgets/map/styles
+INFO    |130721 17:40:07|Scanning directories of <root>/media/widgetkit/widgets/map/styles/default
+INFO    |130721 17:40:07|Scanning files of <root>/media/widgetkit/widgets/map/styles/default
+DEBUG   |130721 17:40:07|Packing files
+DEBUG   |130721 17:40:07|-- Adding media/widgetkit/widgets/map/styles/default/config.xml to archive (source: <root>/media/widgetkit/widgets/map/styles/default/config.xml)
+DEBUG   |130721 17:40:07|-- Adding media/widgetkit/widgets/map/styles/default/template.php to archive (source: <root>/media/widgetkit/widgets/map/styles/default/template.php)
+INFO    |130721 17:40:07|Scanning directories of <root>/media/widgetkit/widgets/map/layouts
+INFO    |130721 17:40:07|Scanning files of <root>/media/widgetkit/widgets/map/layouts
+DEBUG   |130721 17:40:07|Packing files
+DEBUG   |130721 17:40:07|-- Adding media/widgetkit/widgets/map/layouts/dashboard.php to archive (source: <root>/media/widgetkit/widgets/map/layouts/dashboard.php)
+DEBUG   |130721 17:40:07|-- Adding media/widgetkit/widgets/map/layouts/edit.php to archive (source: <root>/media/widgetkit/widgets/map/layouts/edit.php)
+DEBUG   |130721 17:40:07|-- Adding media/widgetkit/widgets/map/layouts/item.php to archive (source: <root>/media/widgetkit/widgets/map/layouts/item.php)
+INFO    |130721 17:40:07|Scanning directories of <root>/media/widgetkit/widgets/map/js
+INFO    |130721 17:40:07|Scanning files of <root>/media/widgetkit/widgets/map/js
+DEBUG   |130721 17:40:07|Packing files
+DEBUG   |130721 17:40:07|-- Adding media/widgetkit/widgets/map/js/dashboard.js to archive (source: <root>/media/widgetkit/widgets/map/js/dashboard.js)
+DEBUG   |130721 17:40:07|-- Adding media/widgetkit/widgets/map/js/edit.js to archive (source: <root>/media/widgetkit/widgets/map/js/edit.js)
+DEBUG   |130721 17:40:07|-- Adding media/widgetkit/widgets/map/js/lazyloader.js to archive (source: <root>/media/widgetkit/widgets/map/js/lazyloader.js)
+DEBUG   |130721 17:40:07|-- Adding media/widgetkit/widgets/map/js/map.js to archive (source: <root>/media/widgetkit/widgets/map/js/map.js)
+INFO    |130721 17:40:07|Scanning directories of <root>/media/widgetkit/widgets/lightbox
+INFO    |130721 17:40:07|Scanning files of <root>/media/widgetkit/widgets/lightbox
+DEBUG   |130721 17:40:07|Packing files
+DEBUG   |130721 17:40:07|-- Adding media/widgetkit/widgets/lightbox/lightbox.php to archive (source: <root>/media/widgetkit/widgets/lightbox/lightbox.php)
+DEBUG   |130721 17:40:07|-- Adding media/widgetkit/widgets/lightbox/lightbox.xml to archive (source: <root>/media/widgetkit/widgets/lightbox/lightbox.xml)
+INFO    |130721 17:40:07|Scanning directories of <root>/media/widgetkit/widgets/lightbox/layouts
+INFO    |130721 17:40:07|Scanning files of <root>/media/widgetkit/widgets/lightbox/layouts
+DEBUG   |130721 17:40:07|Packing files
+DEBUG   |130721 17:40:07|-- Adding media/widgetkit/widgets/lightbox/layouts/dashboard.php to archive (source: <root>/media/widgetkit/widgets/lightbox/layouts/dashboard.php)
+INFO    |130721 17:40:07|Scanning directories of <root>/media/widgetkit/widgets/lightbox/js
+INFO    |130721 17:40:07|Scanning files of <root>/media/widgetkit/widgets/lightbox/js
+DEBUG   |130721 17:40:07|Packing files
+DEBUG   |130721 17:40:07|-- Adding media/widgetkit/widgets/lightbox/js/dashboard.js to archive (source: <root>/media/widgetkit/widgets/lightbox/js/dashboard.js)
+DEBUG   |130721 17:40:07|-- Adding media/widgetkit/widgets/lightbox/js/lightbox.js to archive (source: <root>/media/widgetkit/widgets/lightbox/js/lightbox.js)
+INFO    |130721 17:40:07|Scanning directories of <root>/media/widgetkit/widgets/lightbox/images
+INFO    |130721 17:40:07|Scanning files of <root>/media/widgetkit/widgets/lightbox/images
+DEBUG   |130721 17:40:07|Packing files
+DEBUG   |130721 17:40:07|-- Adding media/widgetkit/widgets/lightbox/images/blank.gif to archive (source: <root>/media/widgetkit/widgets/lightbox/images/blank.gif)
+DEBUG   |130721 17:40:07|-- Adding media/widgetkit/widgets/lightbox/images/buttons.png to archive (source: <root>/media/widgetkit/widgets/lightbox/images/buttons.png)
+DEBUG   |130721 17:40:07|-- Adding media/widgetkit/widgets/lightbox/images/close.png to archive (source: <root>/media/widgetkit/widgets/lightbox/images/close.png)
+DEBUG   |130721 17:40:07|-- Adding media/widgetkit/widgets/lightbox/images/loading.png to archive (source: <root>/media/widgetkit/widgets/lightbox/images/loading.png)
+INFO    |130721 17:40:07|Scanning directories of <root>/media/widgetkit/widgets/lightbox/css
+INFO    |130721 17:40:07|Scanning files of <root>/media/widgetkit/widgets/lightbox/css
+DEBUG   |130721 17:40:07|Packing files
+DEBUG   |130721 17:40:07|-- Adding media/widgetkit/widgets/lightbox/css/lightbox.css to archive (source: <root>/media/widgetkit/widgets/lightbox/css/lightbox.css)
+DEBUG   |130721 17:40:07|-- Adding media/widgetkit/widgets/lightbox/css/rtl.css to archive (source: <root>/media/widgetkit/widgets/lightbox/css/rtl.css)
+INFO    |130721 17:40:07|Scanning directories of <root>/media/widgetkit/widgets/gallery
+INFO    |130721 17:40:07|Scanning files of <root>/media/widgetkit/widgets/gallery
+DEBUG   |130721 17:40:07|Packing files
+DEBUG   |130721 17:40:07|-- Adding media/widgetkit/widgets/gallery/gallery.php to archive (source: <root>/media/widgetkit/widgets/gallery/gallery.php)
+DEBUG   |130721 17:40:07|-- Adding media/widgetkit/widgets/gallery/gallery.xml to archive (source: <root>/media/widgetkit/widgets/gallery/gallery.xml)
+INFO    |130721 17:40:07|Scanning directories of <root>/media/widgetkit/widgets/gallery/styles
+INFO    |130721 17:40:07|Scanning files of <root>/media/widgetkit/widgets/gallery/styles
+DEBUG   |130721 17:40:07|-- Adding media/widgetkit/widgets/gallery/styles to archive (source: <root>/media/widgetkit/widgets/gallery/styles)
+INFO    |130721 17:40:07|Empty directory <root>/media/widgetkit/widgets/gallery/styles
+INFO    |130721 17:40:07|Scanning directories of <root>/media/widgetkit/widgets/gallery/styles/wall
+INFO    |130721 17:40:07|Scanning files of <root>/media/widgetkit/widgets/gallery/styles/wall
+DEBUG   |130721 17:40:07|Packing files
+DEBUG   |130721 17:40:07|-- Adding media/widgetkit/widgets/gallery/styles/wall/config.xml to archive (source: <root>/media/widgetkit/widgets/gallery/styles/wall/config.xml)
+DEBUG   |130721 17:40:08|-- Adding media/widgetkit/widgets/gallery/styles/wall/rtl.css to archive (source: <root>/media/widgetkit/widgets/gallery/styles/wall/rtl.css)
+DEBUG   |130721 17:40:08|-- Adding media/widgetkit/widgets/gallery/styles/wall/style.css to archive (source: <root>/media/widgetkit/widgets/gallery/styles/wall/style.css)
+DEBUG   |130721 17:40:08|-- Adding media/widgetkit/widgets/gallery/styles/wall/template.php to archive (source: <root>/media/widgetkit/widgets/gallery/styles/wall/template.php)
+INFO    |130721 17:40:08|Scanning directories of <root>/media/widgetkit/widgets/gallery/styles/slideset
+INFO    |130721 17:40:08|Scanning files of <root>/media/widgetkit/widgets/gallery/styles/slideset
+DEBUG   |130721 17:40:08|Packing files
+DEBUG   |130721 17:40:08|-- Adding media/widgetkit/widgets/gallery/styles/slideset/config.xml to archive (source: <root>/media/widgetkit/widgets/gallery/styles/slideset/config.xml)
+DEBUG   |130721 17:40:08|-- Adding media/widgetkit/widgets/gallery/styles/slideset/template.php to archive (source: <root>/media/widgetkit/widgets/gallery/styles/slideset/template.php)
+INFO    |130721 17:40:08|Scanning directories of <root>/media/widgetkit/widgets/gallery/styles/slider
+INFO    |130721 17:40:08|Scanning files of <root>/media/widgetkit/widgets/gallery/styles/slider
+DEBUG   |130721 17:40:08|Packing files
+DEBUG   |130721 17:40:08|-- Adding media/widgetkit/widgets/gallery/styles/slider/config.xml to archive (source: <root>/media/widgetkit/widgets/gallery/styles/slider/config.xml)
+DEBUG   |130721 17:40:08|-- Adding media/widgetkit/widgets/gallery/styles/slider/rtl.css to archive (source: <root>/media/widgetkit/widgets/gallery/styles/slider/rtl.css)
+DEBUG   |130721 17:40:08|-- Adding media/widgetkit/widgets/gallery/styles/slider/style.css to archive (source: <root>/media/widgetkit/widgets/gallery/styles/slider/style.css)
+DEBUG   |130721 17:40:08|-- Adding media/widgetkit/widgets/gallery/styles/slider/template.php to archive (source: <root>/media/widgetkit/widgets/gallery/styles/slider/template.php)
+INFO    |130721 17:40:08|Scanning directories of <root>/media/widgetkit/widgets/gallery/styles/showcase_box
+INFO    |130721 17:40:08|Scanning files of <root>/media/widgetkit/widgets/gallery/styles/showcase_box
+DEBUG   |130721 17:40:08|Packing files
+DEBUG   |130721 17:40:08|-- Adding media/widgetkit/widgets/gallery/styles/showcase_box/config.xml to archive (source: <root>/media/widgetkit/widgets/gallery/styles/showcase_box/config.xml)
+DEBUG   |130721 17:40:08|-- Adding media/widgetkit/widgets/gallery/styles/showcase_box/rtl.css to archive (source: <root>/media/widgetkit/widgets/gallery/styles/showcase_box/rtl.css)
+DEBUG   |130721 17:40:08|-- Adding media/widgetkit/widgets/gallery/styles/showcase_box/style.css to archive (source: <root>/media/widgetkit/widgets/gallery/styles/showcase_box/style.css)
+DEBUG   |130721 17:40:08|-- Adding media/widgetkit/widgets/gallery/styles/showcase_box/template.php to archive (source: <root>/media/widgetkit/widgets/gallery/styles/showcase_box/template.php)
+INFO    |130721 17:40:08|Scanning directories of <root>/media/widgetkit/widgets/gallery/styles/showcase_box/images
+INFO    |130721 17:40:08|Scanning files of <root>/media/widgetkit/widgets/gallery/styles/showcase_box/images
+DEBUG   |130721 17:40:08|Packing files
+DEBUG   |130721 17:40:08|-- Adding media/widgetkit/widgets/gallery/styles/showcase_box/images/buttons.png to archive (source: <root>/media/widgetkit/widgets/gallery/styles/showcase_box/images/buttons.png)
+DEBUG   |130721 17:40:08|-- Adding media/widgetkit/widgets/gallery/styles/showcase_box/images/navigation_buttons.png to archive (source: <root>/media/widgetkit/widgets/gallery/styles/showcase_box/images/navigation_buttons.png)
+INFO    |130721 17:40:08|Scanning directories of <root>/media/widgetkit/widgets/gallery/styles/showcase
+INFO    |130721 17:40:08|Scanning files of <root>/media/widgetkit/widgets/gallery/styles/showcase
+DEBUG   |130721 17:40:08|Packing files
+DEBUG   |130721 17:40:08|-- Adding media/widgetkit/widgets/gallery/styles/showcase/config.xml to archive (source: <root>/media/widgetkit/widgets/gallery/styles/showcase/config.xml)
+DEBUG   |130721 17:40:08|-- Adding media/widgetkit/widgets/gallery/styles/showcase/rtl.css to archive (source: <root>/media/widgetkit/widgets/gallery/styles/showcase/rtl.css)
+DEBUG   |130721 17:40:08|-- Adding media/widgetkit/widgets/gallery/styles/showcase/style.css to archive (source: <root>/media/widgetkit/widgets/gallery/styles/showcase/style.css)
+DEBUG   |130721 17:40:08|-- Adding media/widgetkit/widgets/gallery/styles/showcase/template.php to archive (source: <root>/media/widgetkit/widgets/gallery/styles/showcase/template.php)
+INFO    |130721 17:40:08|Scanning directories of <root>/media/widgetkit/widgets/gallery/styles/showcase/images
+INFO    |130721 17:40:08|Scanning files of <root>/media/widgetkit/widgets/gallery/styles/showcase/images
+DEBUG   |130721 17:40:08|Packing files
+DEBUG   |130721 17:40:08|-- Adding media/widgetkit/widgets/gallery/styles/showcase/images/buttons.png to archive (source: <root>/media/widgetkit/widgets/gallery/styles/showcase/images/buttons.png)
+DEBUG   |130721 17:40:08|-- Adding media/widgetkit/widgets/gallery/styles/showcase/images/navigation_buttons.png to archive (source: <root>/media/widgetkit/widgets/gallery/styles/showcase/images/navigation_buttons.png)
+INFO    |130721 17:40:08|Scanning directories of <root>/media/widgetkit/widgets/gallery/styles/screen
+INFO    |130721 17:40:08|Scanning files of <root>/media/widgetkit/widgets/gallery/styles/screen
+DEBUG   |130721 17:40:08|Packing files
+DEBUG   |130721 17:40:08|-- Adding media/widgetkit/widgets/gallery/styles/screen/config.xml to archive (source: <root>/media/widgetkit/widgets/gallery/styles/screen/config.xml)
+DEBUG   |130721 17:40:08|-- Adding media/widgetkit/widgets/gallery/styles/screen/template.php to archive (source: <root>/media/widgetkit/widgets/gallery/styles/screen/template.php)
+INFO    |130721 17:40:08|Scanning directories of <root>/media/widgetkit/widgets/gallery/styles/inside
+INFO    |130721 17:40:08|Scanning files of <root>/media/widgetkit/widgets/gallery/styles/inside
+DEBUG   |130721 17:40:08|Packing files
+DEBUG   |130721 17:40:08|-- Adding media/widgetkit/widgets/gallery/styles/inside/config.xml to archive (source: <root>/media/widgetkit/widgets/gallery/styles/inside/config.xml)
+DEBUG   |130721 17:40:08|-- Adding media/widgetkit/widgets/gallery/styles/inside/rtl.css to archive (source: <root>/media/widgetkit/widgets/gallery/styles/inside/rtl.css)
+DEBUG   |130721 17:40:08|-- Adding media/widgetkit/widgets/gallery/styles/inside/style.css to archive (source: <root>/media/widgetkit/widgets/gallery/styles/inside/style.css)
+DEBUG   |130721 17:40:08|-- Adding media/widgetkit/widgets/gallery/styles/inside/template.php to archive (source: <root>/media/widgetkit/widgets/gallery/styles/inside/template.php)
+INFO    |130721 17:40:08|Scanning directories of <root>/media/widgetkit/widgets/gallery/styles/inside/images
+INFO    |130721 17:40:08|Scanning files of <root>/media/widgetkit/widgets/gallery/styles/inside/images
+DEBUG   |130721 17:40:08|Packing files
+DEBUG   |130721 17:40:08|-- Adding media/widgetkit/widgets/gallery/styles/inside/images/buttons.png to archive (source: <root>/media/widgetkit/widgets/gallery/styles/inside/images/buttons.png)
+INFO    |130721 17:40:08|Scanning directories of <root>/media/widgetkit/widgets/gallery/styles/default
+INFO    |130721 17:40:08|Scanning files of <root>/media/widgetkit/widgets/gallery/styles/default
+DEBUG   |130721 17:40:08|Packing files
+DEBUG   |130721 17:40:08|-- Adding media/widgetkit/widgets/gallery/styles/default/config.xml to archive (source: <root>/media/widgetkit/widgets/gallery/styles/default/config.xml)
+DEBUG   |130721 17:40:08|-- Adding media/widgetkit/widgets/gallery/styles/default/template.php to archive (source: <root>/media/widgetkit/widgets/gallery/styles/default/template.php)
+INFO    |130721 17:40:08|Scanning directories of <root>/media/widgetkit/widgets/gallery/layouts
+INFO    |130721 17:40:08|Scanning files of <root>/media/widgetkit/widgets/gallery/layouts
+DEBUG   |130721 17:40:08|Packing files
+DEBUG   |130721 17:40:08|-- Adding media/widgetkit/widgets/gallery/layouts/dashboard.php to archive (source: <root>/media/widgetkit/widgets/gallery/layouts/dashboard.php)
+DEBUG   |130721 17:40:08|-- Adding media/widgetkit/widgets/gallery/layouts/edit.php to archive (source: <root>/media/widgetkit/widgets/gallery/layouts/edit.php)
+INFO    |130721 17:40:08|Scanning directories of <root>/media/widgetkit/widgets/gallery/js
+INFO    |130721 17:40:08|Scanning files of <root>/media/widgetkit/widgets/gallery/js
+DEBUG   |130721 17:40:08|Packing files
+DEBUG   |130721 17:40:08|-- Adding media/widgetkit/widgets/gallery/js/dashboard.js to archive (source: <root>/media/widgetkit/widgets/gallery/js/dashboard.js)
+DEBUG   |130721 17:40:08|-- Adding media/widgetkit/widgets/gallery/js/edit.js to archive (source: <root>/media/widgetkit/widgets/gallery/js/edit.js)
+DEBUG   |130721 17:40:08|-- Adding media/widgetkit/widgets/gallery/js/lazyloader.js to archive (source: <root>/media/widgetkit/widgets/gallery/js/lazyloader.js)
+DEBUG   |130721 17:40:08|-- Adding media/widgetkit/widgets/gallery/js/slider.js to archive (source: <root>/media/widgetkit/widgets/gallery/js/slider.js)
+INFO    |130721 17:40:08|Scanning directories of <root>/media/widgetkit/widgets/gallery/css
+INFO    |130721 17:40:08|Scanning files of <root>/media/widgetkit/widgets/gallery/css
+DEBUG   |130721 17:40:08|Packing files
+DEBUG   |130721 17:40:08|-- Adding media/widgetkit/widgets/gallery/css/admin.css to archive (source: <root>/media/widgetkit/widgets/gallery/css/admin.css)
+DEBUG   |130721 17:40:08|-- Adding media/widgetkit/widgets/gallery/css/delete.png to archive (source: <root>/media/widgetkit/widgets/gallery/css/delete.png)
+INFO    |130721 17:40:08|Scanning directories of <root>/media/widgetkit/widgets/accordion
+INFO    |130721 17:40:08|Scanning files of <root>/media/widgetkit/widgets/accordion
+DEBUG   |130721 17:40:08|Packing files
+DEBUG   |130721 17:40:08|-- Adding media/widgetkit/widgets/accordion/accordion.php to archive (source: <root>/media/widgetkit/widgets/accordion/accordion.php)
+DEBUG   |130721 17:40:08|-- Adding media/widgetkit/widgets/accordion/accordion.xml to archive (source: <root>/media/widgetkit/widgets/accordion/accordion.xml)
+INFO    |130721 17:40:08|Scanning directories of <root>/media/widgetkit/widgets/accordion/styles
+INFO    |130721 17:40:08|Scanning files of <root>/media/widgetkit/widgets/accordion/styles
+DEBUG   |130721 17:40:08|-- Adding media/widgetkit/widgets/accordion/styles to archive (source: <root>/media/widgetkit/widgets/accordion/styles)
+INFO    |130721 17:40:08|Empty directory <root>/media/widgetkit/widgets/accordion/styles
+INFO    |130721 17:40:08|Scanning directories of <root>/media/widgetkit/widgets/accordion/styles/default
+INFO    |130721 17:40:08|Scanning files of <root>/media/widgetkit/widgets/accordion/styles/default
+DEBUG   |130721 17:40:08|Packing files
+DEBUG   |130721 17:40:08|-- Adding media/widgetkit/widgets/accordion/styles/default/config.xml to archive (source: <root>/media/widgetkit/widgets/accordion/styles/default/config.xml)
+DEBUG   |130721 17:40:08|-- Adding media/widgetkit/widgets/accordion/styles/default/style.css to archive (source: <root>/media/widgetkit/widgets/accordion/styles/default/style.css)
+DEBUG   |130721 17:40:08|-- Adding media/widgetkit/widgets/accordion/styles/default/template.php to archive (source: <root>/media/widgetkit/widgets/accordion/styles/default/template.php)
+INFO    |130721 17:40:08|Scanning directories of <root>/media/widgetkit/widgets/accordion/layouts
+INFO    |130721 17:40:08|Scanning files of <root>/media/widgetkit/widgets/accordion/layouts
+DEBUG   |130721 17:40:08|Packing files
+DEBUG   |130721 17:40:08|-- Adding media/widgetkit/widgets/accordion/layouts/dashboard.php to archive (source: <root>/media/widgetkit/widgets/accordion/layouts/dashboard.php)
+DEBUG   |130721 17:40:08|-- Adding media/widgetkit/widgets/accordion/layouts/edit.php to archive (source: <root>/media/widgetkit/widgets/accordion/layouts/edit.php)
+DEBUG   |130721 17:40:08|-- Adding media/widgetkit/widgets/accordion/layouts/item.php to archive (source: <root>/media/widgetkit/widgets/accordion/layouts/item.php)
+INFO    |130721 17:40:08|Scanning directories of <root>/media/widgetkit/widgets/accordion/js
+INFO    |130721 17:40:08|Scanning files of <root>/media/widgetkit/widgets/accordion/js
+DEBUG   |130721 17:40:08|Packing files
+DEBUG   |130721 17:40:08|-- Adding media/widgetkit/widgets/accordion/js/accordion.js to archive (source: <root>/media/widgetkit/widgets/accordion/js/accordion.js)
+DEBUG   |130721 17:40:08|-- Adding media/widgetkit/widgets/accordion/js/dashboard.js to archive (source: <root>/media/widgetkit/widgets/accordion/js/dashboard.js)
+DEBUG   |130721 17:40:08|-- Adding media/widgetkit/widgets/accordion/js/edit.js to archive (source: <root>/media/widgetkit/widgets/accordion/js/edit.js)
+INFO    |130721 17:40:08|Scanning directories of <root>/media/widgetkit/widgets/accordion/images
+INFO    |130721 17:40:08|Scanning files of <root>/media/widgetkit/widgets/accordion/images
+DEBUG   |130721 17:40:08|Packing files
+DEBUG   |130721 17:40:08|-- Adding media/widgetkit/widgets/accordion/images/next.png to archive (source: <root>/media/widgetkit/widgets/accordion/images/next.png)
+DEBUG   |130721 17:40:08|-- Adding media/widgetkit/widgets/accordion/images/prev.png to archive (source: <root>/media/widgetkit/widgets/accordion/images/prev.png)
+INFO    |130721 17:40:08|Scanning directories of <root>/media/widgetkit/js
+INFO    |130721 17:40:08|Scanning files of <root>/media/widgetkit/js
+DEBUG   |130721 17:40:08|Packing files
+DEBUG   |130721 17:40:08|-- Adding media/widgetkit/js/jquery.js to archive (source: <root>/media/widgetkit/js/jquery.js)
+DEBUG   |130721 17:40:08|-- Adding media/widgetkit/js/jquery.plugins.js to archive (source: <root>/media/widgetkit/js/jquery.plugins.js)
+DEBUG   |130721 17:40:08|-- Adding media/widgetkit/js/responsive.js to archive (source: <root>/media/widgetkit/js/responsive.js)
+INFO    |130721 17:40:08|Scanning directories of <root>/media/widgetkit/css
+INFO    |130721 17:40:08|Scanning files of <root>/media/widgetkit/css
+DEBUG   |130721 17:40:08|Packing files
+DEBUG   |130721 17:40:08|-- Adding media/widgetkit/css/ie.css to archive (source: <root>/media/widgetkit/css/ie.css)
+DEBUG   |130721 17:40:08|-- Adding media/widgetkit/css/rtl.css to archive (source: <root>/media/widgetkit/css/rtl.css)
+DEBUG   |130721 17:40:08|-- Adding media/widgetkit/css/widgetkit.css to archive (source: <root>/media/widgetkit/css/widgetkit.css)
+INFO    |130721 17:40:08|Skipping directory <root>/media/system
+INFO    |130721 17:40:08|Skipping directory <root>/media/plg_system_highlight
+INFO    |130721 17:40:08|Skipping directory <root>/media/plg_quickicon_joomlaupdate
+INFO    |130721 17:40:08|Skipping directory <root>/media/plg_quickicon_extensionupdate
+INFO    |130721 17:40:08|Skipping directory <root>/media/overrider
+INFO    |130721 17:40:08|Skipping directory <root>/media/mod_languages
+INFO    |130721 17:40:08|Skipping directory <root>/media/media
+INFO    |130721 17:40:08|Skipping directory <root>/media/mailto
+INFO    |130721 17:40:08|Skipping directory <root>/media/jce
+INFO    |130721 17:40:08|Skipping directory <root>/media/editors
+INFO    |130721 17:40:08|Skipping directory <root>/media/contacts
+INFO    |130721 17:40:08|Skipping directory <root>/media/com_joomlaupdate
+INFO    |130721 17:40:08|Skipping directory <root>/media/com_finder
+INFO    |130721 17:40:08|Skipping directory <root>/media/com_akeeba
+INFO    |130721 17:40:08|Skipping directory <root>/media/com_admintools
+INFO    |130721 17:40:08|Skipping directory <root>/media/cms
+INFO    |130721 17:40:08|Skipping directory <root>/media/akeeba_strapper
+INFO    |130721 17:40:08|Skipping directory <root>/logs
+INFO    |130721 17:40:08|Skipping directory <root>/log
+INFO    |130721 17:40:08|Skipping directory <root>/libraries
+INFO    |130721 17:40:08|Scanning directories of <root>/language
+INFO    |130721 17:40:08|Scanning files of <root>/language
+INFO    |130721 17:40:08|Skipping file <root>/language/index.html (filter: srpfiles)
+DEBUG   |130721 17:40:08|-- Adding language to archive (source: <root>/language)
+INFO    |130721 17:40:08|Empty directory <root>/language
+INFO    |130721 17:40:08|Scanning directories of <root>/language/overrides
+INFO    |130721 17:40:08|Scanning files of <root>/language/overrides
+INFO    |130721 17:40:08|Skipping file <root>/language/overrides/index.html (filter: srpfiles)
+DEBUG   |130721 17:40:08|-- Adding language/overrides to archive (source: <root>/language/overrides)
+INFO    |130721 17:40:08|Empty directory <root>/language/overrides
+INFO    |130721 17:40:08|Scanning directories of <root>/language/en-GB
+INFO    |130721 17:40:08|Scanning files of <root>/language/en-GB
+INFO    |130721 17:40:08|Skipping file <root>/language/en-GB/en-GB.com_admintools.ini (filter: srpfiles)
+INFO    |130721 17:40:08|Skipping file <root>/language/en-GB/en-GB.com_akeeba.ini (filter: srpfiles)
+INFO    |130721 17:40:08|Skipping file <root>/language/en-GB/en-GB.com_contact.ini (filter: srpfiles)
+INFO    |130721 17:40:08|Skipping file <root>/language/en-GB/en-GB.com_content.ini (filter: srpfiles)
+INFO    |130721 17:40:08|Skipping file <root>/language/en-GB/en-GB.com_finder.ini (filter: srpfiles)
+INFO    |130721 17:40:08|Skipping file <root>/language/en-GB/en-GB.com_jce.ini (filter: srpfiles)
+INFO    |130721 17:40:08|Skipping file <root>/language/en-GB/en-GB.com_jce.xml (filter: srpfiles)
+INFO    |130721 17:40:08|Skipping file <root>/language/en-GB/en-GB.com_mailto.ini (filter: srpfiles)
+INFO    |130721 17:40:08|Skipping file <root>/language/en-GB/en-GB.com_media.ini (filter: srpfiles)
+INFO    |130721 17:40:08|Skipping file <root>/language/en-GB/en-GB.com_messages.ini (filter: srpfiles)
+INFO    |130721 17:40:08|Skipping file <root>/language/en-GB/en-GB.com_newsfeeds.ini (filter: srpfiles)
+INFO    |130721 17:40:08|Skipping file <root>/language/en-GB/en-GB.com_rsform.ini (filter: srpfiles)
+INFO    |130721 17:40:08|Skipping file <root>/language/en-GB/en-GB.com_search.ini (filter: srpfiles)
+INFO    |130721 17:40:08|Skipping file <root>/language/en-GB/en-GB.com_users.ini (filter: srpfiles)
+INFO    |130721 17:40:08|Skipping file <root>/language/en-GB/en-GB.com_weblinks.ini (filter: srpfiles)
+INFO    |130721 17:40:08|Skipping file <root>/language/en-GB/en-GB.com_wrapper.ini (filter: srpfiles)
+INFO    |130721 17:40:08|Skipping file <root>/language/en-GB/en-GB.com_xmap.ini (filter: srpfiles)
+INFO    |130721 17:40:08|Skipping file <root>/language/en-GB/en-GB.com_zoo.ini (filter: srpfiles)
+INFO    |130721 17:40:08|Skipping file <root>/language/en-GB/en-GB.files_joomla.sys.ini (filter: srpfiles)
+INFO    |130721 17:40:08|Skipping file <root>/language/en-GB/en-GB.finder_cli.ini (filter: srpfiles)
+INFO    |130721 17:40:08|Skipping file <root>/language/en-GB/en-GB.ini (filter: srpfiles)
+INFO    |130721 17:40:08|Skipping file <root>/language/en-GB/en-GB.lib_joomla.ini (filter: srpfiles)
+INFO    |130721 17:40:08|Skipping file <root>/language/en-GB/en-GB.lib_joomla.sys.ini (filter: srpfiles)
+INFO    |130721 17:40:08|Skipping file <root>/language/en-GB/en-GB.lib_phpmailer.sys.ini (filter: srpfiles)
+INFO    |130721 17:40:08|Skipping file <root>/language/en-GB/en-GB.lib_phputf8.sys.ini (filter: srpfiles)
+INFO    |130721 17:40:08|Skipping file <root>/language/en-GB/en-GB.lib_simplepie.sys.ini (filter: srpfiles)
+INFO    |130721 17:40:08|Skipping file <root>/language/en-GB/en-GB.localise.php (filter: srpfiles)
+INFO    |130721 17:40:08|Skipping file <root>/language/en-GB/en-GB.mod_articles_archive.ini (filter: srpfiles)
+INFO    |130721 17:40:08|Skipping file <root>/language/en-GB/en-GB.mod_articles_archive.sys.ini (filter: srpfiles)
+INFO    |130721 17:40:08|Skipping file <root>/language/en-GB/en-GB.mod_articles_categories.ini (filter: srpfiles)
+INFO    |130721 17:40:08|Skipping file <root>/language/en-GB/en-GB.mod_articles_categories.sys.ini (filter: srpfiles)
+INFO    |130721 17:40:08|Skipping file <root>/language/en-GB/en-GB.mod_articles_category.ini (filter: srpfiles)
+INFO    |130721 17:40:08|Skipping file <root>/language/en-GB/en-GB.mod_articles_category.sys.ini (filter: srpfiles)
+INFO    |130721 17:40:08|Skipping file <root>/language/en-GB/en-GB.mod_articles_latest.ini (filter: srpfiles)
+INFO    |130721 17:40:08|Skipping file <root>/language/en-GB/en-GB.mod_articles_latest.sys.ini (filter: srpfiles)
+INFO    |130721 17:40:08|Skipping file <root>/language/en-GB/en-GB.mod_articles_news.ini (filter: srpfiles)
+INFO    |130721 17:40:08|Skipping file <root>/language/en-GB/en-GB.mod_articles_news.sys.ini (filter: srpfiles)
+INFO    |130721 17:40:08|Skipping file <root>/language/en-GB/en-GB.mod_articles_popular.ini (filter: srpfiles)
+INFO    |130721 17:40:08|Skipping file <root>/language/en-GB/en-GB.mod_articles_popular.sys.ini (filter: srpfiles)
+INFO    |130721 17:40:08|Skipping file <root>/language/en-GB/en-GB.mod_banners.ini (filter: srpfiles)
+INFO    |130721 17:40:08|Skipping file <root>/language/en-GB/en-GB.mod_banners.sys.ini (filter: srpfiles)
+INFO    |130721 17:40:08|Skipping file <root>/language/en-GB/en-GB.mod_breadcrumbs.ini (filter: srpfiles)
+INFO    |130721 17:40:08|Skipping file <root>/language/en-GB/en-GB.mod_breadcrumbs.sys.ini (filter: srpfiles)
+INFO    |130721 17:40:08|Skipping file <root>/language/en-GB/en-GB.mod_custom.ini (filter: srpfiles)
+INFO    |130721 17:40:08|Skipping file <root>/language/en-GB/en-GB.mod_custom.sys.ini (filter: srpfiles)
+INFO    |130721 17:40:08|Skipping file <root>/language/en-GB/en-GB.mod_feed.ini (filter: srpfiles)
+INFO    |130721 17:40:08|Skipping file <root>/language/en-GB/en-GB.mod_feed.sys.ini (filter: srpfiles)
+INFO    |130721 17:40:08|Skipping file <root>/language/en-GB/en-GB.mod_finder.ini (filter: srpfiles)
+INFO    |130721 17:40:08|Skipping file <root>/language/en-GB/en-GB.mod_finder.sys.ini (filter: srpfiles)
+INFO    |130721 17:40:08|Skipping file <root>/language/en-GB/en-GB.mod_footer.ini (filter: srpfiles)
+INFO    |130721 17:40:08|Skipping file <root>/language/en-GB/en-GB.mod_footer.sys.ini (filter: srpfiles)
+INFO    |130721 17:40:08|Skipping file <root>/language/en-GB/en-GB.mod_itpsocialsubscribe.ini (filter: srpfiles)
+INFO    |130721 17:40:08|Skipping file <root>/language/en-GB/en-GB.mod_itpsocialsubscribe.sys.ini (filter: srpfiles)
+INFO    |130721 17:40:08|Skipping file <root>/language/en-GB/en-GB.mod_languages.ini (filter: srpfiles)
+INFO    |130721 17:40:08|Skipping file <root>/language/en-GB/en-GB.mod_languages.sys.ini (filter: srpfiles)
+INFO    |130721 17:40:08|Skipping file <root>/language/en-GB/en-GB.mod_login.ini (filter: srpfiles)
+INFO    |130721 17:40:08|Skipping file <root>/language/en-GB/en-GB.mod_login.sys.ini (filter: srpfiles)
+INFO    |130721 17:40:08|Skipping file <root>/language/en-GB/en-GB.mod_menu.ini (filter: srpfiles)
+INFO    |130721 17:40:08|Skipping file <root>/language/en-GB/en-GB.mod_menu.sys.ini (filter: srpfiles)
+INFO    |130721 17:40:08|Skipping file <root>/language/en-GB/en-GB.mod_random_image.ini (filter: srpfiles)
+INFO    |130721 17:40:08|Skipping file <root>/language/en-GB/en-GB.mod_random_image.sys.ini (filter: srpfiles)
+INFO    |130721 17:40:08|Skipping file <root>/language/en-GB/en-GB.mod_related_items.ini (filter: srpfiles)
+INFO    |130721 17:40:08|Skipping file <root>/language/en-GB/en-GB.mod_related_items.sys.ini (filter: srpfiles)
+INFO    |130721 17:40:08|Skipping file <root>/language/en-GB/en-GB.mod_search.ini (filter: srpfiles)
+INFO    |130721 17:40:08|Skipping file <root>/language/en-GB/en-GB.mod_search.sys.ini (filter: srpfiles)
+INFO    |130721 17:40:08|Skipping file <root>/language/en-GB/en-GB.mod_stats.ini (filter: srpfiles)
+INFO    |130721 17:40:08|Skipping file <root>/language/en-GB/en-GB.mod_stats.sys.ini (filter: srpfiles)
+INFO    |130721 17:40:08|Skipping file <root>/language/en-GB/en-GB.mod_syndicate.ini (filter: srpfiles)
+INFO    |130721 17:40:08|Skipping file <root>/language/en-GB/en-GB.mod_syndicate.sys.ini (filter: srpfiles)
+INFO    |130721 17:40:08|Skipping file <root>/language/en-GB/en-GB.mod_tabs_gk5.ini (filter: srpfiles)
+INFO    |130721 17:40:08|Skipping file <root>/language/en-GB/en-GB.mod_users_latest.ini (filter: srpfiles)
+INFO    |130721 17:40:08|Skipping file <root>/language/en-GB/en-GB.mod_users_latest.sys.ini (filter: srpfiles)
+INFO    |130721 17:40:08|Skipping file <root>/language/en-GB/en-GB.mod_weblinks.ini (filter: srpfiles)
+INFO    |130721 17:40:08|Skipping file <root>/language/en-GB/en-GB.mod_weblinks.sys.ini (filter: srpfiles)
+INFO    |130721 17:40:08|Skipping file <root>/language/en-GB/en-GB.mod_whosonline.ini (filter: srpfiles)
+INFO    |130721 17:40:08|Skipping file <root>/language/en-GB/en-GB.mod_whosonline.sys.ini (filter: srpfiles)
+INFO    |130721 17:40:08|Skipping file <root>/language/en-GB/en-GB.mod_wrapper.ini (filter: srpfiles)
+INFO    |130721 17:40:08|Skipping file <root>/language/en-GB/en-GB.mod_wrapper.sys.ini (filter: srpfiles)
+INFO    |130721 17:40:08|Skipping file <root>/language/en-GB/en-GB.pkg_joomla.sys.ini (filter: srpfiles)
+INFO    |130721 17:40:08|Skipping file <root>/language/en-GB/en-GB.tpl_atomic.ini (filter: srpfiles)
+INFO    |130721 17:40:08|Skipping file <root>/language/en-GB/en-GB.tpl_atomic.sys.ini (filter: srpfiles)
+INFO    |130721 17:40:08|Skipping file <root>/language/en-GB/en-GB.tpl_beez5.ini (filter: srpfiles)
+INFO    |130721 17:40:08|Skipping file <root>/language/en-GB/en-GB.tpl_beez5.sys.ini (filter: srpfiles)
+INFO    |130721 17:40:08|Skipping file <root>/language/en-GB/en-GB.tpl_beez_20.ini (filter: srpfiles)
+INFO    |130721 17:40:08|Skipping file <root>/language/en-GB/en-GB.tpl_beez_20.sys.ini (filter: srpfiles)
+INFO    |130721 17:40:08|Skipping file <root>/language/en-GB/en-GB.xml (filter: srpfiles)
+INFO    |130721 17:40:08|Skipping file <root>/language/en-GB/index.html (filter: srpfiles)
+DEBUG   |130721 17:40:08|-- Adding language/en-GB to archive (source: <root>/language/en-GB)
+INFO    |130721 17:40:08|Empty directory <root>/language/en-GB
+INFO    |130721 17:40:08|Skipping directory <root>/includes
+INFO    |130721 17:40:08|Skipping directory <root>/images
+INFO    |130721 17:40:08|Scanning directories of <root>/components
+INFO    |130721 17:40:08|Skipping files of directory <root>/components
+DEBUG   |130721 17:40:08|-- Adding components to archive (source: <root>/components)
+INFO    |130721 17:40:08|Empty directory <root>/components
+INFO    |130721 17:40:08|Skipping directory <root>/components/com_zoo
+INFO    |130721 17:40:08|Skipping directory <root>/components/com_xmap
+INFO    |130721 17:40:08|Skipping directory <root>/components/com_wrapper
+INFO    |130721 17:40:08|Scanning directories of <root>/components/com_widgetkit
+INFO    |130721 17:40:08|Scanning files of <root>/components/com_widgetkit
+DEBUG   |130721 17:40:08|Packing files
+DEBUG   |130721 17:40:08|-- Adding components/com_widgetkit/widgetkit.php to archive (source: <root>/components/com_widgetkit/widgetkit.php)
+INFO    |130721 17:40:08|Skipping directory <root>/components/com_weblinks
+INFO    |130721 17:40:08|Skipping directory <root>/components/com_watchfulli
+INFO    |130721 17:40:08|Skipping directory <root>/components/com_users
+INFO    |130721 17:40:08|Skipping directory <root>/components/com_sef
+INFO    |130721 17:40:08|Skipping directory <root>/components/com_search
+INFO    |130721 17:40:08|Skipping directory <root>/components/com_rsform
+INFO    |130721 17:40:08|Skipping directory <root>/components/com_newsfeeds
+INFO    |130721 17:40:08|Skipping directory <root>/components/com_media
+INFO    |130721 17:40:08|Skipping directory <root>/components/com_mailto
+INFO    |130721 17:40:08|Skipping directory <root>/components/com_jce
+INFO    |130721 17:40:08|Skipping directory <root>/components/com_finder
+INFO    |130721 17:40:08|Skipping directory <root>/components/com_content
+INFO    |130721 17:40:08|Skipping directory <root>/components/com_contact
+INFO    |130721 17:40:08|Skipping directory <root>/components/com_banners
+INFO    |130721 17:40:08|Skipping directory <root>/components/com_akeeba
+INFO    |130721 17:40:08|Skipping directory <root>/components/com_admintools
+INFO    |130721 17:40:08|Skipping directory <root>/cli
+INFO    |130721 17:40:08|Skipping directory <root>/cache
+INFO    |130721 17:40:08|Scanning directories of <root>/administrator
+INFO    |130721 17:40:08|Skipping files of directory <root>/administrator
+DEBUG   |130721 17:40:08|-- Adding administrator to archive (source: <root>/administrator)
+INFO    |130721 17:40:08|Empty directory <root>/administrator
+INFO    |130721 17:40:08|Skipping directory <root>/administrator/templates
+INFO    |130721 17:40:08|Skipping directory <root>/administrator/modules
+INFO    |130721 17:40:08|Skipping directory <root>/administrator/manifests
+INFO    |130721 17:40:08|Scanning directories of <root>/administrator/language
+INFO    |130721 17:40:08|Scanning files of <root>/administrator/language
+INFO    |130721 17:40:08|Skipping file <root>/administrator/language/index.html (filter: srpfiles)
+DEBUG   |130721 17:40:08|-- Adding administrator/language to archive (source: <root>/administrator/language)
+INFO    |130721 17:40:08|Empty directory <root>/administrator/language
+INFO    |130721 17:40:08|Scanning directories of <root>/administrator/language/overrides
+INFO    |130721 17:40:08|Scanning files of <root>/administrator/language/overrides
+INFO    |130721 17:40:08|Skipping file <root>/administrator/language/overrides/index.html (filter: srpfiles)
+DEBUG   |130721 17:40:08|-- Adding administrator/language/overrides to archive (source: <root>/administrator/language/overrides)
+INFO    |130721 17:40:08|Empty directory <root>/administrator/language/overrides
+INFO    |130721 17:40:08|Scanning directories of <root>/administrator/language/en-GB
+INFO    |130721 17:40:08|Large directory <root>/administrator/language/en-GB while scanning for subdirectories; I will resume scanning in next step.
+DEBUG   |130721 17:40:08|----- Finished operation 2 ------
+DEBUG   |130721 17:40:08|Successful Smart algorithm on AECoreDomainPack
+DEBUG   |130721 17:40:08|====== Finished Step number 3 ======
+DEBUG   |130721 17:40:08|*** Engine steps batching: Break flag detected.
+DEBUG   |130721 17:40:08|*** Batching of engine steps finished. I will now return control to the caller.
+DEBUG   |130721 17:40:08|Sleeping for 453.9539814 msec, using usleep()
+DEBUG   |130721 17:40:08|Saving Kettenrad instance restorepoint
+DEBUG   |130721 17:40:09|Closing SQL dump file.
+DEBUG   |130721 17:40:09| -- Loaded stored Akeeba Factory (restorepoint)
+DEBUG   |130721 17:40:09|====== Starting Step number 4 ======
+INFO    |130721 17:40:09|Scanning directories of <root>/administrator/language/en-GB
+INFO    |130721 17:40:10|Scanning files of <root>/administrator/language/en-GB
+INFO    |130721 17:40:10|Skipping file <root>/administrator/language/en-GB/en-GB.com_admin.ini (filter: srpfiles)
+INFO    |130721 17:40:10|Skipping file <root>/administrator/language/en-GB/en-GB.com_admin.sys.ini (filter: srpfiles)
+INFO    |130721 17:40:10|Skipping file <root>/administrator/language/en-GB/en-GB.com_admintools.ini (filter: srpfiles)
+INFO    |130721 17:40:10|Skipping file <root>/administrator/language/en-GB/en-GB.com_admintools.menu.ini (filter: srpfiles)
+INFO    |130721 17:40:10|Skipping file <root>/administrator/language/en-GB/en-GB.com_admintools.sys.ini (filter: srpfiles)
+INFO    |130721 17:40:10|Skipping file <root>/administrator/language/en-GB/en-GB.com_akeeba.ini (filter: srpfiles)
+INFO    |130721 17:40:10|Skipping file <root>/administrator/language/en-GB/en-GB.com_akeeba.menu.ini (filter: srpfiles)
+INFO    |130721 17:40:10|Skipping file <root>/administrator/language/en-GB/en-GB.com_akeeba.sys.ini (filter: srpfiles)
+INFO    |130721 17:40:10|Skipping file <root>/administrator/language/en-GB/en-GB.com_banners.ini (filter: srpfiles)
+INFO    |130721 17:40:10|Skipping file <root>/administrator/language/en-GB/en-GB.com_banners.sys.ini (filter: srpfiles)
+INFO    |130721 17:40:10|Skipping file <root>/administrator/language/en-GB/en-GB.com_cache.ini (filter: srpfiles)
+INFO    |130721 17:40:10|Skipping file <root>/administrator/language/en-GB/en-GB.com_cache.sys.ini (filter: srpfiles)
+INFO    |130721 17:40:10|Skipping file <root>/administrator/language/en-GB/en-GB.com_categories.ini (filter: srpfiles)
+INFO    |130721 17:40:10|Skipping file <root>/administrator/language/en-GB/en-GB.com_categories.sys.ini (filter: srpfiles)
+INFO    |130721 17:40:10|Skipping file <root>/administrator/language/en-GB/en-GB.com_checkin.ini (filter: srpfiles)
+INFO    |130721 17:40:10|Skipping file <root>/administrator/language/en-GB/en-GB.com_checkin.sys.ini (filter: srpfiles)
+INFO    |130721 17:40:10|Skipping file <root>/administrator/language/en-GB/en-GB.com_config.ini (filter: srpfiles)
+INFO    |130721 17:40:10|Skipping file <root>/administrator/language/en-GB/en-GB.com_config.sys.ini (filter: srpfiles)
+INFO    |130721 17:40:10|Skipping file <root>/administrator/language/en-GB/en-GB.com_contact.ini (filter: srpfiles)
+INFO    |130721 17:40:10|Skipping file <root>/administrator/language/en-GB/en-GB.com_contact.sys.ini (filter: srpfiles)
+INFO    |130721 17:40:10|Skipping file <root>/administrator/language/en-GB/en-GB.com_content.ini (filter: srpfiles)
+INFO    |130721 17:40:10|Skipping file <root>/administrator/language/en-GB/en-GB.com_content.sys.ini (filter: srpfiles)
+INFO    |130721 17:40:10|Skipping file <root>/administrator/language/en-GB/en-GB.com_cpanel.ini (filter: srpfiles)
+INFO    |130721 17:40:10|Skipping file <root>/administrator/language/en-GB/en-GB.com_cpanel.sys.ini (filter: srpfiles)
+INFO    |130721 17:40:10|Skipping file <root>/administrator/language/en-GB/en-GB.com_finder.ini (filter: srpfiles)
+INFO    |130721 17:40:10|Skipping file <root>/administrator/language/en-GB/en-GB.com_finder.sys.ini (filter: srpfiles)
+INFO    |130721 17:40:10|Skipping file <root>/administrator/language/en-GB/en-GB.com_installer.ini (filter: srpfiles)
+INFO    |130721 17:40:10|Skipping file <root>/administrator/language/en-GB/en-GB.com_installer.sys.ini (filter: srpfiles)
+INFO    |130721 17:40:10|Skipping file <root>/administrator/language/en-GB/en-GB.com_jce.ini (filter: srpfiles)
+INFO    |130721 17:40:10|Skipping file <root>/administrator/language/en-GB/en-GB.com_jce.sys.ini (filter: srpfiles)
+INFO    |130721 17:40:10|Skipping file <root>/administrator/language/en-GB/en-GB.com_joomlaupdate.ini (filter: srpfiles)
+INFO    |130721 17:40:10|Skipping file <root>/administrator/language/en-GB/en-GB.com_joomlaupdate.sys.ini (filter: srpfiles)
+INFO    |130721 17:40:10|Skipping file <root>/administrator/language/en-GB/en-GB.com_languages.ini (filter: srpfiles)
+INFO    |130721 17:40:10|Skipping file <root>/administrator/language/en-GB/en-GB.com_languages.sys.ini (filter: srpfiles)
+INFO    |130721 17:40:10|Skipping file <root>/administrator/language/en-GB/en-GB.com_login.ini (filter: srpfiles)
+INFO    |130721 17:40:10|Skipping file <root>/administrator/language/en-GB/en-GB.com_login.sys.ini (filter: srpfiles)
+INFO    |130721 17:40:10|Skipping file <root>/administrator/language/en-GB/en-GB.com_mailto.sys.ini (filter: srpfiles)
+INFO    |130721 17:40:10|Skipping file <root>/administrator/language/en-GB/en-GB.com_media.ini (filter: srpfiles)
+INFO    |130721 17:40:10|Skipping file <root>/administrator/language/en-GB/en-GB.com_media.sys.ini (filter: srpfiles)
+INFO    |130721 17:40:10|Skipping file <root>/administrator/language/en-GB/en-GB.com_menus.ini (filter: srpfiles)
+INFO    |130721 17:40:10|Skipping file <root>/administrator/language/en-GB/en-GB.com_menus.sys.ini (filter: srpfiles)
+INFO    |130721 17:40:10|Skipping file <root>/administrator/language/en-GB/en-GB.com_messages.ini (filter: srpfiles)
+INFO    |130721 17:40:10|Skipping file <root>/administrator/language/en-GB/en-GB.com_messages.sys.ini (filter: srpfiles)
+INFO    |130721 17:40:10|Skipping file <root>/administrator/language/en-GB/en-GB.com_modules.ini (filter: srpfiles)
+INFO    |130721 17:40:10|Skipping file <root>/administrator/language/en-GB/en-GB.com_modules.sys.ini (filter: srpfiles)
+INFO    |130721 17:40:10|Skipping file <root>/administrator/language/en-GB/en-GB.com_newsfeeds.ini (filter: srpfiles)
+INFO    |130721 17:40:10|Skipping file <root>/administrator/language/en-GB/en-GB.com_newsfeeds.sys.ini (filter: srpfiles)
+INFO    |130721 17:40:10|Skipping file <root>/administrator/language/en-GB/en-GB.com_plugins.ini (filter: srpfiles)
+INFO    |130721 17:40:10|Skipping file <root>/administrator/language/en-GB/en-GB.com_plugins.sys.ini (filter: srpfiles)
+INFO    |130721 17:40:10|Skipping file <root>/administrator/language/en-GB/en-GB.com_redirect.ini (filter: srpfiles)
+INFO    |130721 17:40:10|Skipping file <root>/administrator/language/en-GB/en-GB.com_redirect.sys.ini (filter: srpfiles)
+INFO    |130721 17:40:10|Skipping file <root>/administrator/language/en-GB/en-GB.com_rsform.ini (filter: srpfiles)
+INFO    |130721 17:40:10|Skipping file <root>/administrator/language/en-GB/en-GB.com_rsform.sys.ini (filter: srpfiles)
+INFO    |130721 17:40:10|Skipping file <root>/administrator/language/en-GB/en-GB.com_search.ini (filter: srpfiles)
+INFO    |130721 17:40:10|Skipping file <root>/administrator/language/en-GB/en-GB.com_search.sys.ini (filter: srpfiles)
+INFO    |130721 17:40:10|Skipping file <root>/administrator/language/en-GB/en-GB.com_sef.ini (filter: srpfiles)
+INFO    |130721 17:40:10|Skipping file <root>/administrator/language/en-GB/en-GB.com_sef.sys.ini (filter: srpfiles)
+INFO    |130721 17:40:10|Skipping file <root>/administrator/language/en-GB/en-GB.com_templates.ini (filter: srpfiles)
+INFO    |130721 17:40:10|Skipping file <root>/administrator/language/en-GB/en-GB.com_templates.sys.ini (filter: srpfiles)
+INFO    |130721 17:40:10|Skipping file <root>/administrator/language/en-GB/en-GB.com_users.ini (filter: srpfiles)
+INFO    |130721 17:40:10|Skipping file <root>/administrator/language/en-GB/en-GB.com_users.sys.ini (filter: srpfiles)
+INFO    |130721 17:40:10|Skipping file <root>/administrator/language/en-GB/en-GB.com_watchfulli.ini (filter: srpfiles)
+INFO    |130721 17:40:10|Skipping file <root>/administrator/language/en-GB/en-GB.com_weblinks.ini (filter: srpfiles)
+INFO    |130721 17:40:10|Skipping file <root>/administrator/language/en-GB/en-GB.com_weblinks.sys.ini (filter: srpfiles)
+INFO    |130721 17:40:10|Skipping file <root>/administrator/language/en-GB/en-GB.com_wrapper.ini (filter: srpfiles)
+INFO    |130721 17:40:10|Skipping file <root>/administrator/language/en-GB/en-GB.com_wrapper.sys.ini (filter: srpfiles)
+INFO    |130721 17:40:10|Skipping file <root>/administrator/language/en-GB/en-GB.com_xmap.ini (filter: srpfiles)
+INFO    |130721 17:40:10|Skipping file <root>/administrator/language/en-GB/en-GB.com_xmap.sys.ini (filter: srpfiles)
+INFO    |130721 17:40:10|Skipping file <root>/administrator/language/en-GB/en-GB.com_zoo.ini (filter: srpfiles)
+INFO    |130721 17:40:10|Skipping file <root>/administrator/language/en-GB/en-GB.com_zoo.sys.ini (filter: srpfiles)
+INFO    |130721 17:40:10|Skipping file <root>/administrator/language/en-GB/en-GB.ini (filter: srpfiles)
+INFO    |130721 17:40:10|Skipping file <root>/administrator/language/en-GB/en-GB.lib_joomla.ini (filter: srpfiles)
+INFO    |130721 17:40:10|Skipping file <root>/administrator/language/en-GB/en-GB.localise.php (filter: srpfiles)
+INFO    |130721 17:40:10|Skipping file <root>/administrator/language/en-GB/en-GB.mod_akadmin.ini (filter: srpfiles)
+INFO    |130721 17:40:10|Skipping file <root>/administrator/language/en-GB/en-GB.mod_akadmin.sys.ini (filter: srpfiles)
+INFO    |130721 17:40:10|Skipping file <root>/administrator/language/en-GB/en-GB.mod_atjupgrade.ini (filter: srpfiles)
+INFO    |130721 17:40:10|Skipping file <root>/administrator/language/en-GB/en-GB.mod_atjupgrade.sys.ini (filter: srpfiles)
+INFO    |130721 17:40:10|Skipping file <root>/administrator/language/en-GB/en-GB.mod_custom.ini (filter: srpfiles)
+INFO    |130721 17:40:10|Skipping file <root>/administrator/language/en-GB/en-GB.mod_custom.sys.ini (filter: srpfiles)
+INFO    |130721 17:40:10|Skipping file <root>/administrator/language/en-GB/en-GB.mod_feed.ini (filter: srpfiles)
+INFO    |130721 17:40:10|Skipping file <root>/administrator/language/en-GB/en-GB.mod_feed.sys.ini (filter: srpfiles)
+INFO    |130721 17:40:10|Skipping file <root>/administrator/language/en-GB/en-GB.mod_latest.ini (filter: srpfiles)
+INFO    |130721 17:40:10|Skipping file <root>/administrator/language/en-GB/en-GB.mod_latest.sys.ini (filter: srpfiles)
+INFO    |130721 17:40:10|Skipping file <root>/administrator/language/en-GB/en-GB.mod_logged.ini (filter: srpfiles)
+INFO    |130721 17:40:10|Skipping file <root>/administrator/language/en-GB/en-GB.mod_logged.sys.ini (filter: srpfiles)
+INFO    |130721 17:40:10|Skipping file <root>/administrator/language/en-GB/en-GB.mod_login.ini (filter: srpfiles)
+INFO    |130721 17:40:10|Skipping file <root>/administrator/language/en-GB/en-GB.mod_login.sys.ini (filter: srpfiles)
+INFO    |130721 17:40:10|Skipping file <root>/administrator/language/en-GB/en-GB.mod_menu.ini (filter: srpfiles)
+INFO    |130721 17:40:10|Skipping file <root>/administrator/language/en-GB/en-GB.mod_menu.sys.ini (filter: srpfiles)
+INFO    |130721 17:40:10|Skipping file <root>/administrator/language/en-GB/en-GB.mod_multilangstatus.ini (filter: srpfiles)
+INFO    |130721 17:40:10|Skipping file <root>/administrator/language/en-GB/en-GB.mod_multilangstatus.sys.ini (filter: srpfiles)
+INFO    |130721 17:40:10|Skipping file <root>/administrator/language/en-GB/en-GB.mod_popular.ini (filter: srpfiles)
+INFO    |130721 17:40:10|Skipping file <root>/administrator/language/en-GB/en-GB.mod_popular.sys.ini (filter: srpfiles)
+INFO    |130721 17:40:10|Skipping file <root>/administrator/language/en-GB/en-GB.mod_quickicon.ini (filter: srpfiles)
+INFO    |130721 17:40:10|Skipping file <root>/administrator/language/en-GB/en-GB.mod_quickicon.sys.ini (filter: srpfiles)
+INFO    |130721 17:40:10|Skipping file <root>/administrator/language/en-GB/en-GB.mod_status.ini (filter: srpfiles)
+INFO    |130721 17:40:10|Skipping file <root>/administrator/language/en-GB/en-GB.mod_status.sys.ini (filter: srpfiles)
+INFO    |130721 17:40:10|Skipping file <root>/administrator/language/en-GB/en-GB.mod_submenu.ini (filter: srpfiles)
+INFO    |130721 17:40:10|Skipping file <root>/administrator/language/en-GB/en-GB.mod_submenu.sys.ini (filter: srpfiles)
+INFO    |130721 17:40:10|Skipping file <root>/administrator/language/en-GB/en-GB.mod_title.ini (filter: srpfiles)
+INFO    |130721 17:40:10|Skipping file <root>/administrator/language/en-GB/en-GB.mod_title.sys.ini (filter: srpfiles)
+INFO    |130721 17:40:10|Skipping file <root>/administrator/language/en-GB/en-GB.mod_toolbar.ini (filter: srpfiles)
+INFO    |130721 17:40:10|Skipping file <root>/administrator/language/en-GB/en-GB.mod_toolbar.sys.ini (filter: srpfiles)
+INFO    |130721 17:40:10|Skipping file <root>/administrator/language/en-GB/en-GB.mod_version.ini (filter: srpfiles)
+INFO    |130721 17:40:10|Skipping file <root>/administrator/language/en-GB/en-GB.mod_version.sys.ini (filter: srpfiles)
+INFO    |130721 17:40:10|Skipping file <root>/administrator/language/en-GB/en-GB.plg_authentication_gmail.ini (filter: srpfiles)
+INFO    |130721 17:40:10|Skipping file <root>/administrator/language/en-GB/en-GB.plg_authentication_gmail.sys.ini (filter: srpfiles)
+INFO    |130721 17:40:10|Skipping file <root>/administrator/language/en-GB/en-GB.plg_authentication_joomla.ini (filter: srpfiles)
+INFO    |130721 17:40:10|Skipping file <root>/administrator/language/en-GB/en-GB.plg_authentication_joomla.sys.ini (filter: srpfiles)
+INFO    |130721 17:40:10|Skipping file <root>/administrator/language/en-GB/en-GB.plg_authentication_ldap.ini (filter: srpfiles)
+INFO    |130721 17:40:10|Skipping file <root>/administrator/language/en-GB/en-GB.plg_authentication_ldap.sys.ini (filter: srpfiles)
+INFO    |130721 17:40:10|Skipping file <root>/administrator/language/en-GB/en-GB.plg_captcha_recaptcha.ini (filter: srpfiles)
+INFO    |130721 17:40:10|Skipping file <root>/administrator/language/en-GB/en-GB.plg_captcha_recaptcha.sys.ini (filter: srpfiles)
+INFO    |130721 17:40:10|Skipping file <root>/administrator/language/en-GB/en-GB.plg_content_emailcloak.ini (filter: srpfiles)
+INFO    |130721 17:40:10|Skipping file <root>/administrator/language/en-GB/en-GB.plg_content_emailcloak.sys.ini (filter: srpfiles)
+INFO    |130721 17:40:10|Skipping file <root>/administrator/language/en-GB/en-GB.plg_content_finder.ini (filter: srpfiles)
+INFO    |130721 17:40:10|Skipping file <root>/administrator/language/en-GB/en-GB.plg_content_finder.sys.ini (filter: srpfiles)
+INFO    |130721 17:40:10|Skipping file <root>/administrator/language/en-GB/en-GB.plg_content_geshi.ini (filter: srpfiles)
+INFO    |130721 17:40:10|Skipping file <root>/administrator/language/en-GB/en-GB.plg_content_geshi.sys.ini (filter: srpfiles)
+INFO    |130721 17:40:10|Skipping file <root>/administrator/language/en-GB/en-GB.plg_content_joomla.ini (filter: srpfiles)
+INFO    |130721 17:40:10|Skipping file <root>/administrator/language/en-GB/en-GB.plg_content_joomla.sys.ini (filter: srpfiles)
+INFO    |130721 17:40:10|Skipping file <root>/administrator/language/en-GB/en-GB.plg_content_joomsef.ini (filter: srpfiles)
+INFO    |130721 17:40:10|Skipping file <root>/administrator/language/en-GB/en-GB.plg_content_joomsef.sys.ini (filter: srpfiles)
+INFO    |130721 17:40:10|Skipping file <root>/administrator/language/en-GB/en-GB.plg_content_loadmodule.ini (filter: srpfiles)
+INFO    |130721 17:40:10|Skipping file <root>/administrator/language/en-GB/en-GB.plg_content_loadmodule.sys.ini (filter: srpfiles)
+INFO    |130721 17:40:10|Skipping file <root>/administrator/language/en-GB/en-GB.plg_content_pagebreak.ini (filter: srpfiles)
+INFO    |130721 17:40:10|Skipping file <root>/administrator/language/en-GB/en-GB.plg_content_pagebreak.sys.ini (filter: srpfiles)
+INFO    |130721 17:40:10|Skipping file <root>/administrator/language/en-GB/en-GB.plg_content_pagenavigation.ini (filter: srpfiles)
+INFO    |130721 17:40:10|Skipping file <root>/administrator/language/en-GB/en-GB.plg_content_pagenavigation.sys.ini (filter: srpfiles)
+INFO    |130721 17:40:10|Skipping file <root>/administrator/language/en-GB/en-GB.plg_content_vote.ini (filter: srpfiles)
+INFO    |130721 17:40:10|Skipping file <root>/administrator/language/en-GB/en-GB.plg_content_vote.sys.ini (filter: srpfiles)
+INFO    |130721 17:40:10|Skipping file <root>/administrator/language/en-GB/en-GB.plg_editors-xtd_article.ini (filter: srpfiles)
+INFO    |130721 17:40:10|Skipping file <root>/administrator/language/en-GB/en-GB.plg_editors-xtd_article.sys.ini (filter: srpfiles)
+INFO    |130721 17:40:10|Skipping file <root>/administrator/language/en-GB/en-GB.plg_editors-xtd_image.ini (filter: srpfiles)
+INFO    |130721 17:40:10|Skipping file <root>/administrator/language/en-GB/en-GB.plg_editors-xtd_image.sys.ini (filter: srpfiles)
+INFO    |130721 17:40:10|Skipping file <root>/administrator/language/en-GB/en-GB.plg_editors-xtd_pagebreak.ini (filter: srpfiles)
+INFO    |130721 17:40:10|Skipping file <root>/administrator/language/en-GB/en-GB.plg_editors-xtd_pagebreak.sys.ini (filter: srpfiles)
+INFO    |130721 17:40:10|Skipping file <root>/administrator/language/en-GB/en-GB.plg_editors-xtd_readmore.ini (filter: srpfiles)
+INFO    |130721 17:40:10|Skipping file <root>/administrator/language/en-GB/en-GB.plg_editors-xtd_readmore.sys.ini (filter: srpfiles)
+INFO    |130721 17:40:10|Skipping file <root>/administrator/language/en-GB/en-GB.plg_editors_codemirror.ini (filter: srpfiles)
+INFO    |130721 17:40:10|Skipping file <root>/administrator/language/en-GB/en-GB.plg_editors_codemirror.sys.ini (filter: srpfiles)
+INFO    |130721 17:40:10|Skipping file <root>/administrator/language/en-GB/en-GB.plg_editors_jce.ini (filter: srpfiles)
+INFO    |130721 17:40:10|Skipping file <root>/administrator/language/en-GB/en-GB.plg_editors_jce.sys.ini (filter: srpfiles)
+INFO    |130721 17:40:10|Skipping file <root>/administrator/language/en-GB/en-GB.plg_editors_none.ini (filter: srpfiles)
+INFO    |130721 17:40:10|Skipping file <root>/administrator/language/en-GB/en-GB.plg_editors_none.sys.ini (filter: srpfiles)
+INFO    |130721 17:40:10|Skipping file <root>/administrator/language/en-GB/en-GB.plg_editors_tinymce.ini (filter: srpfiles)
+INFO    |130721 17:40:10|Skipping file <root>/administrator/language/en-GB/en-GB.plg_editors_tinymce.sys.ini (filter: srpfiles)
+INFO    |130721 17:40:10|Skipping file <root>/administrator/language/en-GB/en-GB.plg_extension_joomla.ini (filter: srpfiles)
+INFO    |130721 17:40:10|Skipping file <root>/administrator/language/en-GB/en-GB.plg_extension_joomla.sys.ini (filter: srpfiles)
+INFO    |130721 17:40:10|Skipping file <root>/administrator/language/en-GB/en-GB.plg_extension_joomsefinstall.ini (filter: srpfiles)
+INFO    |130721 17:40:10|Skipping file <root>/administrator/language/en-GB/en-GB.plg_extension_joomsefinstall.sys.ini (filter: srpfiles)
+INFO    |130721 17:40:10|Skipping file <root>/administrator/language/en-GB/en-GB.plg_finder_categories.ini (filter: srpfiles)
+INFO    |130721 17:40:10|Skipping file <root>/administrator/language/en-GB/en-GB.plg_finder_categories.sys.ini (filter: srpfiles)
+INFO    |130721 17:40:10|Skipping file <root>/administrator/language/en-GB/en-GB.plg_finder_contacts.ini (filter: srpfiles)
+INFO    |130721 17:40:10|Skipping file <root>/administrator/language/en-GB/en-GB.plg_finder_contacts.sys.ini (filter: srpfiles)
+INFO    |130721 17:40:10|Skipping file <root>/administrator/language/en-GB/en-GB.plg_finder_content.ini (filter: srpfiles)
+INFO    |130721 17:40:10|Skipping file <root>/administrator/language/en-GB/en-GB.plg_finder_content.sys.ini (filter: srpfiles)
+INFO    |130721 17:40:10|Skipping file <root>/administrator/language/en-GB/en-GB.plg_finder_newsfeeds.ini (filter: srpfiles)
+INFO    |130721 17:40:10|Skipping file <root>/administrator/language/en-GB/en-GB.plg_finder_newsfeeds.sys.ini (filter: srpfiles)
+INFO    |130721 17:40:10|Skipping file <root>/administrator/language/en-GB/en-GB.plg_finder_weblinks.ini (filter: srpfiles)
+INFO    |130721 17:40:10|Skipping file <root>/administrator/language/en-GB/en-GB.plg_finder_weblinks.sys.ini (filter: srpfiles)
+INFO    |130721 17:40:10|Skipping file <root>/administrator/language/en-GB/en-GB.plg_jmonitoring_akeebabackup.ini (filter: srpfiles)
+INFO    |130721 17:40:10|Skipping file <root>/administrator/language/en-GB/en-GB.plg_jmonitoring_akeebabackup.sys.ini (filter: srpfiles)
+INFO    |130721 17:40:10|Skipping file <root>/administrator/language/en-GB/en-GB.plg_quickicon_akeebabackup.ini (filter: srpfiles)
+INFO    |130721 17:40:10|Skipping file <root>/administrator/language/en-GB/en-GB.plg_quickicon_akeebabackup.sys.ini (filter: srpfiles)
+INFO    |130721 17:40:10|Skipping file <root>/administrator/language/en-GB/en-GB.plg_quickicon_atoolsjupdatecheck.ini (filter: srpfiles)
+INFO    |130721 17:40:10|Skipping file <root>/administrator/language/en-GB/en-GB.plg_quickicon_atoolsjupdatecheck.sys.ini (filter: srpfiles)
+INFO    |130721 17:40:10|Skipping file <root>/administrator/language/en-GB/en-GB.plg_quickicon_extensionupdate.ini (filter: srpfiles)
+INFO    |130721 17:40:10|Skipping file <root>/administrator/language/en-GB/en-GB.plg_quickicon_extensionupdate.sys.ini (filter: srpfiles)
+INFO    |130721 17:40:10|Skipping file <root>/administrator/language/en-GB/en-GB.plg_quickicon_jcefilebrowser.ini (filter: srpfiles)
+INFO    |130721 17:40:10|Skipping file <root>/administrator/language/en-GB/en-GB.plg_quickicon_jcefilebrowser.sys.ini (filter: srpfiles)
+INFO    |130721 17:40:10|Skipping file <root>/administrator/language/en-GB/en-GB.plg_quickicon_joomlaupdate.ini (filter: srpfiles)
+INFO    |130721 17:40:10|Skipping file <root>/administrator/language/en-GB/en-GB.plg_quickicon_joomlaupdate.sys.ini (filter: srpfiles)
+INFO    |130721 17:40:10|Skipping file <root>/administrator/language/en-GB/en-GB.plg_search_categories.ini (filter: srpfiles)
+INFO    |130721 17:40:10|Skipping file <root>/administrator/language/en-GB/en-GB.plg_search_categories.sys.ini (filter: srpfiles)
+INFO    |130721 17:40:10|Skipping file <root>/administrator/language/en-GB/en-GB.plg_search_contacts.ini (filter: srpfiles)
+INFO    |130721 17:40:10|Skipping file <root>/administrator/language/en-GB/en-GB.plg_search_contacts.sys.ini (filter: srpfiles)
+INFO    |130721 17:40:10|Skipping file <root>/administrator/language/en-GB/en-GB.plg_search_content.ini (filter: srpfiles)
+INFO    |130721 17:40:10|Skipping file <root>/administrator/language/en-GB/en-GB.plg_search_content.sys.ini (filter: srpfiles)
+INFO    |130721 17:40:10|Skipping file <root>/administrator/language/en-GB/en-GB.plg_search_newsfeeds.ini (filter: srpfiles)
+INFO    |130721 17:40:10|Skipping file <root>/administrator/language/en-GB/en-GB.plg_search_newsfeeds.sys.ini (filter: srpfiles)
+INFO    |130721 17:40:10|Skipping file <root>/administrator/language/en-GB/en-GB.plg_search_weblinks.ini (filter: srpfiles)
+INFO    |130721 17:40:10|Skipping file <root>/administrator/language/en-GB/en-GB.plg_search_weblinks.sys.ini (filter: srpfiles)
+INFO    |130721 17:40:10|Skipping file <root>/administrator/language/en-GB/en-GB.plg_system_admintools.ini (filter: srpfiles)
+INFO    |130721 17:40:10|Skipping file <root>/administrator/language/en-GB/en-GB.plg_system_admintools.sys.ini (filter: srpfiles)
+INFO    |130721 17:40:10|Skipping file <root>/administrator/language/en-GB/en-GB.plg_system_akeebaupdatecheck.ini (filter: srpfiles)
+INFO    |130721 17:40:10|Skipping file <root>/administrator/language/en-GB/en-GB.plg_system_akeebaupdatecheck.sys.ini (filter: srpfiles)
+INFO    |130721 17:40:10|Skipping file <root>/administrator/language/en-GB/en-GB.plg_system_aklazy.ini (filter: srpfiles)
+INFO    |130721 17:40:10|Skipping file <root>/administrator/language/en-GB/en-GB.plg_system_aklazy.sys.ini (filter: srpfiles)
+INFO    |130721 17:40:10|Skipping file <root>/administrator/language/en-GB/en-GB.plg_system_atoolsjupdatecheck.ini (filter: srpfiles)
+INFO    |130721 17:40:10|Skipping file <root>/administrator/language/en-GB/en-GB.plg_system_atoolsjupdatecheck.sys.ini (filter: srpfiles)
+INFO    |130721 17:40:10|Skipping file <root>/administrator/language/en-GB/en-GB.plg_system_atoolsupdatecheck.ini (filter: srpfiles)
+INFO    |130721 17:40:10|Skipping file <root>/administrator/language/en-GB/en-GB.plg_system_atoolsupdatecheck.sys.ini (filter: srpfiles)
+INFO    |130721 17:40:10|Skipping file <root>/administrator/language/en-GB/en-GB.plg_system_cache.ini (filter: srpfiles)
+INFO    |130721 17:40:10|Skipping file <root>/administrator/language/en-GB/en-GB.plg_system_cache.sys.ini (filter: srpfiles)
+INFO    |130721 17:40:10|Skipping file <root>/administrator/language/en-GB/en-GB.plg_system_debug.ini (filter: srpfiles)
+INFO    |130721 17:40:10|Skipping file <root>/administrator/language/en-GB/en-GB.plg_system_debug.sys.ini (filter: srpfiles)
+INFO    |130721 17:40:10|Skipping file <root>/administrator/language/en-GB/en-GB.plg_system_highlight.ini (filter: srpfiles)
+INFO    |130721 17:40:10|Skipping file <root>/administrator/language/en-GB/en-GB.plg_system_highlight.sys.ini (filter: srpfiles)
+INFO    |130721 17:40:10|Skipping file <root>/administrator/language/en-GB/en-GB.plg_system_joomsef.ini (filter: srpfiles)
+INFO    |130721 17:40:10|Skipping file <root>/administrator/language/en-GB/en-GB.plg_system_joomsef.sys.ini (filter: srpfiles)
+INFO    |130721 17:40:10|Skipping file <root>/administrator/language/en-GB/en-GB.plg_system_joomseflang.ini (filter: srpfiles)
+INFO    |130721 17:40:10|Skipping file <root>/administrator/language/en-GB/en-GB.plg_system_joomseflang.sys.ini (filter: srpfiles)
+INFO    |130721 17:40:10|Skipping file <root>/administrator/language/en-GB/en-GB.plg_system_languagecode.ini (filter: srpfiles)
+INFO    |130721 17:40:10|Skipping file <root>/administrator/language/en-GB/en-GB.plg_system_languagecode.sys.ini (filter: srpfiles)
+INFO    |130721 17:40:10|Skipping file <root>/administrator/language/en-GB/en-GB.plg_system_languagefilter.ini (filter: srpfiles)
+INFO    |130721 17:40:10|Skipping file <root>/administrator/language/en-GB/en-GB.plg_system_languagefilter.sys.ini (filter: srpfiles)
+INFO    |130721 17:40:10|Skipping file <root>/administrator/language/en-GB/en-GB.plg_system_log.ini (filter: srpfiles)
+INFO    |130721 17:40:10|Skipping file <root>/administrator/language/en-GB/en-GB.plg_system_log.sys.ini (filter: srpfiles)
+INFO    |130721 17:40:10|Skipping file <root>/administrator/language/en-GB/en-GB.plg_system_logout.ini (filter: srpfiles)
+INFO    |130721 17:40:10|Skipping file <root>/administrator/language/en-GB/en-GB.plg_system_logout.sys.ini (filter: srpfiles)
+INFO    |130721 17:40:10|Skipping file <root>/administrator/language/en-GB/en-GB.plg_system_oneclickaction.ini (filter: srpfiles)
+INFO    |130721 17:40:10|Skipping file <root>/administrator/language/en-GB/en-GB.plg_system_oneclickaction.sys.ini (filter: srpfiles)
+INFO    |130721 17:40:10|Skipping file <root>/administrator/language/en-GB/en-GB.plg_system_p3p.ini (filter: srpfiles)
+INFO    |130721 17:40:10|Skipping file <root>/administrator/language/en-GB/en-GB.plg_system_p3p.sys.ini (filter: srpfiles)
+INFO    |130721 17:40:10|Skipping file <root>/administrator/language/en-GB/en-GB.plg_system_redirect.ini (filter: srpfiles)
+INFO    |130721 17:40:10|Skipping file <root>/administrator/language/en-GB/en-GB.plg_system_redirect.sys.ini (filter: srpfiles)
+INFO    |130721 17:40:10|Skipping file <root>/administrator/language/en-GB/en-GB.plg_system_remember.ini (filter: srpfiles)
+INFO    |130721 17:40:10|Skipping file <root>/administrator/language/en-GB/en-GB.plg_system_remember.sys.ini (filter: srpfiles)
+INFO    |130721 17:40:10|Skipping file <root>/administrator/language/en-GB/en-GB.plg_system_rsform.ini (filter: srpfiles)
+INFO    |130721 17:40:10|Skipping file <root>/administrator/language/en-GB/en-GB.plg_system_rsform.sys.ini (filter: srpfiles)
+INFO    |130721 17:40:10|Skipping file <root>/administrator/language/en-GB/en-GB.plg_system_rsfprecaptcha.ini (filter: srpfiles)
+INFO    |130721 17:40:10|Skipping file <root>/administrator/language/en-GB/en-GB.plg_system_rsfprecaptcha.sys.ini (filter: srpfiles)
+INFO    |130721 17:40:10|Skipping file <root>/administrator/language/en-GB/en-GB.plg_system_rsfpregistration.ini (filter: srpfiles)
+INFO    |130721 17:40:10|Skipping file <root>/administrator/language/en-GB/en-GB.plg_system_rsfpregistration.sys.ini (filter: srpfiles)
+INFO    |130721 17:40:10|Skipping file <root>/administrator/language/en-GB/en-GB.plg_system_sef.ini (filter: srpfiles)
+INFO    |130721 17:40:10|Skipping file <root>/administrator/language/en-GB/en-GB.plg_system_sef.sys.ini (filter: srpfiles)
+INFO    |130721 17:40:10|Skipping file <root>/administrator/language/en-GB/en-GB.plg_system_srp.ini (filter: srpfiles)
+INFO    |130721 17:40:10|Skipping file <root>/administrator/language/en-GB/en-GB.plg_system_srp.sys.ini (filter: srpfiles)
+INFO    |130721 17:40:10|Skipping file <root>/administrator/language/en-GB/en-GB.plg_user_contactcreator.ini (filter: srpfiles)
+INFO    |130721 17:40:10|Skipping file <root>/administrator/language/en-GB/en-GB.plg_user_contactcreator.sys.ini (filter: srpfiles)
+INFO    |130721 17:40:10|Skipping file <root>/administrator/language/en-GB/en-GB.plg_user_joomla.ini (filter: srpfiles)
+INFO    |130721 17:40:10|Skipping file <root>/administrator/language/en-GB/en-GB.plg_user_joomla.sys.ini (filter: srpfiles)
+INFO    |130721 17:40:10|Skipping file <root>/administrator/language/en-GB/en-GB.plg_user_profile.ini (filter: srpfiles)
+INFO    |130721 17:40:10|Skipping file <root>/administrator/language/en-GB/en-GB.plg_user_profile.sys.ini (filter: srpfiles)
+INFO    |130721 17:40:10|Skipping file <root>/administrator/language/en-GB/en-GB.plg_xmap_com_content.ini (filter: srpfiles)
+INFO    |130721 17:40:10|Skipping file <root>/administrator/language/en-GB/en-GB.tpl_bluestork.ini (filter: srpfiles)
+INFO    |130721 17:40:10|Skipping file <root>/administrator/language/en-GB/en-GB.tpl_bluestork.sys.ini (filter: srpfiles)
+INFO    |130721 17:40:10|Skipping file <root>/administrator/language/en-GB/en-GB.tpl_hathor.ini (filter: srpfiles)
+INFO    |130721 17:40:10|Skipping file <root>/administrator/language/en-GB/en-GB.tpl_hathor.sys.ini (filter: srpfiles)
+INFO    |130721 17:40:10|Skipping file <root>/administrator/language/en-GB/en-GB.xml (filter: srpfiles)
+INFO    |130721 17:40:10|Skipping file <root>/administrator/language/en-GB/index.html (filter: srpfiles)
+DEBUG   |130721 17:40:10|Packing files
+DEBUG   |130721 17:40:10|-- Adding administrator/language/en-GB/en-GB.com_widgetkit.sys.ini to archive (source: <root>/administrator/language/en-GB/en-GB.com_widgetkit.sys.ini)
+INFO    |130721 17:40:10|Skipping directory <root>/administrator/includes
+INFO    |130721 17:40:10|Skipping directory <root>/administrator/help
+INFO    |130721 17:40:10|Scanning directories of <root>/administrator/components
+INFO    |130721 17:40:10|Skipping files of directory <root>/administrator/components
+DEBUG   |130721 17:40:10|-- Adding administrator/components to archive (source: <root>/administrator/components)
+INFO    |130721 17:40:10|Empty directory <root>/administrator/components
+INFO    |130721 17:40:10|Skipping directory <root>/administrator/components/com_zoo
+INFO    |130721 17:40:10|Skipping directory <root>/administrator/components/com_xmap
+INFO    |130721 17:40:10|Scanning directories of <root>/administrator/components/com_widgetkit
+INFO    |130721 17:40:10|Scanning files of <root>/administrator/components/com_widgetkit
+DEBUG   |130721 17:40:10|Packing files
+DEBUG   |130721 17:40:10|-- Adding administrator/components/com_widgetkit/installer.php to archive (source: <root>/administrator/components/com_widgetkit/installer.php)
+DEBUG   |130721 17:40:10|-- Adding administrator/components/com_widgetkit/README.markdown to archive (source: <root>/administrator/components/com_widgetkit/README.markdown)
+DEBUG   |130721 17:40:10|-- Adding administrator/components/com_widgetkit/widgetkit.php to archive (source: <root>/administrator/components/com_widgetkit/widgetkit.php)
+DEBUG   |130721 17:40:10|-- Adding administrator/components/com_widgetkit/widgetkit.xml to archive (source: <root>/administrator/components/com_widgetkit/widgetkit.xml)
+INFO    |130721 17:40:10|Scanning directories of <root>/administrator/components/com_widgetkit/layouts
+INFO    |130721 17:40:10|Scanning files of <root>/administrator/components/com_widgetkit/layouts
+DEBUG   |130721 17:40:10|Packing files
+DEBUG   |130721 17:40:10|-- Adding administrator/components/com_widgetkit/layouts/assets.php to archive (source: <root>/administrator/components/com_widgetkit/layouts/assets.php)
+DEBUG   |130721 17:40:10|-- Adding administrator/components/com_widgetkit/layouts/dashboard.php to archive (source: <root>/administrator/components/com_widgetkit/layouts/dashboard.php)
+DEBUG   |130721 17:40:10|-- Adding administrator/components/com_widgetkit/layouts/task.php to archive (source: <root>/administrator/components/com_widgetkit/layouts/task.php)
+DEBUG   |130721 17:40:10|-- Adding administrator/components/com_widgetkit/layouts/title.php to archive (source: <root>/administrator/components/com_widgetkit/layouts/title.php)
+INFO    |130721 17:40:10|Scanning directories of <root>/administrator/components/com_widgetkit/layouts/fields
+INFO    |130721 17:40:10|Scanning files of <root>/administrator/components/com_widgetkit/layouts/fields
+DEBUG   |130721 17:40:10|Packing files
+DEBUG   |130721 17:40:10|-- Adding administrator/components/com_widgetkit/layouts/fields/html.php to archive (source: <root>/administrator/components/com_widgetkit/layouts/fields/html.php)
+DEBUG   |130721 17:40:10|-- Adding administrator/components/com_widgetkit/layouts/fields/list.php to archive (source: <root>/administrator/components/com_widgetkit/layouts/fields/list.php)
+DEBUG   |130721 17:40:10|-- Adding administrator/components/com_widgetkit/layouts/fields/location.php to archive (source: <root>/administrator/components/com_widgetkit/layouts/fields/location.php)
+DEBUG   |130721 17:40:10|-- Adding administrator/components/com_widgetkit/layouts/fields/radio.php to archive (source: <root>/administrator/components/com_widgetkit/layouts/fields/radio.php)
+DEBUG   |130721 17:40:10|-- Adding administrator/components/com_widgetkit/layouts/fields/style.php to archive (source: <root>/administrator/components/com_widgetkit/layouts/fields/style.php)
+DEBUG   |130721 17:40:10|-- Adding administrator/components/com_widgetkit/layouts/fields/text.php to archive (source: <root>/administrator/components/com_widgetkit/layouts/fields/text.php)
+DEBUG   |130721 17:40:10|-- Adding administrator/components/com_widgetkit/layouts/fields/textarea.php to archive (source: <root>/administrator/components/com_widgetkit/layouts/fields/textarea.php)
+DEBUG   |130721 17:40:10|-- Adding administrator/components/com_widgetkit/layouts/fields/title.php to archive (source: <root>/administrator/components/com_widgetkit/layouts/fields/title.php)
+DEBUG   |130721 17:40:10|-- Adding administrator/components/com_widgetkit/layouts/fields/widget.php to archive (source: <root>/administrator/components/com_widgetkit/layouts/fields/widget.php)
+INFO    |130721 17:40:10|Scanning directories of <root>/administrator/components/com_widgetkit/language
+INFO    |130721 17:40:10|Scanning files of <root>/administrator/components/com_widgetkit/language
+DEBUG   |130721 17:40:10|-- Adding administrator/components/com_widgetkit/language to archive (source: <root>/administrator/components/com_widgetkit/language)
+INFO    |130721 17:40:10|Empty directory <root>/administrator/components/com_widgetkit/language
+INFO    |130721 17:40:10|Scanning directories of <root>/administrator/components/com_widgetkit/language/en-GB
+INFO    |130721 17:40:10|Scanning files of <root>/administrator/components/com_widgetkit/language/en-GB
+DEBUG   |130721 17:40:10|Packing files
+DEBUG   |130721 17:40:10|-- Adding administrator/components/com_widgetkit/language/en-GB/en-GB.com_widgetkit.sys.ini to archive (source: <root>/administrator/components/com_widgetkit/language/en-GB/en-GB.com_widgetkit.sys.ini)
+DEBUG   |130721 17:40:10|-- Adding administrator/components/com_widgetkit/language/en-GB/en-GB.widgetkit.ini to archive (source: <root>/administrator/components/com_widgetkit/language/en-GB/en-GB.widgetkit.ini)
+INFO    |130721 17:40:10|Scanning directories of <root>/administrator/components/com_widgetkit/js
+INFO    |130721 17:40:10|Scanning files of <root>/administrator/components/com_widgetkit/js
+DEBUG   |130721 17:40:10|Packing files
+DEBUG   |130721 17:40:10|-- Adding administrator/components/com_widgetkit/js/admin.js to archive (source: <root>/administrator/components/com_widgetkit/js/admin.js)
+DEBUG   |130721 17:40:10|-- Adding administrator/components/com_widgetkit/js/jquery.ui.js to archive (source: <root>/administrator/components/com_widgetkit/js/jquery.ui.js)
+INFO    |130721 17:40:10|Scanning directories of <root>/administrator/components/com_widgetkit/installation
+INFO    |130721 17:40:10|Scanning files of <root>/administrator/components/com_widgetkit/installation
+DEBUG   |130721 17:40:10|Packing files
+DEBUG   |130721 17:40:10|-- Adding administrator/components/com_widgetkit/installation/install.sql to archive (source: <root>/administrator/components/com_widgetkit/installation/install.sql)
+DEBUG   |130721 17:40:10|-- Adding administrator/components/com_widgetkit/installation/uninstall.sql to archive (source: <root>/administrator/components/com_widgetkit/installation/uninstall.sql)
+INFO    |130721 17:40:10|Scanning directories of <root>/administrator/components/com_widgetkit/images
+INFO    |130721 17:40:10|Scanning files of <root>/administrator/components/com_widgetkit/images
+DEBUG   |130721 17:40:10|Packing files
+DEBUG   |130721 17:40:10|-- Adding administrator/components/com_widgetkit/images/close.png to archive (source: <root>/administrator/components/com_widgetkit/images/close.png)
+DEBUG   |130721 17:40:10|-- Adding administrator/components/com_widgetkit/images/delete.png to archive (source: <root>/administrator/components/com_widgetkit/images/delete.png)
+DEBUG   |130721 17:40:10|-- Adding administrator/components/com_widgetkit/images/folder.png to archive (source: <root>/administrator/components/com_widgetkit/images/folder.png)
+DEBUG   |130721 17:40:10|-- Adding administrator/components/com_widgetkit/images/folder_open.png to archive (source: <root>/administrator/components/com_widgetkit/images/folder_open.png)
+DEBUG   |130721 17:40:10|-- Adding administrator/components/com_widgetkit/images/loader.gif to archive (source: <root>/administrator/components/com_widgetkit/images/loader.gif)
+DEBUG   |130721 17:40:10|-- Adding administrator/components/com_widgetkit/images/loader_big.gif to archive (source: <root>/administrator/components/com_widgetkit/images/loader_big.gif)
+DEBUG   |130721 17:40:10|-- Adding administrator/components/com_widgetkit/images/widgetkit.png to archive (source: <root>/administrator/components/com_widgetkit/images/widgetkit.png)
+DEBUG   |130721 17:40:10|-- Adding administrator/components/com_widgetkit/images/widgetkit_16.png to archive (source: <root>/administrator/components/com_widgetkit/images/widgetkit_16.png)
+DEBUG   |130721 17:40:10|-- Adding administrator/components/com_widgetkit/images/world.png to archive (source: <root>/administrator/components/com_widgetkit/images/world.png)
+INFO    |130721 17:40:10|Scanning directories of <root>/administrator/components/com_widgetkit/helpers
+INFO    |130721 17:40:10|Scanning files of <root>/administrator/components/com_widgetkit/helpers
+DEBUG   |130721 17:40:10|Packing files
+DEBUG   |130721 17:40:10|-- Adding administrator/components/com_widgetkit/helpers/asset.php to archive (source: <root>/administrator/components/com_widgetkit/helpers/asset.php)
+DEBUG   |130721 17:40:10|-- Adding administrator/components/com_widgetkit/helpers/assetfilter.php to archive (source: <root>/administrator/components/com_widgetkit/helpers/assetfilter.php)
+DEBUG   |130721 17:40:10|-- Adding administrator/components/com_widgetkit/helpers/check.php to archive (source: <root>/administrator/components/com_widgetkit/helpers/check.php)
+DEBUG   |130721 17:40:10|-- Adding administrator/components/com_widgetkit/helpers/data.php to archive (source: <root>/administrator/components/com_widgetkit/helpers/data.php)
+DEBUG   |130721 17:40:10|-- Adding administrator/components/com_widgetkit/helpers/dom.php to archive (source: <root>/administrator/components/com_widgetkit/helpers/dom.php)
+DEBUG   |130721 17:40:10|-- Adding administrator/components/com_widgetkit/helpers/editor.php to archive (source: <root>/administrator/components/com_widgetkit/helpers/editor.php)
+DEBUG   |130721 17:40:10|-- Adding administrator/components/com_widgetkit/helpers/event.php to archive (source: <root>/administrator/components/com_widgetkit/helpers/event.php)
+DEBUG   |130721 17:40:10|-- Adding administrator/components/com_widgetkit/helpers/field.php to archive (source: <root>/administrator/components/com_widgetkit/helpers/field.php)
+DEBUG   |130721 17:40:10|-- Adding administrator/components/com_widgetkit/helpers/http.php to archive (source: <root>/administrator/components/com_widgetkit/helpers/http.php)
+DEBUG   |130721 17:40:10|-- Adding administrator/components/com_widgetkit/helpers/image.php to archive (source: <root>/administrator/components/com_widgetkit/helpers/image.php)
+DEBUG   |130721 17:40:10|-- Adding administrator/components/com_widgetkit/helpers/option.php to archive (source: <root>/administrator/components/com_widgetkit/helpers/option.php)
+DEBUG   |130721 17:40:10|-- Adding administrator/components/com_widgetkit/helpers/path.php to archive (source: <root>/administrator/components/com_widgetkit/helpers/path.php)
+DEBUG   |130721 17:40:10|-- Adding administrator/components/com_widgetkit/helpers/request.php to archive (source: <root>/administrator/components/com_widgetkit/helpers/request.php)
+DEBUG   |130721 17:40:10|-- Adding administrator/components/com_widgetkit/helpers/system.php to archive (source: <root>/administrator/components/com_widgetkit/helpers/system.php)
+DEBUG   |130721 17:40:10|-- Adding administrator/components/com_widgetkit/helpers/template.php to archive (source: <root>/administrator/components/com_widgetkit/helpers/template.php)
+DEBUG   |130721 17:40:10|-- Adding administrator/components/com_widgetkit/helpers/useragent.php to archive (source: <root>/administrator/components/com_widgetkit/helpers/useragent.php)
+DEBUG   |130721 17:40:10|-- Adding administrator/components/com_widgetkit/helpers/widget.php to archive (source: <root>/administrator/components/com_widgetkit/helpers/widget.php)
+INFO    |130721 17:40:10|Scanning directories of <root>/administrator/components/com_widgetkit/css
+INFO    |130721 17:40:10|Scanning files of <root>/administrator/components/com_widgetkit/css
+DEBUG   |130721 17:40:10|Packing files
+DEBUG   |130721 17:40:10|-- Adding administrator/components/com_widgetkit/css/admin.css to archive (source: <root>/administrator/components/com_widgetkit/css/admin.css)
+DEBUG   |130721 17:40:10|-- Adding administrator/components/com_widgetkit/css/system.css to archive (source: <root>/administrator/components/com_widgetkit/css/system.css)
+INFO    |130721 17:40:10|Scanning directories of <root>/administrator/components/com_widgetkit/classes
+INFO    |130721 17:40:10|Scanning files of <root>/administrator/components/com_widgetkit/classes
+DEBUG   |130721 17:40:10|Packing files
+DEBUG   |130721 17:40:10|-- Adding administrator/components/com_widgetkit/classes/data.php to archive (source: <root>/administrator/components/com_widgetkit/classes/data.php)
+DEBUG   |130721 17:40:10|-- Adding administrator/components/com_widgetkit/classes/helper.php to archive (source: <root>/administrator/components/com_widgetkit/classes/helper.php)
+DEBUG   |130721 17:40:10|-- Adding administrator/components/com_widgetkit/classes/widgetkit.php to archive (source: <root>/administrator/components/com_widgetkit/classes/widgetkit.php)
+INFO    |130721 17:40:10|Skipping directory <root>/administrator/components/com_weblinks
+INFO    |130721 17:40:10|Skipping directory <root>/administrator/components/com_watchfulli
+INFO    |130721 17:40:10|Skipping directory <root>/administrator/components/com_users
+INFO    |130721 17:40:10|Skipping directory <root>/administrator/components/com_templates
+INFO    |130721 17:40:10|Skipping directory <root>/administrator/components/com_sef
+INFO    |130721 17:40:10|Skipping directory <root>/administrator/components/com_search
+INFO    |130721 17:40:10|Skipping directory <root>/administrator/components/com_rsform
+INFO    |130721 17:40:10|Skipping directory <root>/administrator/components/com_redirect
+INFO    |130721 17:40:10|Skipping directory <root>/administrator/components/com_plugins
+INFO    |130721 17:40:10|Skipping directory <root>/administrator/components/com_newsfeeds
+INFO    |130721 17:40:10|Skipping directory <root>/administrator/components/com_modules
+INFO    |130721 17:40:10|Skipping directory <root>/administrator/components/com_messages
+INFO    |130721 17:40:10|Skipping directory <root>/administrator/components/com_menus
+INFO    |130721 17:40:10|Skipping directory <root>/administrator/components/com_media
+INFO    |130721 17:40:10|Skipping directory <root>/administrator/components/com_login
+INFO    |130721 17:40:10|Skipping directory <root>/administrator/components/com_languages
+INFO    |130721 17:40:10|Skipping directory <root>/administrator/components/com_joomlaupdate
+INFO    |130721 17:40:10|Skipping directory <root>/administrator/components/com_jmonitoringslave
+INFO    |130721 17:40:10|Skipping directory <root>/administrator/components/com_jce
+INFO    |130721 17:40:10|Skipping directory <root>/administrator/components/com_installer
+INFO    |130721 17:40:10|Skipping directory <root>/administrator/components/com_finder
+INFO    |130721 17:40:10|Skipping directory <root>/administrator/components/com_cpanel
+INFO    |130721 17:40:10|Skipping directory <root>/administrator/components/com_content
+INFO    |130721 17:40:10|Skipping directory <root>/administrator/components/com_contact
+INFO    |130721 17:40:10|Skipping directory <root>/administrator/components/com_config
+INFO    |130721 17:40:10|Skipping directory <root>/administrator/components/com_checkin
+INFO    |130721 17:40:10|Skipping directory <root>/administrator/components/com_categories
+INFO    |130721 17:40:10|Skipping directory <root>/administrator/components/com_cache
+INFO    |130721 17:40:10|Skipping directory <root>/administrator/components/com_banners
+INFO    |130721 17:40:10|Skipping directory <root>/administrator/components/com_akeeba
+INFO    |130721 17:40:10|Skipping directory <root>/administrator/components/com_admintools
+INFO    |130721 17:40:10|Skipping directory <root>/administrator/components/com_admin
+INFO    |130721 17:40:10|Skipping directory <root>/administrator/cache
+INFO    |130721 17:40:10|Skipping directory <root>/.git
+DEBUG   |130721 17:40:10|AECoreDomainPack :: Already finished
+DEBUG   |130721 17:40:10|----- Finished operation 1 ------
+INFO    |130721 17:40:10|Finalizing archive
+DEBUG   |130721 17:40:10|Renaming last JPA part to .JPA extension
+DEBUG   |130721 17:40:10|Archive is finalized
+DEBUG   |130721 17:40:10|----- Finished operation 2 ------
+DEBUG   |130721 17:40:10|Successful Smart algorithm on AECoreDomainPack
+DEBUG   |130721 17:40:10|Kettenrad :: Domain 'Packing' has finished.
+DEBUG   |130721 17:40:10|====== Finished Step number 4 ======
+DEBUG   |130721 17:40:10|*** Engine steps batching: Break flag detected.
+DEBUG   |130721 17:40:10|*** Batching of engine steps finished. I will now return control to the caller.
+DEBUG   |130721 17:40:10|Sleeping for 1239.04109001 msec, using usleep()
+DEBUG   |130721 17:40:11|Saving Kettenrad instance restorepoint
+DEBUG   |130721 17:40:12|Closing SQL dump file.
+DEBUG   |130721 17:40:12| -- Loaded stored Akeeba Factory (restorepoint)
+DEBUG   |130721 17:40:12|====== Starting Step number 5 ======
+DEBUG   |130721 17:40:12|Kettenrad :: BREAKING STEP BEFORE SWITCHING DOMAIN
+DEBUG   |130721 17:40:12|Overriding finalization action queue
+DEBUG   |130721 17:40:12|Finalization action queue: remove_temp_files, update_statistics, update_filesizes, apply_srp_quotas
+DEBUG   |130721 17:40:12|----- Finished operation 1 ------
+DEBUG   |130721 17:40:12|AECoreDomainFinalization::_run() Running built-in method remove_temp_files
+DEBUG   |130721 17:40:12|Removing temporary files
+DEBUG   |130721 17:40:12|AECoreDomainFinalization::_run() Running built-in method update_statistics
+DEBUG   |130721 17:40:12|Updating statistics
+DEBUG   |130721 17:40:12|Removing any old records with restore-point-20130721-153959.jpa filename
+DEBUG   |130721 17:40:12|1 records found
+DEBUG   |130721 17:40:12|AECoreDomainFinalization::_run() Running built-in method update_filesizes
+DEBUG   |130721 17:40:12|Updating statistics with file sizes
+DEBUG   |130721 17:40:12|Total size of backup archive (in bytes): 405961
+DEBUG   |130721 17:40:12|AECoreDomainFinalization::_run() Running add-on method apply_srp_quotas
+DEBUG   |130721 17:40:12|There were no old restore points to apply quotas on
+DEBUG   |130721 17:40:12|----- Finished operation 2 ------
+DEBUG   |130721 17:40:12|----- Finished operation 3 ------
+DEBUG   |130721 17:40:12|Successful Smart algorithm on AECoreDomainFinalization
+DEBUG   |130721 17:40:12|Kettenrad :: Domain 'finale' has finished.
+DEBUG   |130721 17:40:12|====== Finished Step number 5 ======
+DEBUG   |130721 17:40:12|*** Engine steps batching: Break flag detected.
+DEBUG   |130721 17:40:12|*** Batching of engine steps finished. I will now return control to the caller.
+DEBUG   |130721 17:40:12|Sleeping for 1797.39809036 msec, using usleep()
+DEBUG   |130721 17:40:14|Saving Kettenrad instance restorepoint
+DEBUG   |130721 17:40:14|Closing SQL dump file.
+DEBUG   |130721 17:40:14| -- Loaded stored Akeeba Factory (restorepoint)
+DEBUG   |130721 17:40:14|====== Starting Step number 6 ======
+DEBUG   |130721 17:40:14|Kettenrad :: BREAKING STEP BEFORE SWITCHING DOMAIN
+DEBUG   |130721 17:40:14|Kettenrad :: No more domains to process
+DEBUG   |130721 17:40:14|*** Engine steps batching: Break flag detected.
+DEBUG   |130721 17:40:14|*** Batching of engine steps finished. I will now return control to the caller.
+DEBUG   |130721 17:40:14|Sleeping for 1985.4118824 msec, using usleep()
+DEBUG   |130721 17:40:16|Saving Kettenrad instance restorepoint
+DEBUG   |130721 17:40:16|Closing SQL dump file.
+DEBUG   |130721 17:40:16| -- Loaded stored Akeeba Factory (restorepoint)
+DEBUG   |130721 17:40:16|Kettenrad :: Just finished
+DEBUG   |130721 17:40:16|*** Batching of engine steps finished. I will now return control to the caller.
+DEBUG   |130721 17:40:16|Sleeping for 1989.87102509 msec, using usleep()
+DEBUG   |130721 17:40:18|Will not save a finished Kettenrad instance
+DEBUG   |130721 17:40:18|Closing SQL dump file.

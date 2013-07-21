@@ -1,11 +1,53 @@
 # Widgetkit #
 
-- Version: 1.3.2
-- Date: December 2012
+- Version: 1.4.5
+- Date: June 2013
 - Author: YOOtheme GmbH
 - Website: <http://www.yootheme.com>
 
 ## Changelog
+
+	1.4.5
+	# Fixed Multisite support (WP)
+	# Fixed editor error (WP 3.6)
+	# Fixed displaying widgets in lightbox (J)
+	
+	1.4.4
+	# Fixed Twitter usage with multiple users 
+
+	1.4.3
+	+ Added debounced resize listener
+	# Improved Twitter error handling
+
+	1.4.2
+	# Fixed Visual editor (WP)
+
+	1.4.1
+	# Fixed Multisite support (WP)
+	# Fixed check for already loaded OAuth library
+
+	1.4.0
+	^ Updated Twitter Widget uses OAuth to authenticate
+	
+	1.3.6
+	# Fixed lightboxes in slideshow captions
+	# Fixed correct invalidly nested XHTML automatically option (WP)
+	^ Updated jQuery to 1.9.1 (J)
+	^ Updated mediaelement.js to 2.10.3
+
+	1.3.5
+	# Added $.browser compatibility for jQuery UI
+
+	1.3.4
+	^ Updated jQuery to 1.9.0 (J)
+	# Fixed deprecated $.browser error with jQuery 1.9.0
+
+	1.3.3
+	+ Prevent broken Google maps images
+	# Fixed gallery polaroid style if no lightbox is used
+	# Fixed wp_tiny_mce deprecated message (WP)
+	# Fixed wp_enqueue_script('jquery') (WP)
+	^ Updated Lightbox examples
 
 	1.3.2
 	# Fixed using articles as source for widgets (J)
