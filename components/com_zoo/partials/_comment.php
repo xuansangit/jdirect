@@ -16,35 +16,38 @@ $author->name = $author->name ? $author->name : JText::_('Anonymous');
 <li>
 	<div id="comment-<?php echo $comment->id; ?>" class="comment <?php if ($author->isJoomlaAdmin()) echo 'comment-byadmin'; ?>">
 
-		<div class="comment-head">
+		<?php if ($params->get('avatar', 0)) : ?>
+			<div class="avatar"><?php echo $author->getAvatar(85); ?></div>
+		<?php endif; ?>
 
-			<?php if ($params->get('avatar', 0)) : ?>
-				<div class="avatar"><?php echo $author->getAvatar(50); ?></div>
-			<?php endif; ?>
+		<div class="comment-content">
+			<div class="comment-head">
 
-			<?php if ($author->url) : ?>
-				<h3 class="author"><a href="<?php echo JRoute::_($author->url); ?>" title="<?php echo $author->url; ?>" rel="nofollow"><?php echo $author->name; ?></a></h3>
-			<?php else: ?>
-				<h3 class="author"><?php echo $author->name; ?></h3>
-			<?php endif; ?>
+				<?php if ($author->url) : ?>
+					<h5 class="author"><a href="<?php echo JRoute::_($author->url); ?>" title="<?php echo $author->url; ?>" rel="nofollow"><?php echo $author->name; ?></a></h5>
+				<?php else: ?>
+					<h5 class="author"><?php echo $author->name; ?></h5>
+				<?php endif; ?>
 
-			<div class="meta">
-				<?php echo $this->app->html->_('date', $comment->created, $this->app->date->format(JText::_('DATE_FORMAT_COMMENTS')), $this->app->date->getOffset()); ?>
-				| <a class="permalink" href="#comment-<?php echo $comment->id; ?>">#</a>
+				<div class="meta">
+					<?php echo $this->app->html->_('date', $comment->created, $this->app->date->format(JText::_('DATE_FORMAT_COMMENTS')), $this->app->date->getOffset()); ?>
+					| <a class="permalink" href="#comment-<?php echo $comment->id; ?>">#</a>
+				</div>
+
 			</div>
 
-		</div>
+			<div class="comment-body">
 
-		<div class="comment-body">
+				<div class="content"><p><?php echo $this->app->comment->filterContentOutput($comment->content); ?></p></div>
 
-			<div class="content"><?php echo $this->app->comment->filterContentOutput($comment->content); ?></div>
+				<?php if ($comment->state != Comment::STATE_APPROVED) : ?>
+					<div class="moderation"><?php echo JText::_('COMMENT_AWAITING_MODERATION'); ?></div>
+				<?php endif; ?>
+
+			</div>
 
 			<?php if ($comment->getItem()->isCommentsEnabled()) : ?>
 				<div class="reply"><a href="#" rel="nofollow"><?php echo JText::_('Reply'); ?></a></div>
-			<?php endif; ?>
-
-			<?php if ($comment->state != Comment::STATE_APPROVED) : ?>
-				<div class="moderation"><?php echo JText::_('COMMENT_AWAITING_MODERATION'); ?></div>
 			<?php endif; ?>
 
 		</div>
