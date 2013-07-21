@@ -334,7 +334,7 @@ class Application {
 	 * @since 2.0
 	 */
 	public function getCategoryCount() {
-		return $this->app->table->category->count(array('conditions' => array('application_id=?',$this->id)));
+		return $this->app->table->category->count(array('select' => 'id', 'conditions' => array('application_id=?',$this->id)));
 	}
 
 	/**
@@ -521,7 +521,20 @@ class Application {
 
 		// get parameter xml file
 		if ($xml = $this->app->path->path($this->getResource().$this->metaxml_file)) {
-			return $this->app->parameterform->create($xml);
+
+            // get form
+            $form = $this->app->parameterform->create();
+            $params = array($xml);
+
+            // trigger configparams event
+            $params = $this->app->event->dispatcher->notify($this->app->event->create($this, 'application:configparams')->setReturnValue($params))->getReturnValue();
+
+            // add config xml files
+            foreach ($params as $xml) {
+                $form->addXML($xml);
+            }
+
+			return $form;
 		}
 
 		return null;

@@ -20,7 +20,7 @@ $media_position = $params->get('media_position', 'top');
 	<?php endif; ?>
 	
 	<?php if ($this->checkPosition('title')) : ?>
-	<h4 class="title"><?php echo $this->renderPosition('title'); ?></h4>
+	<p class="title"><?php echo $this->renderPosition('title'); ?></p>
 	<?php endif; ?>
 	
 	<?php if ($this->checkPosition('meta')) : ?>

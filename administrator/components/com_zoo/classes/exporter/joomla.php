@@ -7,7 +7,7 @@
 */
 
 /**
- * Exporter for Joomla 2.5 articles and categories
+ * Exporter for Joomla 2.5/3.0 articles and categories
  *
  * @package Component.Classes.Exporters
  */
@@ -41,7 +41,7 @@ class AppExporterJoomla extends AppExporter {
 	 */
 	public function export() {
 
-		$categories = $this->app->database->queryObjectList('SELECT * FROM #__categories ORDER BY lft ASC', 'id');
+		$categories = $this->app->database->queryObjectList('SELECT * FROM #__categories WHERE published != -2 ORDER BY lft ASC', 'id');
 
 		$category_aliases = array();
 		$ordered_categories = array();
@@ -93,7 +93,7 @@ class AppExporterJoomla extends AppExporter {
 
 			foreach ($articles as $article) {
 				if ($article->state != -2) {
-					$this->_addItem($article, $category->alias, JText::_('Joomla article'));
+					$this->_addJoomlaItem($article, $category->alias, JText::_('Joomla article'));
 				}
 			}
 	    }
@@ -103,7 +103,7 @@ class AppExporterJoomla extends AppExporter {
 
 		foreach ($articles as $article) {
 			if ($article->state != -2) {
-				$this->_addItem($article, 0, JText::_('Joomla article'));
+				$this->_addJoomlaItem($article, 0, JText::_('Joomla article'));
 			}
 		}
 
@@ -122,7 +122,7 @@ class AppExporterJoomla extends AppExporter {
 	 *
 	 * @since 2.0
 	 */
-	protected function _addItem($article, $parent, $group = 'default') {
+	protected function _addJoomlaItem($article, $parent, $group = 'default') {
 
 		if ($article->state > 1) {
 			$article->state = 0;

@@ -5,3 +5,6 @@
 
 #Fields: date	time	priority	clientip	category	message
 2013-07-21	11:59:41	INFO	::1	Joomla FAILURE: 	Username and password do not match or you do not have an account yet.
+2013-07-21	13:14:54	INFO	::1	Joomla FAILURE: 	Username and password do not match or you do not have an account yet.
+2013-07-21	13:15:04	INFO	::1	Joomla FAILURE: 	Username and password do not match or you do not have an account yet.
+2013-07-21	13:15:16	INFO	::1	Joomla FAILURE: 	Username and password do not match or you do not have an account yet.

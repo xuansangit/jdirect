@@ -63,7 +63,7 @@ class RouteHelper extends AppHelper {
 		}
 
 		if ($app->request->getCmd('task') == 'category' || $app->request->getCmd('view') == 'category') {
-			$this->_category_id = (int) $app->request->getInt('category_id', $app->system->application->getParams()->get('category'));
+			$this->_category_id = (int) $app->request->getInt('category_id', (method_exists($app->system->application, 'getParams') ? $app->system->application->getParams()->get('category') : null));
 		}
 
 		if ($menu_item = $app->menu->getActive()) {
@@ -160,7 +160,7 @@ class RouteHelper extends AppHelper {
 
         if ($force_id && $force_id != $itemid) {
             $itemid = $force_id;
-            $link .= '&f=1';
+            $link .= '&f=1&task=category&category_id='.$category->id;
         }
 
         if ($itemid) {
@@ -436,7 +436,7 @@ class RouteHelper extends AppHelper {
 		if ($menu_item = $this->_find('frontpage', $application_id) or $menu_item = $this->app->menu->getActive()) {
             if ($force_id && $force_id != $menu_item->id) {
                 $item_id = '&Itemid='.$force_id;
-                $link .= '&f=1';
+                $link .= '&f=1&task=tag&tag='.$tag.'&app_id='.$application_id;
             } else {
                 $item_id = '&Itemid='.$menu_item->id;
             }

@@ -1,13 +1,60 @@
 # ZOO #
 
-- Version: 3.0.5
-- Date: October 2012
+- Version: 3.0.13
+- Date: June 2013
 - Author: YOOtheme GmbH
 - Website: <http://www.yootheme.com>
 
 ## Changelog
 
+	3.0.13
+	# fixed a php notice on single submission view
+	# fixed bug with Joomla 3.1.0 RelatedItem element on submission
+
+	3.0.12
+	# fix for Joomla 3.1.0
+	# fixed Joomla importer
+
+	3.0.11
+    ^ refactored "Clean Database" function
+	^ updated jQuery to 1.9.1
+	^ updated jQuery UI to 1.10.1
+	^ updated mediaelement.js to 2.10.3
+	# fixed use of default values on submission (media element)
+	# fixed issue with deleting tags
+	# fixed issue with category/tag module showing wrong links
+
+	3.0.10
+	# fixed jQuery 1.9 compatibility
+
+    3.0.9
+	+ added option to show Captchas for guests only
+    # fixed pagination on mysubmissions view
+    # fixed item category submission (required state)
+	^ moved sh404SEF plugin to separate Joomla plugin
+	^ updated jQuery to 1.9
+	^ updated jQuery UI to 1.9.2
+	^ updated mediaelement.js to 2.10.1
+
+    3.0.8
+    # fixed date display in items list view
+    # fixed issue with item counting introduced in 3.0.7
+
+	3.0.7
+    # fixed rss feed link
+    # fixed issue with category assignment (submission)
+	# fixed issue with limiting related layout (Related Items Element)
+
+    3.0.6
+    ^ improved Google geocoding, by trying to geocode during item save
+    + added application:configparams event (3rd party developers)
+    # fixed "Add Item" not clickable on MySubmissions view (iOS)
+    # fixed Smartsearch indexer (Joomla 3.0)
+    # fixed Joomla import (trashed categories are no longer imported)
+    # fixed Joomlamodule Element (doesn't show none published module any longer)
+
     3.0.5
+    + added item:beforeSaveCategoryRelations event (3rd party developers)
     # fixed Select Element submission
     # fixed settings on GoogleMaps element
     # fixed issue with element position assignment

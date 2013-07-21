@@ -36,17 +36,23 @@ class ItemRenderer extends PositionRenderer {
 		// set item
 		$this->_item = isset($args['item']) ? $args['item'] : null;
 
+		// init vars
+		$render = true;
+		$result = '';
+
 		// trigger beforedisplay event
 		if ($this->_item) {
-			$this->app->event->dispatcher->notify($this->app->event->create($this->_item, 'item:beforedisplay'));
+			$this->app->event->dispatcher->notify($this->app->event->create($this->_item, 'item:beforedisplay', array('render' => &$render, 'html' => &$result)));
 		}
 
 		// render layout
-		$result = parent::render($layout, $args);
+		if ($render) {
+			$result .= parent::render($layout, $args);
 
-		// trigger afterdisplay event
-		if ($this->_item) {
-			$this->app->event->dispatcher->notify($this->app->event->create($this->_item, 'item:afterdisplay', array('html' => &$result)));
+			// trigger afterdisplay event
+			if ($this->_item) {
+				$this->app->event->dispatcher->notify($this->app->event->create($this->_item, 'item:afterdisplay', array('html' => &$result)));
+			}
 		}
 
 		return $result;
@@ -64,10 +70,14 @@ class ItemRenderer extends PositionRenderer {
 	 */
 	public function checkPosition($position) {
 
-		$user = $this->app->user->get();
-		foreach ($this->_getConfigPosition($position) as $data) {
+		foreach ($this->_getConfigPosition($position) as $index => $data) {
             if ($element = $this->_item->getElement($data['element'])) {
-                if ($element->canAccess($user) && $element->hasValue($this->app->data->create($data))) {
+
+                $data['_layout'] = $this->_layout;
+                $data['_position'] = $position;
+                $data['_index'] = $index;
+
+                if ($element->canAccess() && $element->hasValue($this->app->data->create($data))) {
 
 					// trigger elements beforedisplay event
 					$render = true;
@@ -80,40 +90,6 @@ class ItemRenderer extends PositionRenderer {
             }
         }
 
-		return false;
-	}
-
-	/**
-	 * Check if any of the positions from a layout generates some output
-	 *
-	 * @param string $dir Point separated path to layout, last part is layout
-     * @param Item $item The Item to be checked (default: null)
-	 *
-	 * @return boolean If any of the positions generates some kind of output
-	 *
-	 * @since 3.0.4
-	 */
-	public function checkPositions($dir, $item = null) {
-
-		$positions = $this->getPositions($dir);
-		if (isset($positions['positions']) && is_array($positions['positions'])) {
-
-			// set item
-			$this->_item = isset($this->_item) ? $this->_item : $item;
-
-			// set layout
-			if (!isset($this->_layout)) {
-				$parts = explode('.', $dir);
-				$this->_layout = array_pop($parts);
-			}
-			
-			// proceede with checking
-			foreach ($positions['positions'] as $position => $title) {
-				if ($this->checkPosition($position)) {
-					return true;
-				}
-			}
-		}
 		return false;
 	}
 
@@ -132,7 +108,6 @@ class ItemRenderer extends PositionRenderer {
 		// init vars
 		$elements = array();
 		$output   = array();
-		$user	  = $this->app->user->get();
 
 		// get style
 		$style = isset($args['style']) ? $args['style'] : 'default';
@@ -141,12 +116,16 @@ class ItemRenderer extends PositionRenderer {
 		$layout = $this->_layout;
 
 		// render elements
-		foreach ($this->_getConfigPosition($position) as $data) {
+		foreach ($this->_getConfigPosition($position) as $index => $data) {
             if ($element = $this->_item->getElement($data['element'])) {
 
-				if (!$element->canAccess($user)) {
+				if (!$element->canAccess()) {
 					continue;
 				}
+
+                $data['_layout'] = $this->_layout;
+                $data['_position'] = $position;
+                $data['_index'] = $index;
 
                 // set params
                 $params = array_merge($data, $args);
