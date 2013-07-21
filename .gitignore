@@ -1,3 +1,4 @@
 .gitignore
-
+.htaccess
+configuration.php
 tmp/*
