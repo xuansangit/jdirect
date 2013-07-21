@@ -1,0 +1,20 @@
+<?xml version="1.0" encoding="utf-8"?>
+<!DOCTYPE install SYSTEM "http://dev.joomla.org/xml/1.5/component-install.dtd">
+<install type="component" version="1.5.0" method="upgrade">
+	<name>Zoo</name>
+	<author>yoonique[.]net</author>
+	<creationDate>June 2011</creationDate>
+	<copyright>Copyright (C) 2011 yoonique[.]net</copyright>
+	<license>GPL v3</license>
+	<assetsLicense>YOOtheme Proprietary Use License (http://www.yootheme.com/license)</assetsLicense>
+	<authorEmail>download_element@yoonique.net</authorEmail>
+	<authorUrl>http://www.yoonique.net</authorUrl>
+	<version>1.5.0</version>
+	<description>You have successfully installed the yoonique[.]net download element for Zoo</description>
+	<administration>
+		<menu img="components/com_zoo/assets/images/zoo_16.png">ZOO</menu>
+	</administration>
+	<media destination="zoo" folder="media/zoo">
+		<folder>elements</folder>
+	</media>
+</install>

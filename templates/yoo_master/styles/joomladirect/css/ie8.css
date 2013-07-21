@@ -1,0 +1,12 @@
+/* Copyright (C) YOOtheme GmbH, http://www.gnu.org/licenses/gpl.html GNU/GPL */
+
+@import url(../../../css/ie8.css);
+
+#menu .menu-dropdown .dropdown .dropdown-bg > div column, .column, 
+#menu .menu-dropdown .dropdown .dropdown-bg > div column, .module {
+	background: #000000;
+}
+
+#menu .menu-dropdown li.level2 a:hover {
+	background: #3e3e3e;
+}

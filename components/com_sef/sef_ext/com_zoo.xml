@@ -1,0 +1,168 @@
+<?xml version="1.0" encoding="utf-8"?>
+<extension version="1.7.0" type="sef_ext" method="upgrade">
+	<name>yoonique[.]net Zoo plugin for JoomSEF</name>
+	<author>yoonique[.]net</author>
+	<creationDate>3/18/2011</creationDate>
+	<copyright>2011-2012 www.yoonique.net</copyright>
+	<license>http://www.gnu.org/copyleft/gpl.html GNU/GPL</license>
+	<authorEmail>zoo_sef@yoonique.net</authorEmail>
+	<authorUrl>www.yoonique.net</authorUrl>
+	<version>2.1.1</version>
+	<description>yoonique[.]net Zoo JoomSEF plugin</description>
+	<files>
+		<filename sef_ext="zoo">com_zoo.php</filename>
+		<filename sef_ext="zoo">com_zoo_yoonique_sef.php</filename>
+	</files>
+	<params>
+		<param name="ZOO_SEF_FRONTPAGE_SHOW" type="radio" default="1" label="Frontpage text in URL?" description="This option allows you to change the default text for 'frontpage'. You can also remove the text, but this is not recommended if you have more than one app." >
+			<option value="0">No</option>
+			<option value="1">Yes</option>
+		</param>
+		<param name="ZOO_SEF_FRONTPAGE" type="text" default="frontpage" label="Frontpage text" description="" />
+		<param name="ZOO_SEF_ITEM_SHOW" type="radio" default="1" label="Item text in URL?" description="This option allows you to change the default text for an 'item'. You can also remove the text, but this could potentially create duplicate URLs, for example if you have a category with the same name/alias." >
+			<option value="0">No</option>
+			<option value="1">Yes</option>
+		</param>
+		<param name="ZOO_SEF_ITEM" type="text" default="item" label="Item text" description="" />
+		<param name="ZOO_SEF_ITEM_ALIAS" type="list" default="1" label="Name or alias in URL?" description="Zoo 'sometimes' adds a suffix like '-2' or '-2-2' at the end of a URL, because Zoo only allows unique Aliases. This doesn't look that nice of course. With this option you can workaround the issue by selecting the name instead of the alias. This could potentially create conflicts, since multiple items can have the same name. Please test thoroughly." >
+			<option value="0">Name</option>
+			<option value="1">Alias</option>
+		</param>
+		<param name="ZOO_SEF_CATEGORY_SHOW" type="radio" default="1" label="Category text in URL?" description="This option allows you to change the default text for 'category'. You can also remove the text, but this could potentially create duplicate URLs, for example if you have an item with the same name/alias." >
+			<option value="0">No</option>
+			<option value="1">Yes</option>
+		</param>
+		<param name="ZOO_SEF_CATEGORY" type="text" default="category" label="Category text" description="" />
+		<param name="ZOO_SEF_CATEGORY_ALIAS" type="list" default="1" label="Name or alias in URL?" description="Zoo 'sometimes' adds a suffix like '-2' or '-2-2' at the end of a URL, because Zoo allows only unique Aliases. This doesn't look that nice of course. With this option you can workaround the issue by selecting the name instead of the alias. This could potentially create conflicts, since multiple categories can have the same name. Please test thoroughly." >
+			<option value="0">Name</option>
+			<option value="1">Alias</option>
+		</param>
+		<param name="ZOO_SEF_FEED_SHOW" type="radio" default="1" label="Feed text in URL?" description="This option allows you to change the default text for 'feed'. You can also remove the text, but this could potentially create conflicts. Please test thoroughly." >
+			<option value="0">No</option>
+			<option value="1">Yes</option>
+		</param>
+		<param name="ZOO_SEF_FEED" type="text" default="feed" label="Feed text" description="" />
+		<param name="ZOO_SEF_ALPHAINDEX_SHOW" type="radio" default="1" label="Alphaindex text in URL?" description="This option allows you to change the default text 'alphaindex'. You can also remove the text, but this could potentially create conflicts. Please test thoroughly." >
+			<option value="0">No</option>
+			<option value="1">Yes</option>
+		</param>
+		<param name="ZOO_SEF_ALPHAINDEX" type="text" default="alphaindex" label="Alphaindex text" description="" />
+		<param name="ZOO_SEF_TAG_SHOW" type="radio" default="1" label="Tag text in URL?" description="This option allows you to change the default text for 'tag'. You can also remove the text, but this could potentially create conflicts. Please test thoroughly." >
+			<option value="0">No</option>
+			<option value="1">Yes</option>
+		</param>
+		<param name="ZOO_SEF_TAG" type="text" default="tag" label="Tag text" description="" />
+		<param name="ZOO_SEF_PAGE_SHOW" type="radio" default="1" label="Page text in URL?" description="This option allows you to change the default text for 'page'." >
+			<option value="0">No</option>
+			<option value="1">Yes</option>
+		</param>
+		<param name="ZOO_SEF_PAGE" type="text" default="page" label="Page text" description="" />
+		<param name="ZOO_SEF_SUBMISSION_SHOW" type="radio" default="1" label="Submission text in URL?" description="This option allows you to change the default text for a submission URL." >
+			<option value="0">No</option>
+			<option value="1">Yes</option>
+		</param>
+		<param name="ZOO_SEF_SUBMISSION" type="text" default="submissions" label="Submission text" description="" />
+		<param name="ZOO_SEF_MYSUBMISSIONS_SHOW" type="radio" default="1" label="My Submissions text in URL?" description="This option allows you to change the default text for the my submissions URL." >
+			<option value="0">No</option>
+			<option value="1">Yes</option>
+		</param>
+		<param name="ZOO_SEF_MYSUBMISSIONS" type="text" default="mysubmissions" label="My Submissions text" description="" />
+
+		<param type="spacer" />
+        <param name="ZOO_SEF_SHOW_PRIMARY" type="radio" default="1" label="Show primary category" description="If set to Yes, the primary category of the item will be added to the SEF URL. If no primary category exists, the first category in the list is chosen. This is different from the way Zoo adds categories. See also option 'show zoo category'.">
+            <option value="0">No</option>
+            <option value="1">Yes</option>
+        </param>
+        <param name="ZOO_SEF_SHOW_TYPE" type="radio" default="0" label="Show item type" description="If set to Yes, the type of the item will be added to the SEF URL.">
+            <option value="0">No</option>
+            <option value="1">Yes</option>
+        </param>
+		<param name="ZOO_SEF_SHOW_APP" type="radio" default="1" label="Show application" description="If set to 'yes', the application alias will be added to the SEF URL. It is STRONGLY recommended to set this to 'yes'. You should set this only to 'no', if you only have one app instance, otherwise menus won't work anymore.">
+            <option value="0">No</option>
+            <option value="1">Yes</option>
+        </param>
+        <param name="ZOO_SEF_SHOW_CATEGORY" type="radio" default="0" label="Show Zoo category" description="Zoo adds '?category_id=yyy' at the end of item URLs if you navigate from a category to an item. Unfortunately this also means that Zoo creates duplicate URLs and most users believe this is bad for SEO. But if you like this behavior, then set this option to 'yes' and the plugin will create the same SEF URLs (just SEF style). If you enable this then you should disable 'show primary category'">
+            <option value="0">No</option>
+            <option value="1">Yes</option>
+        </param>
+		<param name="ZOO_SEF_DATE" type="text" default="" label="Insert date for type" description="Comma separated list of types where the item creation date instead of the category will be added to the URL." />
+		<param name="ZOO_SEF_DATE_FORMAT" type="text" default="%Y/%m/%d" label="Date Format" description="Slash separated list of date formats for each URL segment. For example the default '%Y/%m/%d' would add 2011/12/23 to the URL and '%Y-%b-%d/%b/%i' 2011-Dec-23/Fri/058. %i is a placeholder for the item number (minimum three digits), which could be used for Google news numbering. More information and examples can be found in the documentation." />
+	</params>
+	<form>
+	<fieldset name="main" label="sh404sef settings">
+		<field name="ZOO_SEF_FRONTPAGE_SHOW" type="radio" default="1" label="Frontpage text in URL?" description="This option allows you to change the default text for 'frontpage'. You can also remove the text, but this is not recommended if you have more than one app." >
+			<option value="0">No</option>
+			<option value="1">Yes</option>
+		</field>
+		<field name="ZOO_SEF_FRONTPAGE" type="text" default="frontpage" label="Frontpage text" description="" />
+		<field name="ZOO_SEF_ITEM_SHOW" type="radio" default="1" label="Item text in URL?" description="This option allows you to change the default text for an 'item'. You can also remove the text, but this could potentially create duplicate URLs, for example if you have a category with the same name/alias." >
+			<option value="0">No</option>
+			<option value="1">Yes</option>
+		</field>
+		<field name="ZOO_SEF_ITEM" type="text" default="item" label="Item text" description="" />
+		<field name="ZOO_SEF_ITEM_ALIAS" type="list" default="1" label="Name or alias in URL?" description="Zoo 'sometimes' adds a suffix like '-2' or '-2-2' at the end of a URL, because Zoo only allows unique Aliases. This doesn't look that nice of course. With this option you can workaround the issue by selecting the name instead of the alias. This could potentially create conflicts, since multiple items can have the same name. Please test thoroughly." >
+			<option value="0">Name</option>
+			<option value="1">Alias</option>
+		</field>
+		<field name="ZOO_SEF_CATEGORY_SHOW" type="radio" default="1" label="Category text in URL?" description="This option allows you to change the default text for 'category'. You can also remove the text, but this could potentially create duplicate URLs, for example if you have an item with the same name/alias." >
+			<option value="0">No</option>
+			<option value="1">Yes</option>
+		</field>
+		<field name="ZOO_SEF_CATEGORY" type="text" default="category" label="Category text" description="" />
+		<field name="ZOO_SEF_CATEGORY_ALIAS" type="list" default="1" label="Name or alias in URL?" description="Zoo 'sometimes' adds a suffix like '-2' or '-2-2' at the end of a URL, because Zoo only allows unique Aliases. This doesn't look that nice of course. With this option you can workaround the issue by selecting the name instead of the alias. This could potentially create conflicts, since multiple categories can have the same name. Please test thoroughly." >
+			<option value="0">Name</option>
+			<option value="1">Alias</option>
+		</field>
+		<field name="ZOO_SEF_FEED_SHOW" type="radio" default="1" label="Feed text in URL?" description="This option allows you to change the default text for 'feed'. You can also remove the text, but this could potentially create conflicts. Please test thoroughly." >
+			<option value="0">No</option>
+			<option value="1">Yes</option>
+		</field>
+		<field name="ZOO_SEF_FEED" type="text" default="feed" label="Feed text" description="" />
+		<field name="ZOO_SEF_ALPHAINDEX_SHOW" type="radio" default="1" label="Alphaindex text in URL?" description="This option allows you to change the default text 'alphaindex'. You can also remove the text, but this could potentially create conflicts. Please test thoroughly." >
+			<option value="0">No</option>
+			<option value="1">Yes</option>
+		</field>
+		<field name="ZOO_SEF_ALPHAINDEX" type="text" default="alphaindex" label="Alphaindex text" description="" />
+		<field name="ZOO_SEF_TAG_SHOW" type="radio" default="1" label="Tag text in URL?" description="This option allows you to change the default text for 'tag'. You can also remove the text, but this could potentially create conflicts. Please test thoroughly." >
+			<option value="0">No</option>
+			<option value="1">Yes</option>
+		</field>
+		<field name="ZOO_SEF_TAG" type="text" default="tag" label="Tag text" description="" />
+		<field name="ZOO_SEF_PAGE_SHOW" type="radio" default="1" label="Page text in URL?" description="This option allows you to change the default text for 'page'." >
+			<option value="0">No</option>
+			<option value="1">Yes</option>
+		</field>
+		<field name="ZOO_SEF_PAGE" type="text" default="page" label="Page text" description="" />
+		<field name="ZOO_SEF_SUBMISSION_SHOW" type="radio" default="1" label="Submission text in URL?" description="This option allows you to change the default text for a submission URL." >
+			<option value="0">No</option>
+			<option value="1">Yes</option>
+		</field>
+		<field name="ZOO_SEF_SUBMISSION" type="text" default="submissions" label="Submission text" description="" />
+		<field name="ZOO_SEF_MYSUBMISSIONS_SHOW" type="radio" default="1" label="My Submissions text in URL?" description="This option allows you to change the default text for the my submissions URL." >
+			<option value="0">No</option>
+			<option value="1">Yes</option>
+		</field>
+		<field name="ZOO_SEF_MYSUBMISSIONS" type="text" default="mysubmissions" label="My Submissions text" description="" />
+
+		<field type="spacer" />
+        <field name="ZOO_SEF_SHOW_PRIMARY" type="radio" default="1" label="Show primary category" description="If set to Yes, the primary category of the item will be added to the SEF URL. If no primary category exists, the first category in the list is chosen. This is different from the way Zoo adds categories. See also option 'show zoo category'.">
+            <option value="0">No</option>
+            <option value="1">Yes</option>
+        </field>
+        <field name="ZOO_SEF_SHOW_TYPE" type="radio" default="0" label="Show item type" description="If set to Yes, the type of the item will be added to the SEF URL.">
+            <option value="0">No</option>
+            <option value="1">Yes</option>
+        </field>
+		<field name="ZOO_SEF_SHOW_APP" type="radio" default="1" label="Show application" description="If set to 'yes', the application alias will be added to the SEF URL. It is STRONGLY recommended to set this to 'yes'. You should set this only to 'no', if you only have one app instance, otherwise menus won't work anymore.">
+            <option value="0">No</option>
+            <option value="1">Yes</option>
+        </field>
+        <field name="ZOO_SEF_SHOW_CATEGORY" type="radio" default="0" label="Show Zoo category" description="Zoo adds '?category_id=yyy' at the end of item URLs if you navigate from a category to an item. Unfortunately this also means that Zoo creates duplicate URLs and most users believe this is bad for SEO. But if you like this behavior, then set this option to 'yes' and the plugin will create the same SEF URLs (just SEF style). If you enable this then you should disable 'show primary category'">
+            <option value="0">No</option>
+            <option value="1">Yes</option>
+        </field>
+		<field name="ZOO_SEF_DATE" type="text" default="" label="Insert date for type" description="Comma separated list of types where the item creation date instead of the category will be added to the URL." />
+		<field name="ZOO_SEF_DATE_FORMAT" type="text" default="%Y/%m/%d" label="Date Format" description="Slash separated list of date formats for each URL segment. For example the default '%Y/%m/%d' would add 2011/12/23 to the URL and '%Y-%b-%d/%b/%i' 2011-Dec-23/Fri/058. %i is a placeholder for the item number (minimum three digits), which could be used for Google news numbering. More information and examples can be found in the documentation." />
+	</fieldset>
+	</form>
+</extension>
