@@ -118,19 +118,17 @@ hr {
 
 /* Quotes */
 q, blockquote {
-	quotes: '\201C' '\201D' '\2018' '\2019';
 	font-family: "Times New Roman", Times, serif;
 	font-style: italic;
 }
+
+q { quotes: '\201C' '\201D' '\2018' '\2019'; }
 	
 blockquote {
 	padding: 0 20px;
 	font-size: 16px;
 	line-height: 22px;
 }
-
-blockquote:before { content: '\201C'; }
-blockquote:after { content: '\201D'; }
 
 /* Code */
 code, pre { font-family: "Courier New", Courier, monospace; }

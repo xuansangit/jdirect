@@ -10,7 +10,7 @@
 defined('_JEXEC') or die;
 
 // get view
-$menu = JSite::getMenu()->getActive();
+$menu = JFactory::getApplication()->getMenu()->getActive();
 $view = is_object($menu) && isset($menu->query['view']) ? $menu->query['view'] : null;
 
 JHtml::addIncludePath(JPATH_COMPONENT . '/helpers');
@@ -180,7 +180,7 @@ if (isset($images->image_fulltext) and !empty($images->image_fulltext)) {
 		</div>
 
 		<?php if ($canEdit) : ?>
-		<p class="edit"><?php echo JHtml::_('icon.edit', $this->item, $params); ?> <?php echo JText::_('TPL_WARP_EDIT_ARTICLE'); ?></p>
+		<p class="edit"><?php echo JHtml::_('icon.edit', $this->item, $params); ?></p>
 		<?php endif; ?>
 
 		<?php if (!empty($this->item->pagination)) : ?>

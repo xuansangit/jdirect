@@ -189,7 +189,7 @@ class SystemWarpHelper extends WarpHelper {
 		$data   = $this['data']->create($config);
 
 		// save config file
-		echo json_encode(array('message' => (file_put_contents($file, (string) $data) ? 'success' : 'failed')));
+		echo json_encode(array('message' => (count($config) > 2 && file_put_contents($file, (string) $data) ? 'success' : 'failed')));
 	}
 
 	/*

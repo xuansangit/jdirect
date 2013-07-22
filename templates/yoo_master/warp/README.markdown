@@ -1,11 +1,47 @@
 # Warp Theme Framework #
 
-- Version: 6.3.1
-- Date: November 2012
+- Version: 6.4.2
+- Date: June 2013
 - Author: YOOtheme GmbH
 - Website: <http://www.yootheme.com/warp>
 
 ## Changelog
+
+	6.4.2
+	^ Updated jQuery to 1.10.0 (J)
+	+ Added body_class() filter call (WP)
+	# Fixed Bootstrap responsive image issue with IE10
+
+	6.4.1
+	+ Added debounced resize listener
+	+ Added tag overrides (J31)
+	^ Updated overrides according to Joomla 3.1.0 (J31)
+	^ Updated overrides according to Joomla 2.5.10 (J25)
+
+	6.4.0
+	+ Added better widget support for WPML (WP)
+	+ Added native bootstrap support for Joomla 3.0 (J3)
+
+	6.3.5
+	^ Updated jQuery to 1.9.1 (J)
+	^ Updated overrides according to Joomla 2.5.9 (J25)
+	^ Updated overrides according to Joomla 3.0.3 (J3)
+	# Fixed default newsfeed layout (J3)
+	# Fixed error page (J3)
+	# Fixed default article override to be PHP strict
+
+	6.3.4
+	# Fixed default widget classes (WP)
+	# Fixed blog url (WP)
+
+	6.3.3
+	^ Updated jQuery to 1.9.0 (J)
+	^ Updated HTML5 Shiv to 3.6.2
+
+	6.3.2
+	# Fixed floatmetrics check for chrome >= version 24
+	# Fixed has_cap deprecated message in debug mode (WP)
+	# Fixed style settings in widget options (WP)
 
 	6.3.1
 	^ Updated jQuery to 1.8.3 (J)
@@ -19,7 +55,7 @@
 	^ Updated jQuery to 1.8.2 (J)
 	^ Updated JSmin asset filter
 	# Fixed Viewport for IE10 Snap Mode
-	
+
 	6.2.7
 	# Removed double CSS class attribute in com_contact (J25)
 	^ Updated overrides according to Joomla 2.5.7 (J25)
@@ -48,7 +84,7 @@
 	^ Set width layout classes box-sizing to border-box
 	^ Optimized responsiveness for 3 and 5 modules in a row
 	^ Optimized responsiveness for grid-gutter
-	^ Support for official CSS gradient syntax 
+	^ Support for official CSS gradient syntax
 
 	6.2.2
 	# Fixed dropdown menu js bug
@@ -63,12 +99,12 @@
 	6.2.0
 	+ Added responsive CSS
 	+ Added responsive menu, search, logo
- 	+ Added responsive helper function $.onMediaQuery 
+ 	+ Added responsive helper function $.onMediaQuery
 	+ Added new $.matchHeight() for responsive module layouts
 	+ Added new $.matchWidth() for responsive module layouts
 	+ Flips Drop-Down menu if out of window
 	+ Added CSS helper classes to hide content
- 	+ Assign profiles to custom post types (WP) 
+ 	+ Assign profiles to custom post types (WP)
 	^ Improved base style sheet
 	^ Renamed and added buttons CSS
 	^ Updated CSS grid gutter
@@ -89,7 +125,7 @@
 	# Fixed wrong closing tag in com_contact override
 	+ Added system helper isBlog method now recognizes the ZOO blog application (J)
 	^ Changed search to use a CSS class instead of a id
-	
+
 	6.1.10
 	^ Updated jQuery to 1.7.2 (J)
 	^ Updated overrides according to Joomla 2.5.4 (J25)
@@ -151,8 +187,8 @@
 	+ Added auto detecting of styles and module layouts
 	+ Show Warp version number in theme administration
 	+ Output of custom module class suffixes (J)
-	+ Added overrides for com_newsfeed, com_weblinks and com_contact (J17) 
-	+ Added support for post-thumbnails (WP) 
+	+ Added overrides for com_newsfeed, com_weblinks and com_contact (J17)
+	+ Added support for post-thumbnails (WP)
 	^ Updated Apple touch icon
 	^ Updated jQuery to 1.7.1 (J)
 
@@ -193,13 +229,13 @@
 	^ Comments, tag cloud and author box styles are now available in Joomla
 	^ Renamed author box CSS class
 	^ Renamed comments list CSS class
-	
+
 	6.0.6
 	+ Added Joomla 1.7 support
 	^ Updated overrides according to Joomla 1.7.0 (J17)
 	# Fixed mobile theme switcher (WP)
 	# Fixed no scrips/stylesheets assets error
-	
+
 	6.0.5
 	^ Changed module title CSS class to .module-title
 
@@ -222,12 +258,12 @@
 	# Fixed IE7 Clearfix CSS
 	# Fixed RTL drop caps CSS for IE
 	^ Updated overrides according to Joomla 1.6.4 (J16)
-	
+
 	6.0.3
 	^ Moved module badge in default module templates
 	^ Updated jQuery to 1.6.1 (J)
 	# Fixed error on loading a unknown menu renderer
-	+ Added site_url config option 
+	+ Added site_url config option
 
 	6.0.2
 	^ Added CSS class namespace for fluid images
@@ -235,7 +271,7 @@
 	# Fixed apply shortcodes in ajax search (WP)
 	# Fixed home menu selection with index.php (WP)
 	# Fixed ajax search with sef turned on (J)
-	
+
 	6.0.1
 	^ Added login to offline page (J)
 	^ Updated module layouts

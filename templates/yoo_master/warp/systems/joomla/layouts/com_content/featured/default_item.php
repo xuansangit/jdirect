@@ -127,7 +127,7 @@ if (isset($images->image_intro) and !empty($images->image_intro)) {
 				$link1 = JRoute::_('index.php?option=com_users&view=login&Itemid=' . $itemId);
 				$returnURL = JRoute::_(ContentHelperRoute::getArticleRoute($this->item->slug, $this->item->catid));
 				$link = new JURI($link1);
-				$link->setVar('return', base64_encode($returnURL));
+				$link->setVar('return', base64_encode(urlencode($returnURL)));
 			}
 			
 		?>
@@ -150,7 +150,7 @@ if (isset($images->image_intro) and !empty($images->image_intro)) {
 	<?php endif; ?>
 
 	<?php if ($canEdit) : ?>
-	<p class="edit"><?php echo JHtml::_('icon.edit', $this->item, $params); ?> <?php echo JText::_('TPL_WARP_EDIT_ARTICLE'); ?></p>
+	<p class="edit"><?php echo JHtml::_('icon.edit', $this->item, $params); ?></p>
 	<?php endif; ?>
 
 	<?php echo $this->item->event->afterDisplayContent; ?>
