@@ -1,0 +1,12 @@
+<?xml version="1.0" encoding="utf-8"?>
+<wrapper>
+	<params>
+		<param name="zooaksubs" type="zooaksubs" default="" label="ZOOaksubs" />
+	</params>
+	<params group="render">
+		<param name="zooaksubs" type="zooaksubs" default="" label="ZOOaksubs" />
+	</params>
+	<params group="submission">
+		<param name="zooaksubs" type="zooaksubs" default="" label="ZOOaksubs" />
+	</params>
+</wrapper>

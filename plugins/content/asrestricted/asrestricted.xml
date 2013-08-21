@@ -1,0 +1,20 @@
+<?xml version="1.0" encoding="utf-8"?>
+<extension version="2.5.0" type="plugin" group="content" method="upgrade">
+	<name>Content - Akeeba Subscriptions Restricted</name>
+	<author>Nicholas K. Dionysopoulos</author>
+	<authorEmail>nicholas@dionysopoulos.me</authorEmail>
+	<authorUrl>http://www.akeebabackup.com</authorUrl>
+	<copyright>Copyright (c)2011-2013 Nicholas K. Dionysopoulos</copyright>
+	<license>GNU General Public License version 3, or later</license>
+	<creationDate>2011-03-04</creationDate>
+	<version>1.0</version>
+	<description>PLG_CONTENT_ASRESTRICTED_DESCRIPTION</description>
+	<files>
+		<filename plugin="asrestricted">asrestricted.php</filename>
+	</files>
+	<languages folder="language">
+		<language tag="en-GB">en-GB/en-GB.plg_content_asrestricted.ini</language>
+		<language tag="en-GB">en-GB/en-GB.plg_content_asrestricted.sys.ini</language>
+	</languages>
+	
+</extension>

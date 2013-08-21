@@ -1,0 +1,34 @@
+
+/**** Item Edit ****/
+.creation-form .zooaksubs {
+    margin-top: 15px;
+    margin-left: 165px;
+    float: left;
+}
+.creation-form div.zlfield.zlfield-main {
+    max-width: 427px;
+    min-width: 427px;
+}
+.creation-form div.zlfield div.row.layout-default .zl-label + .zl-field {
+    margin-left: 0;
+}
+.creation-form div.zlfield div.row.layout-default .zl-label {
+    width: 140px;
+}
+.creation-form div.zlfield-main.zooaksubs .special[data-type="radio"] .zl-label {
+    width: 85px;
+}
+
+/**** Fields ****/
+div.zlfield-main.zooaksubs .special[data-type="radio"] {
+    border-bottom: 1px solid #CCCCCC;
+    margin: 0 0 15px;
+    padding: 0 !important;
+}
+div.zlfield-main.zooaksubs .special[data-type="radio"] .zl-label {
+    margin: 0;
+    width: 111px;
+}
+div.zlfield-main.zooaksubs .special[data-type="radio"] .zl-label .active {
+    display: none;
+}

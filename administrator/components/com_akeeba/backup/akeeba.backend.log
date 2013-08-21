@@ -1,3 +1,587 @@
-DEBUG   |130721 17:39:32|Kettenrad :: Attempting to load from database (backend)
-DEBUG   |130721 17:39:32| -- Stored Akeeba Factory (backend) not found - hard reset
-DEBUG   |130721 17:39:34|
+DEBUG   |130821 13:22:24|*** Batching successive steps (nesting level 1)
+DEBUG   |130821 13:22:24|====== Starting Step number 1 ======
+DEBUG   |130821 13:22:24|Kettenrad :: BREAKING STEP BEFORE SWITCHING DOMAIN
+DEBUG   |130821 13:22:24|AECoreDomainInit :: New instance
+DEBUG   |130821 13:22:24|----- Finished operation 1 ------
+INFO    |130821 13:22:24|--------------------------------------------------------------------------------
+INFO    |130821 13:22:24|Akeeba Backup 3.7.10 (2013-06-29)
+INFO    |130821 13:22:24|Got backup?
+INFO    |130821 13:22:24|--------------------------------------------------------------------------------
+INFO    |130821 13:22:24|--- System Information ---
+INFO    |130821 13:22:24|PHP Version        :5.4.4
+INFO    |130821 13:22:24|PHP OS             :Darwin
+INFO    |130821 13:22:24|PHP SAPI           :apache2handler
+INFO    |130821 13:22:24|OS Version         :Darwin
+INFO    |130821 13:22:24|DB Version         :5.5.25
+INFO    |130821 13:22:24|Web Server         :Apache/2.2.22 (Unix) mod_ssl/2.2.22 OpenSSL/0.9.8x DAV/2 PHP/5.4.4
+INFO    |130821 13:22:24|Joomla! version    :2.5.11
+INFO    |130821 13:22:24|Mozilla/5.0 (Macintosh; Intel Mac OS X 10_7_5) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/29.0.1547.57 Safari/537.36
+INFO    |130821 13:22:24|Safe mode          :
+INFO    |130821 13:22:24|Display errors     :
+INFO    |130821 13:22:24|Error reporting    :E_ALL
+INFO    |130821 13:22:24|Error display      :off
+INFO    |130821 13:22:24|Disabled functions :
+INFO    |130821 13:22:24|open_basedir restr.:
+INFO    |130821 13:22:24|Max. exec. time    :30
+INFO    |130821 13:22:24|Memory limit       :1024M
+INFO    |130821 13:22:24|Current mem. usage :5972448
+INFO    |130821 13:22:24|GZIP Compression   : available (good)
+INFO    |130821 13:22:24|JPATH_BASE         :<root>/administrator
+INFO    |130821 13:22:24|JPATH_SITE         :<root>
+INFO    |130821 13:22:24|JPATH_ROOT         :<root>
+INFO    |130821 13:22:24|JPATH_CACHE        :<root>/cache
+INFO    |130821 13:22:24|Computed root      :<root>
+INFO    |130821 13:22:24|Output directory   :<root>/administrator/components/com_akeeba/backup
+INFO    |130821 13:22:24|--------------------------------------------------------------------------------
+INFO    |130821 13:22:24|Akeeba Backup has detected the following potential problems:
+INFO    |130821 13:22:24|- 203 Default output directory in use (low)
+INFO    |130821 13:22:24|You probably do not have to worry about them, but you should be aware of them.
+INFO    |130821 13:22:24|--------------------------------------------------------------------------------
+INFO    |130821 13:22:24|Loaded profile #1
+DEBUG   |130821 13:22:24|Archive template name: site-[HOST]-[DATE]-[TIME]
+DEBUG   |130821 13:22:24|Expanded template name: site-localhost-20130821-112224
+DEBUG   |130821 13:22:24|Backup type is now set to 'full'
+DEBUG   |130821 13:22:24|Expanded archive file name: <root>/administrator/components/com_akeeba/backup/site-localhost-20130821-112224.jpa
+DEBUG   |130821 13:22:24|Initializing archiver engine
+DEBUG   |130821 13:22:24|AEArchiverJpa :: new instance - archive <root>/administrator/components/com_akeeba/backup/site-localhost-20130821-112224.jpa
+DEBUG   |130821 13:22:24|Updating multipart status to 1
+INFO    |130821 13:22:24|AEArchiverJpa :: Spanned JPA creation enabled
+DEBUG   |130821 13:22:24|AEArchiverJpa :: Killing old archive
+DEBUG   |130821 13:22:24|----- Finished operation 2 ------
+DEBUG   |130821 13:22:24|----- Finished operation 3 ------
+DEBUG   |130821 13:22:24|Successful Smart algorithm on AECoreDomainInit
+DEBUG   |130821 13:22:24|Kettenrad :: Domain 'init' has finished.
+DEBUG   |130821 13:22:24|====== Finished Step number 1 ======
+DEBUG   |130821 13:22:24|*** Engine steps batching: Break flag detected.
+DEBUG   |130821 13:22:24|*** Batching of engine steps finished. I will now return control to the caller.
+DEBUG   |130821 13:22:24|Sleeping for 1717.01002121 msec, using usleep()
+DEBUG   |130821 13:22:26|Saving Kettenrad instance backend
+DEBUG   |130821 13:22:26|
+DEBUG   |130821 13:22:27| -- Loaded stored Akeeba Factory (backend)
+DEBUG   |130821 13:22:27|====== Starting Step number 1 ======
+DEBUG   |130821 13:22:27|Kettenrad :: BREAKING STEP BEFORE SWITCHING DOMAIN
+DEBUG   |130821 13:22:27|AECoreDomainInstaller :: New instance
+DEBUG   |130821 13:22:27|-- Adding installation/README.html to archive (virtual data)
+DEBUG   |130821 13:22:27|-- Adding installation/extrainfo.ini to archive (virtual data)
+DEBUG   |130821 13:22:27|----- Finished operation 1 ------
+DEBUG   |130821 13:22:27|Initializing with JPA package 
+DEBUG   |130821 13:22:27|  Adding installation/angie/application.php; Next offset:410
+DEBUG   |130821 13:22:27|-- Adding installation/angie/application.php to archive (virtual data)
+DEBUG   |130821 13:22:27|----- Finished operation 2 ------
+DEBUG   |130821 13:22:27|  Adding installation/angie/controllers/dbrestore.php; Next offset:1192
+DEBUG   |130821 13:22:27|-- Adding installation/angie/controllers/dbrestore.php to archive (virtual data)
+DEBUG   |130821 13:22:27|----- Finished operation 3 ------
+DEBUG   |130821 13:22:27|  Adding installation/angie/controllers/finalise.php; Next offset:1694
+DEBUG   |130821 13:22:27|-- Adding installation/angie/controllers/finalise.php to archive (virtual data)
+DEBUG   |130821 13:22:27|----- Finished operation 4 ------
+DEBUG   |130821 13:22:27|  Adding installation/angie/controllers/main.php; Next offset:2419
+DEBUG   |130821 13:22:27|-- Adding installation/angie/controllers/main.php to archive (virtual data)
+DEBUG   |130821 13:22:27|----- Finished operation 5 ------
+DEBUG   |130821 13:22:27|  Adding installation/angie/controllers/password.php; Next offset:2962
+DEBUG   |130821 13:22:27|-- Adding installation/angie/controllers/password.php to archive (virtual data)
+DEBUG   |130821 13:22:27|----- Finished operation 6 ------
+DEBUG   |130821 13:22:27|  Adding installation/angie/controllers/session.php; Next offset:3479
+DEBUG   |130821 13:22:27|-- Adding installation/angie/controllers/session.php to archive (virtual data)
+DEBUG   |130821 13:22:27|----- Finished operation 7 ------
+DEBUG   |130821 13:22:27|  Adding installation/angie/controllers/setup.php; Next offset:3984
+DEBUG   |130821 13:22:27|-- Adding installation/angie/controllers/setup.php to archive (virtual data)
+DEBUG   |130821 13:22:27|----- Finished operation 8 ------
+DEBUG   |130821 13:22:27|  Adding installation/angie/dispatcher.php; Next offset:4840
+DEBUG   |130821 13:22:27|-- Adding installation/angie/dispatcher.php to archive (virtual data)
+DEBUG   |130821 13:22:27|----- Finished operation 9 ------
+DEBUG   |130821 13:22:27|  Adding installation/angie/helpers/select.php; Next offset:8806
+DEBUG   |130821 13:22:27|-- Adding installation/angie/helpers/select.php to archive (virtual data)
+DEBUG   |130821 13:22:27|----- Finished operation 10 ------
+DEBUG   |130821 13:22:27|  Adding installation/angie/js/ajax.js; Next offset:10084
+DEBUG   |130821 13:22:27|-- Adding installation/angie/js/ajax.js to archive (virtual data)
+DEBUG   |130821 13:22:27|----- Finished operation 11 ------
+DEBUG   |130821 13:22:27|  Adding installation/angie/js/database.js; Next offset:11544
+DEBUG   |130821 13:22:27|-- Adding installation/angie/js/database.js to archive (virtual data)
+DEBUG   |130821 13:22:27|----- Finished operation 12 ------
+DEBUG   |130821 13:22:27|  Adding installation/angie/js/finalise.js; Next offset:12234
+DEBUG   |130821 13:22:27|-- Adding installation/angie/js/finalise.js to archive (virtual data)
+DEBUG   |130821 13:22:27|----- Finished operation 13 ------
+DEBUG   |130821 13:22:27|  Adding installation/angie/js/ftpbrowser.js; Next offset:12601
+DEBUG   |130821 13:22:27|-- Adding installation/angie/js/ftpbrowser.js to archive (virtual data)
+DEBUG   |130821 13:22:27|----- Finished operation 14 ------
+DEBUG   |130821 13:22:27|  Adding installation/angie/js/json.js; Next offset:14104
+DEBUG   |130821 13:22:27|-- Adding installation/angie/js/json.js to archive (virtual data)
+DEBUG   |130821 13:22:27|----- Finished operation 15 ------
+DEBUG   |130821 13:22:27|  Adding installation/angie/js/main.js; Next offset:14645
+DEBUG   |130821 13:22:27|-- Adding installation/angie/js/main.js to archive (virtual data)
+DEBUG   |130821 13:22:27|----- Finished operation 16 ------
+DEBUG   |130821 13:22:27|  Adding installation/angie/js/setup.js; Next offset:15499
+DEBUG   |130821 13:22:27|-- Adding installation/angie/js/setup.js to archive (virtual data)
+DEBUG   |130821 13:22:27|----- Finished operation 17 ------
+DEBUG   |130821 13:22:27|  Adding installation/angie/language/ar-SA.ini; Next offset:24745
+DEBUG   |130821 13:22:27|-- Adding installation/angie/language/ar-SA.ini to archive (virtual data)
+DEBUG   |130821 13:22:27|----- Finished operation 18 ------
+DEBUG   |130821 13:22:27|  Adding installation/angie/language/ar.ini; Next offset:34020
+DEBUG   |130821 13:22:27|-- Adding installation/angie/language/ar.ini to archive (virtual data)
+DEBUG   |130821 13:22:27|----- Finished operation 19 ------
+DEBUG   |130821 13:22:27|  Adding installation/angie/language/az-AZ.ini; Next offset:43754
+DEBUG   |130821 13:22:27|-- Adding installation/angie/language/az-AZ.ini to archive (virtual data)
+DEBUG   |130821 13:22:27|----- Finished operation 20 ------
+DEBUG   |130821 13:22:27|  Adding installation/angie/language/az.ini; Next offset:52997
+DEBUG   |130821 13:22:27|-- Adding installation/angie/language/az.ini to archive (virtual data)
+DEBUG   |130821 13:22:27|----- Finished operation 21 ------
+DEBUG   |130821 13:22:27|  Adding installation/angie/language/bg-BG.ini; Next offset:64766
+DEBUG   |130821 13:22:27|-- Adding installation/angie/language/bg-BG.ini to archive (virtual data)
+DEBUG   |130821 13:22:27|----- Finished operation 22 ------
+DEBUG   |130821 13:22:27|  Adding installation/angie/language/ca-ES.ini; Next offset:74012
+DEBUG   |130821 13:22:27|-- Adding installation/angie/language/ca-ES.ini to archive (virtual data)
+DEBUG   |130821 13:22:27|----- Finished operation 23 ------
+DEBUG   |130821 13:22:27|  Adding installation/angie/language/cs-CZ.ini; Next offset:84392
+DEBUG   |130821 13:22:27|-- Adding installation/angie/language/cs-CZ.ini to archive (virtual data)
+DEBUG   |130821 13:22:27|----- Finished operation 24 ------
+DEBUG   |130821 13:22:27|  Adding installation/angie/language/da-DK.ini; Next offset:94007
+DEBUG   |130821 13:22:27|-- Adding installation/angie/language/da-DK.ini to archive (virtual data)
+DEBUG   |130821 13:22:27|----- Finished operation 25 ------
+DEBUG   |130821 13:22:27|  Adding installation/angie/language/de-DE.ini; Next offset:104431
+DEBUG   |130821 13:22:27|-- Adding installation/angie/language/de-DE.ini to archive (virtual data)
+DEBUG   |130821 13:22:27|----- Finished operation 26 ------
+DEBUG   |130821 13:22:27|  Adding installation/angie/language/de.ini; Next offset:113674
+DEBUG   |130821 13:22:27|-- Adding installation/angie/language/de.ini to archive (virtual data)
+DEBUG   |130821 13:22:27|----- Finished operation 27 ------
+DEBUG   |130821 13:22:27|  Adding installation/angie/language/el-GR.ini; Next offset:126640
+DEBUG   |130821 13:22:27|-- Adding installation/angie/language/el-GR.ini to archive (virtual data)
+DEBUG   |130821 13:22:27|----- Finished operation 28 ------
+DEBUG   |130821 13:22:27|  Adding installation/angie/language/en-GB.ini; Next offset:135869
+DEBUG   |130821 13:22:27|-- Adding installation/angie/language/en-GB.ini to archive (virtual data)
+DEBUG   |130821 13:22:27|----- Finished operation 29 ------
+DEBUG   |130821 13:22:27|  Adding installation/angie/language/es-ES.ini; Next offset:146229
+DEBUG   |130821 13:22:27|-- Adding installation/angie/language/es-ES.ini to archive (virtual data)
+DEBUG   |130821 13:22:27|----- Finished operation 30 ------
+DEBUG   |130821 13:22:27|  Adding installation/angie/language/et-EE.ini; Next offset:155475
+DEBUG   |130821 13:22:27|-- Adding installation/angie/language/et-EE.ini to archive (virtual data)
+DEBUG   |130821 13:22:27|----- Finished operation 31 ------
+DEBUG   |130821 13:22:27|  Adding installation/angie/language/fa-IR.ini; Next offset:165766
+DEBUG   |130821 13:22:27|-- Adding installation/angie/language/fa-IR.ini to archive (virtual data)
+DEBUG   |130821 13:22:27|----- Finished operation 32 ------
+DEBUG   |130821 13:22:27|  Adding installation/angie/language/fa.ini; Next offset:175009
+DEBUG   |130821 13:22:27|-- Adding installation/angie/language/fa.ini to archive (virtual data)
+DEBUG   |130821 13:22:27|----- Finished operation 33 ------
+DEBUG   |130821 13:22:27|  Adding installation/angie/language/fi-FI.ini; Next offset:184255
+DEBUG   |130821 13:22:27|-- Adding installation/angie/language/fi-FI.ini to archive (virtual data)
+DEBUG   |130821 13:22:27|----- Finished operation 34 ------
+DEBUG   |130821 13:22:27|  Adding installation/angie/language/fr-FR.ini; Next offset:194316
+DEBUG   |130821 13:22:27|-- Adding installation/angie/language/fr-FR.ini to archive (virtual data)
+DEBUG   |130821 13:22:27|----- Finished operation 35 ------
+DEBUG   |130821 13:22:27|  Adding installation/angie/language/hu-HU.ini; Next offset:203970
+DEBUG   |130821 13:22:27|-- Adding installation/angie/language/hu-HU.ini to archive (virtual data)
+DEBUG   |130821 13:22:27|----- Finished operation 36 ------
+DEBUG   |130821 13:22:27|  Adding installation/angie/language/it-IT.ini; Next offset:214125
+DEBUG   |130821 13:22:27|-- Adding installation/angie/language/it-IT.ini to archive (virtual data)
+DEBUG   |130821 13:22:27|----- Finished operation 37 ------
+DEBUG   |130821 13:22:27|  Adding installation/angie/language/ja-JP.ini; Next offset:223371
+DEBUG   |130821 13:22:27|-- Adding installation/angie/language/ja-JP.ini to archive (virtual data)
+DEBUG   |130821 13:22:27|----- Finished operation 38 ------
+DEBUG   |130821 13:22:27|  Adding installation/angie/language/ku_IQ.ini; Next offset:232617
+DEBUG   |130821 13:22:27|-- Adding installation/angie/language/ku_IQ.ini to archive (virtual data)
+DEBUG   |130821 13:22:27|----- Finished operation 39 ------
+DEBUG   |130821 13:22:27|  Adding installation/angie/language/lt-LT.ini; Next offset:241863
+DEBUG   |130821 13:22:27|-- Adding installation/angie/language/lt-LT.ini to archive (virtual data)
+DEBUG   |130821 13:22:27|----- Finished operation 40 ------
+DEBUG   |130821 13:22:27|  Adding installation/angie/language/mk-MK.ini; Next offset:251109
+DEBUG   |130821 13:22:27|-- Adding installation/angie/language/mk-MK.ini to archive (virtual data)
+DEBUG   |130821 13:22:27|----- Finished operation 41 ------
+DEBUG   |130821 13:22:27|  Adding installation/angie/language/nb-NO.ini; Next offset:260514
+DEBUG   |130821 13:22:27|-- Adding installation/angie/language/nb-NO.ini to archive (virtual data)
+DEBUG   |130821 13:22:27|----- Finished operation 42 ------
+DEBUG   |130821 13:22:27|  Adding installation/angie/language/nl-NL.ini; Next offset:270353
+DEBUG   |130821 13:22:27|-- Adding installation/angie/language/nl-NL.ini to archive (virtual data)
+DEBUG   |130821 13:22:27|----- Finished operation 43 ------
+DEBUG   |130821 13:22:27|  Adding installation/angie/language/pl-PL.ini; Next offset:280866
+DEBUG   |130821 13:22:27|-- Adding installation/angie/language/pl-PL.ini to archive (virtual data)
+DEBUG   |130821 13:22:27|----- Finished operation 44 ------
+DEBUG   |130821 13:22:27|  Adding installation/angie/language/pt-BR.ini; Next offset:290112
+DEBUG   |130821 13:22:27|-- Adding installation/angie/language/pt-BR.ini to archive (virtual data)
+DEBUG   |130821 13:22:27|----- Finished operation 45 ------
+DEBUG   |130821 13:22:27|  Adding installation/angie/language/pt-PT.ini; Next offset:299358
+DEBUG   |130821 13:22:27|-- Adding installation/angie/language/pt-PT.ini to archive (virtual data)
+DEBUG   |130821 13:22:27|----- Finished operation 46 ------
+DEBUG   |130821 13:22:27|  Adding installation/angie/language/ro-RO.ini; Next offset:308733
+DEBUG   |130821 13:22:27|-- Adding installation/angie/language/ro-RO.ini to archive (virtual data)
+DEBUG   |130821 13:22:27|----- Finished operation 47 ------
+DEBUG   |130821 13:22:27|  Adding installation/angie/language/ru-RU.ini; Next offset:321539
+DEBUG   |130821 13:22:27|-- Adding installation/angie/language/ru-RU.ini to archive (virtual data)
+DEBUG   |130821 13:22:27|----- Finished operation 48 ------
+DEBUG   |130821 13:22:27|  Adding installation/angie/language/sk-SK.ini; Next offset:330785
+DEBUG   |130821 13:22:27|-- Adding installation/angie/language/sk-SK.ini to archive (virtual data)
+DEBUG   |130821 13:22:27|----- Finished operation 49 ------
+DEBUG   |130821 13:22:27|  Adding installation/angie/language/sr@latin.ini; Next offset:340034
+DEBUG   |130821 13:22:27|-- Adding installation/angie/language/sr@latin.ini to archive (virtual data)
+DEBUG   |130821 13:22:27|----- Finished operation 50 ------
+DEBUG   |130821 13:22:27|  Adding installation/angie/language/sv-SE.ini; Next offset:349737
+DEBUG   |130821 13:22:27|-- Adding installation/angie/language/sv-SE.ini to archive (virtual data)
+DEBUG   |130821 13:22:27|----- Finished operation 51 ------
+DEBUG   |130821 13:22:27|  Adding installation/angie/language/th-TH.ini; Next offset:358983
+DEBUG   |130821 13:22:27|-- Adding installation/angie/language/th-TH.ini to archive (virtual data)
+DEBUG   |130821 13:22:27|----- Finished operation 52 ------
+DEBUG   |130821 13:22:27|  Adding installation/angie/language/tr-TR.ini; Next offset:368274
+DEBUG   |130821 13:22:27|-- Adding installation/angie/language/tr-TR.ini to archive (virtual data)
+DEBUG   |130821 13:22:27|----- Finished operation 53 ------
+DEBUG   |130821 13:22:27|  Adding installation/angie/language/uk-UA.ini; Next offset:377520
+DEBUG   |130821 13:22:27|-- Adding installation/angie/language/uk-UA.ini to archive (virtual data)
+DEBUG   |130821 13:22:27|----- Finished operation 54 ------
+DEBUG   |130821 13:22:27|  Adding installation/angie/language/zh-CN.ini; Next offset:387811
+DEBUG   |130821 13:22:27|-- Adding installation/angie/language/zh-CN.ini to archive (virtual data)
+DEBUG   |130821 13:22:27|----- Finished operation 55 ------
+DEBUG   |130821 13:22:27|  Adding installation/angie/language/zh-TW.ini; Next offset:398124
+DEBUG   |130821 13:22:27|-- Adding installation/angie/language/zh-TW.ini to archive (virtual data)
+DEBUG   |130821 13:22:27|----- Finished operation 56 ------
+DEBUG   |130821 13:22:27|  Adding installation/angie/models/configuration.php; Next offset:400102
+DEBUG   |130821 13:22:27|-- Adding installation/angie/models/configuration.php to archive (virtual data)
+DEBUG   |130821 13:22:27|----- Finished operation 57 ------
+DEBUG   |130821 13:22:27|  Adding installation/angie/models/database.php; Next offset:402098
+DEBUG   |130821 13:22:27|-- Adding installation/angie/models/database.php to archive (virtual data)
+DEBUG   |130821 13:22:27|----- Finished operation 58 ------
+DEBUG   |130821 13:22:27|  Adding installation/angie/models/finalise.php; Next offset:403292
+DEBUG   |130821 13:22:27|-- Adding installation/angie/models/finalise.php to archive (virtual data)
+DEBUG   |130821 13:22:27|----- Finished operation 59 ------
+DEBUG   |130821 13:22:27|  Adding installation/angie/models/ftpbrowser.php; Next offset:404820
+DEBUG   |130821 13:22:27|-- Adding installation/angie/models/ftpbrowser.php to archive (virtual data)
+DEBUG   |130821 13:22:27|----- Finished operation 60 ------
+DEBUG   |130821 13:22:27|  Adding installation/angie/models/jconfig/j25.php; Next offset:405575
+DEBUG   |130821 13:22:27|-- Adding installation/angie/models/jconfig/j25.php to archive (virtual data)
+DEBUG   |130821 13:22:27|----- Finished operation 61 ------
+DEBUG   |130821 13:22:27|  Adding installation/angie/models/jconfig/j30.php; Next offset:406319
+DEBUG   |130821 13:22:27|-- Adding installation/angie/models/jconfig/j30.php to archive (virtual data)
+DEBUG   |130821 13:22:27|----- Finished operation 62 ------
+DEBUG   |130821 13:22:27|  Adding installation/angie/models/main.php; Next offset:408634
+DEBUG   |130821 13:22:27|-- Adding installation/angie/models/main.php to archive (virtual data)
+DEBUG   |130821 13:22:27|----- Finished operation 63 ------
+DEBUG   |130821 13:22:27|  Adding installation/angie/models/session.php; Next offset:409673
+DEBUG   |130821 13:22:27|-- Adding installation/angie/models/session.php to archive (virtual data)
+DEBUG   |130821 13:22:27|----- Finished operation 64 ------
+DEBUG   |130821 13:22:27|  Adding installation/angie/models/setup.php; Next offset:412799
+DEBUG   |130821 13:22:27|-- Adding installation/angie/models/setup.php to archive (virtual data)
+DEBUG   |130821 13:22:27|----- Finished operation 65 ------
+DEBUG   |130821 13:22:27|  Adding installation/angie/models/steps.php; Next offset:414448
+DEBUG   |130821 13:22:27|-- Adding installation/angie/models/steps.php to archive (virtual data)
+DEBUG   |130821 13:22:27|----- Finished operation 66 ------
+DEBUG   |130821 13:22:27|  Adding installation/angie/views/database/tmpl/default.php; Next offset:416441
+DEBUG   |130821 13:22:27|-- Adding installation/angie/views/database/tmpl/default.php to archive (virtual data)
+DEBUG   |130821 13:22:27|----- Finished operation 67 ------
+DEBUG   |130821 13:22:27|  Adding installation/angie/views/database/view.html.php; Next offset:416891
+DEBUG   |130821 13:22:27|-- Adding installation/angie/views/database/view.html.php to archive (virtual data)
+DEBUG   |130821 13:22:27|----- Finished operation 68 ------
+DEBUG   |130821 13:22:27|  Adding installation/angie/views/finalise/tmpl/config.php; Next offset:417340
+DEBUG   |130821 13:22:27|-- Adding installation/angie/views/finalise/tmpl/config.php to archive (virtual data)
+DEBUG   |130821 13:22:27|----- Finished operation 69 ------
+DEBUG   |130821 13:22:27|  Adding installation/angie/views/finalise/tmpl/default.php; Next offset:418452
+DEBUG   |130821 13:22:27|-- Adding installation/angie/views/finalise/tmpl/default.php to archive (virtual data)
+DEBUG   |130821 13:22:27|----- Finished operation 70 ------
+DEBUG   |130821 13:22:27|  Adding installation/angie/views/finalise/tmpl/success.php; Next offset:418813
+DEBUG   |130821 13:22:27|-- Adding installation/angie/views/finalise/tmpl/success.php to archive (virtual data)
+DEBUG   |130821 13:22:27|----- Finished operation 71 ------
+DEBUG   |130821 13:22:27|  Adding installation/angie/views/finalise/view.html.php; Next offset:419249
+DEBUG   |130821 13:22:27|-- Adding installation/angie/views/finalise/view.html.php to archive (virtual data)
+DEBUG   |130821 13:22:27|----- Finished operation 72 ------
+DEBUG   |130821 13:22:27|  Adding installation/angie/views/ftpbrowser/tmpl/default.php; Next offset:420182
+DEBUG   |130821 13:22:27|-- Adding installation/angie/views/ftpbrowser/tmpl/default.php to archive (virtual data)
+DEBUG   |130821 13:22:27|----- Finished operation 73 ------
+DEBUG   |130821 13:22:27|  Adding installation/angie/views/ftpbrowser/view.html.php; Next offset:420748
+DEBUG   |130821 13:22:27|-- Adding installation/angie/views/ftpbrowser/view.html.php to archive (virtual data)
+DEBUG   |130821 13:22:27|----- Finished operation 74 ------
+DEBUG   |130821 13:22:27|  Adding installation/angie/views/main/tmpl/default.php; Next offset:421490
+DEBUG   |130821 13:22:27|-- Adding installation/angie/views/main/tmpl/default.php to archive (virtual data)
+DEBUG   |130821 13:22:27|----- Finished operation 75 ------
+DEBUG   |130821 13:22:27|  Adding installation/angie/views/main/tmpl/init.php; Next offset:422996
+DEBUG   |130821 13:22:27|-- Adding installation/angie/views/main/tmpl/init.php to archive (virtual data)
+DEBUG   |130821 13:22:27|----- Finished operation 76 ------
+DEBUG   |130821 13:22:27|  Adding installation/angie/views/main/view.raw.php; Next offset:423844
+DEBUG   |130821 13:22:27|-- Adding installation/angie/views/main/view.raw.php to archive (virtual data)
+DEBUG   |130821 13:22:27|----- Finished operation 77 ------
+DEBUG   |130821 13:22:27|  Adding installation/angie/views/password/tmpl/default.php; Next offset:424547
+DEBUG   |130821 13:22:27|-- Adding installation/angie/views/password/tmpl/default.php to archive (virtual data)
+DEBUG   |130821 13:22:27|----- Finished operation 78 ------
+DEBUG   |130821 13:22:27|  Adding installation/angie/views/session/tmpl/default.php; Next offset:426025
+DEBUG   |130821 13:22:27|-- Adding installation/angie/views/session/tmpl/default.php to archive (virtual data)
+DEBUG   |130821 13:22:27|----- Finished operation 79 ------
+DEBUG   |130821 13:22:27|  Adding installation/angie/views/session/view.html.php; Next offset:426413
+DEBUG   |130821 13:22:27|-- Adding installation/angie/views/session/view.html.php to archive (virtual data)
+DEBUG   |130821 13:22:27|----- Finished operation 80 ------
+DEBUG   |130821 13:22:27|  Adding installation/angie/views/setup/tmpl/default.php; Next offset:428652
+DEBUG   |130821 13:22:27|-- Adding installation/angie/views/setup/tmpl/default.php to archive (virtual data)
+DEBUG   |130821 13:22:27|----- Finished operation 81 ------
+DEBUG   |130821 13:22:27|  Adding installation/angie/views/setup/view.html.php; Next offset:429043
+DEBUG   |130821 13:22:27|-- Adding installation/angie/views/setup/view.html.php to archive (virtual data)
+DEBUG   |130821 13:22:27|----- Finished operation 82 ------
+DEBUG   |130821 13:22:27|  Adding installation/angie/views/steps/tmpl/buttons.php; Next offset:429751
+DEBUG   |130821 13:22:27|-- Adding installation/angie/views/steps/tmpl/buttons.php to archive (virtual data)
+DEBUG   |130821 13:22:27|----- Finished operation 83 ------
+DEBUG   |130821 13:22:27|  Adding installation/angie/views/steps/tmpl/steps.php; Next offset:430613
+DEBUG   |130821 13:22:27|-- Adding installation/angie/views/steps/tmpl/steps.php to archive (virtual data)
+DEBUG   |130821 13:22:27|----- Finished operation 84 ------
+DEBUG   |130821 13:22:27|  Adding installation/defines.php; Next offset:431075
+DEBUG   |130821 13:22:27|-- Adding installation/defines.php to archive (virtual data)
+DEBUG   |130821 13:22:27|----- Finished operation 85 ------
+DEBUG   |130821 13:22:27|  Adding installation/framework/application/application.php; Next offset:434230
+DEBUG   |130821 13:22:27|-- Adding installation/framework/application/application.php to archive (virtual data)
+DEBUG   |130821 13:22:27|----- Finished operation 86 ------
+DEBUG   |130821 13:22:27|  Adding installation/framework/autoloader.php; Next offset:435168
+DEBUG   |130821 13:22:27|-- Adding installation/framework/autoloader.php to archive (virtual data)
+DEBUG   |130821 13:22:27|----- Finished operation 87 ------
+DEBUG   |130821 13:22:27|  Adding installation/framework/controller/controller.php; Next offset:441506
+DEBUG   |130821 13:22:27|-- Adding installation/framework/controller/controller.php to archive (virtual data)
+DEBUG   |130821 13:22:27|----- Finished operation 88 ------
+DEBUG   |130821 13:22:27|  Adding installation/framework/database/driver/mysql.php; Next offset:444340
+DEBUG   |130821 13:22:27|-- Adding installation/framework/database/driver/mysql.php to archive (virtual data)
+DEBUG   |130821 13:22:27|----- Finished operation 89 ------
+DEBUG   |130821 13:22:27|  Adding installation/framework/database/driver/mysqli.php; Next offset:448920
+DEBUG   |130821 13:22:27|-- Adding installation/framework/database/driver/mysqli.php to archive (virtual data)
+DEBUG   |130821 13:22:27|----- Finished operation 90 ------
+DEBUG   |130821 13:22:27|  Adding installation/framework/database/driver/sqlazure.php; Next offset:449523
+DEBUG   |130821 13:22:27|-- Adding installation/framework/database/driver/sqlazure.php to archive (virtual data)
+DEBUG   |130821 13:22:27|----- Finished operation 91 ------
+DEBUG   |130821 13:22:27|  Adding installation/framework/database/driver/sqlsrv.php; Next offset:455943
+DEBUG   |130821 13:22:27|-- Adding installation/framework/database/driver/sqlsrv.php to archive (virtual data)
+DEBUG   |130821 13:22:27|----- Finished operation 92 ------
+DEBUG   |130821 13:22:27|  Adding installation/framework/database/driver.php; Next offset:464774
+DEBUG   |130821 13:22:27|-- Adding installation/framework/database/driver.php to archive (virtual data)
+DEBUG   |130821 13:22:27|----- Finished operation 93 ------
+DEBUG   |130821 13:22:27|  Adding installation/framework/database/factory.php; Next offset:466352
+DEBUG   |130821 13:22:27|-- Adding installation/framework/database/factory.php to archive (virtual data)
+DEBUG   |130821 13:22:27|----- Finished operation 94 ------
+DEBUG   |130821 13:22:27|  Adding installation/framework/database/query/limitable.php; Next offset:467313
+DEBUG   |130821 13:22:27|-- Adding installation/framework/database/query/limitable.php to archive (virtual data)
+DEBUG   |130821 13:22:27|----- Finished operation 95 ------
+DEBUG   |130821 13:22:27|  Adding installation/framework/database/query/mysql.php; Next offset:467808
+DEBUG   |130821 13:22:27|-- Adding installation/framework/database/query/mysql.php to archive (virtual data)
+DEBUG   |130821 13:22:27|----- Finished operation 96 ------
+DEBUG   |130821 13:22:27|  Adding installation/framework/database/query/mysqli.php; Next offset:468987
+DEBUG   |130821 13:22:27|-- Adding installation/framework/database/query/mysqli.php to archive (virtual data)
+DEBUG   |130821 13:22:27|----- Finished operation 97 ------
+DEBUG   |130821 13:22:27|  Adding installation/framework/database/query/sqlazure.php; Next offset:469682
+DEBUG   |130821 13:22:27|-- Adding installation/framework/database/query/sqlazure.php to archive (virtual data)
+DEBUG   |130821 13:22:27|----- Finished operation 98 ------
+DEBUG   |130821 13:22:27|  Adding installation/framework/database/query/sqlsrv.php; Next offset:471350
+DEBUG   |130821 13:22:27|-- Adding installation/framework/database/query/sqlsrv.php to archive (virtual data)
+DEBUG   |130821 13:22:27|----- Finished operation 99 ------
+DEBUG   |130821 13:22:27|  Adding installation/framework/database/query.php; Next offset:478102
+DEBUG   |130821 13:22:27|-- Adding installation/framework/database/query.php to archive (virtual data)
+DEBUG   |130821 13:22:27|----- Finished operation 100 ------
+DEBUG   |130821 13:22:27|  Adding installation/framework/database/restore/mysql.php; Next offset:478439
+DEBUG   |130821 13:22:27|-- Adding installation/framework/database/restore/mysql.php to archive (virtual data)
+DEBUG   |130821 13:22:27|----- Finished operation 101 ------
+DEBUG   |130821 13:22:27|  Adding installation/framework/database/restore/mysqli.php; Next offset:481391
+DEBUG   |130821 13:22:27|-- Adding installation/framework/database/restore/mysqli.php to archive (virtual data)
+DEBUG   |130821 13:22:27|----- Finished operation 102 ------
+DEBUG   |130821 13:22:27|  Adding installation/framework/database/restore/sqlazure.php; Next offset:481732
+DEBUG   |130821 13:22:27|-- Adding installation/framework/database/restore/sqlazure.php to archive (virtual data)
+DEBUG   |130821 13:22:27|----- Finished operation 103 ------
+DEBUG   |130821 13:22:27|  Adding installation/framework/database/restore/sqlsrv.php; Next offset:484399
+DEBUG   |130821 13:22:27|-- Adding installation/framework/database/restore/sqlsrv.php to archive (virtual data)
+DEBUG   |130821 13:22:27|----- Finished operation 104 ------
+DEBUG   |130821 13:22:27|  Adding installation/framework/database/restore.php; Next offset:489979
+DEBUG   |130821 13:22:27|-- Adding installation/framework/database/restore.php to archive (virtual data)
+DEBUG   |130821 13:22:27|----- Finished operation 105 ------
+DEBUG   |130821 13:22:27|  Adding installation/framework/dispatcher/dispatcher.php; Next offset:491891
+DEBUG   |130821 13:22:27|-- Adding installation/framework/dispatcher/dispatcher.php to archive (virtual data)
+DEBUG   |130821 13:22:27|----- Finished operation 106 ------
+DEBUG   |130821 13:22:27|  Adding installation/framework/document/document.php; Next offset:493754
+DEBUG   |130821 13:22:27|-- Adding installation/framework/document/document.php to archive (virtual data)
+DEBUG   |130821 13:22:27|----- Finished operation 107 ------
+DEBUG   |130821 13:22:27|  Adding installation/framework/document/html.php; Next offset:494169
+DEBUG   |130821 13:22:27|-- Adding installation/framework/document/html.php to archive (virtual data)
+DEBUG   |130821 13:22:27|----- Finished operation 108 ------
+DEBUG   |130821 13:22:27|  Adding installation/framework/document/json.php; Next offset:494537
+DEBUG   |130821 13:22:27|-- Adding installation/framework/document/json.php to archive (virtual data)
+DEBUG   |130821 13:22:27|----- Finished operation 109 ------
+DEBUG   |130821 13:22:27|  Adding installation/framework/document/raw.php; Next offset:494894
+DEBUG   |130821 13:22:27|-- Adding installation/framework/document/raw.php to archive (virtual data)
+DEBUG   |130821 13:22:27|----- Finished operation 110 ------
+DEBUG   |130821 13:22:27|  Adding installation/framework/exception/app.php; Next offset:495224
+DEBUG   |130821 13:22:27|-- Adding installation/framework/exception/app.php to archive (virtual data)
+DEBUG   |130821 13:22:27|----- Finished operation 111 ------
+DEBUG   |130821 13:22:27|  Adding installation/framework/exception/dispatch.php; Next offset:495563
+DEBUG   |130821 13:22:27|-- Adding installation/framework/exception/dispatch.php to archive (virtual data)
+DEBUG   |130821 13:22:27|----- Finished operation 112 ------
+DEBUG   |130821 13:22:27|  Adding installation/framework/exception/interface.php; Next offset:495881
+DEBUG   |130821 13:22:27|-- Adding installation/framework/exception/interface.php to archive (virtual data)
+DEBUG   |130821 13:22:27|----- Finished operation 113 ------
+DEBUG   |130821 13:22:27|  Adding installation/framework/filter/input.php; Next offset:501818
+DEBUG   |130821 13:22:27|-- Adding installation/framework/filter/input.php to archive (virtual data)
+DEBUG   |130821 13:22:27|----- Finished operation 114 ------
+DEBUG   |130821 13:22:27|  Adding installation/framework/ftp/ftp.php; Next offset:507280
+DEBUG   |130821 13:22:27|-- Adding installation/framework/ftp/ftp.php to archive (virtual data)
+DEBUG   |130821 13:22:27|----- Finished operation 115 ------
+DEBUG   |130821 13:22:27|  Adding installation/framework/input/input.php; Next offset:509295
+DEBUG   |130821 13:22:27|-- Adding installation/framework/input/input.php to archive (virtual data)
+DEBUG   |130821 13:22:27|----- Finished operation 116 ------
+DEBUG   |130821 13:22:27|  Adding installation/framework/log/log.php; Next offset:509977
+DEBUG   |130821 13:22:27|-- Adding installation/framework/log/log.php to archive (virtual data)
+DEBUG   |130821 13:22:27|----- Finished operation 117 ------
+DEBUG   |130821 13:22:27|  Adding installation/framework/model/model.php; Next offset:513459
+DEBUG   |130821 13:22:27|-- Adding installation/framework/model/model.php to archive (virtual data)
+DEBUG   |130821 13:22:27|----- Finished operation 118 ------
+DEBUG   |130821 13:22:27|  Adding installation/framework/object/object.php; Next offset:514622
+DEBUG   |130821 13:22:27|-- Adding installation/framework/object/object.php to archive (virtual data)
+DEBUG   |130821 13:22:27|----- Finished operation 119 ------
+DEBUG   |130821 13:22:27|  Adding installation/framework/session/session.php; Next offset:516477
+DEBUG   |130821 13:22:27|-- Adding installation/framework/session/session.php to archive (virtual data)
+DEBUG   |130821 13:22:27|----- Finished operation 120 ------
+DEBUG   |130821 13:22:27|  Adding installation/framework/text/text.php; Next offset:517883
+DEBUG   |130821 13:22:27|-- Adding installation/framework/text/text.php to archive (virtual data)
+DEBUG   |130821 13:22:27|----- Finished operation 121 ------
+DEBUG   |130821 13:22:27|  Adding installation/framework/timer/timer.php; Next offset:518782
+DEBUG   |130821 13:22:27|-- Adding installation/framework/timer/timer.php to archive (virtual data)
+DEBUG   |130821 13:22:27|----- Finished operation 122 ------
+DEBUG   |130821 13:22:27|  Adding installation/framework/uri/uri.php; Next offset:523365
+DEBUG   |130821 13:22:27|-- Adding installation/framework/uri/uri.php to archive (virtual data)
+DEBUG   |130821 13:22:27|----- Finished operation 123 ------
+DEBUG   |130821 13:22:27|  Adding installation/framework/utils/buffer.php; Next offset:524910
+DEBUG   |130821 13:22:27|-- Adding installation/framework/utils/buffer.php to archive (virtual data)
+DEBUG   |130821 13:22:27|----- Finished operation 124 ------
+DEBUG   |130821 13:22:27|  Adding installation/framework/utils/ip.php; Next offset:526229
+DEBUG   |130821 13:22:27|-- Adding installation/framework/utils/ip.php to archive (virtual data)
+DEBUG   |130821 13:22:27|----- Finished operation 125 ------
+DEBUG   |130821 13:22:27|  Adding installation/framework/utils/path.php; Next offset:527647
+DEBUG   |130821 13:22:27|-- Adding installation/framework/utils/path.php to archive (virtual data)
+DEBUG   |130821 13:22:27|----- Finished operation 126 ------
+DEBUG   |130821 13:22:27|  Adding installation/framework/view/view.php; Next offset:532379
+DEBUG   |130821 13:22:27|-- Adding installation/framework/view/view.php to archive (virtual data)
+DEBUG   |130821 13:22:27|----- Finished operation 127 ------
+DEBUG   |130821 13:22:27|  Adding installation/index.php; Next offset:533350
+DEBUG   |130821 13:22:27|-- Adding installation/index.php to archive (virtual data)
+DEBUG   |130821 13:22:27|----- Finished operation 128 ------
+DEBUG   |130821 13:22:27|  Adding installation/template/angie/css/bootstrap-responsive.min.css; Next offset:537406
+DEBUG   |130821 13:22:27|-- Adding installation/template/angie/css/bootstrap-responsive.min.css to archive (virtual data)
+DEBUG   |130821 13:22:27|----- Finished operation 129 ------
+DEBUG   |130821 13:22:27|  Adding installation/template/angie/css/bootstrap.min.css; Next offset:554520
+DEBUG   |130821 13:22:27|-- Adding installation/template/angie/css/bootstrap.min.css to archive (virtual data)
+DEBUG   |130821 13:22:27|----- Finished operation 130 ------
+DEBUG   |130821 13:22:27|  Adding installation/template/angie/css/footer.css; Next offset:554972
+DEBUG   |130821 13:22:27|-- Adding installation/template/angie/css/footer.css to archive (virtual data)
+DEBUG   |130821 13:22:27|----- Finished operation 131 ------
+DEBUG   |130821 13:22:27|  Adding installation/template/angie/css/old/bootstrap-responsive.min.css; Next offset:559036
+DEBUG   |130821 13:22:27|-- Adding installation/template/angie/css/old/bootstrap-responsive.min.css to archive (virtual data)
+DEBUG   |130821 13:22:27|----- Finished operation 132 ------
+DEBUG   |130821 13:22:27|  Adding installation/template/angie/css/old/bootstrap.min.css; Next offset:576143
+DEBUG   |130821 13:22:27|-- Adding installation/template/angie/css/old/bootstrap.min.css to archive (virtual data)
+DEBUG   |130821 13:22:27|----- Finished operation 133 ------
+DEBUG   |130821 13:22:27|  Adding installation/template/angie/error.php; Next offset:576994
+DEBUG   |130821 13:22:27|-- Adding installation/template/angie/error.php to archive (virtual data)
+DEBUG   |130821 13:22:27|----- Finished operation 134 ------
+DEBUG   |130821 13:22:27|  Adding installation/template/angie/img/glyphicons-halflings-white.png; Next offset:585591
+DEBUG   |130821 13:22:27|-- Adding installation/template/angie/img/glyphicons-halflings-white.png to archive (virtual data)
+DEBUG   |130821 13:22:27|----- Finished operation 135 ------
+DEBUG   |130821 13:22:27|  Adding installation/template/angie/img/glyphicons-halflings.png; Next offset:598275
+DEBUG   |130821 13:22:27|-- Adding installation/template/angie/img/glyphicons-halflings.png to archive (virtual data)
+DEBUG   |130821 13:22:27|----- Finished operation 136 ------
+DEBUG   |130821 13:22:27|  Adding installation/template/angie/img/loading_big.gif; Next offset:605832
+DEBUG   |130821 13:22:27|-- Adding installation/template/angie/img/loading_big.gif to archive (virtual data)
+DEBUG   |130821 13:22:27|----- Finished operation 137 ------
+DEBUG   |130821 13:22:27|  Adding installation/template/angie/img/loading_small.gif; Next offset:609748
+DEBUG   |130821 13:22:27|-- Adding installation/template/angie/img/loading_small.gif to archive (virtual data)
+DEBUG   |130821 13:22:27|----- Finished operation 138 ------
+DEBUG   |130821 13:22:27|  Adding installation/template/angie/index.php; Next offset:610674
+DEBUG   |130821 13:22:27|-- Adding installation/template/angie/index.php to archive (virtual data)
+DEBUG   |130821 13:22:27|----- Finished operation 139 ------
+DEBUG   |130821 13:22:27|  Adding installation/template/angie/js/bootstrap.min.js; Next offset:618192
+DEBUG   |130821 13:22:27|-- Adding installation/template/angie/js/bootstrap.min.js to archive (virtual data)
+DEBUG   |130821 13:22:27|----- Finished operation 140 ------
+DEBUG   |130821 13:22:27|  Adding installation/template/angie/js/jquery.js; Next offset:651010
+DEBUG   |130821 13:22:27|-- Adding installation/template/angie/js/jquery.js to archive (virtual data)
+DEBUG   |130821 13:22:27|----- Finished operation 141 ------
+DEBUG   |130821 13:22:27|  Adding installation/template/angie/php/buttons.php; Next offset:651572
+DEBUG   |130821 13:22:27|-- Adding installation/template/angie/php/buttons.php to archive (virtual data)
+DEBUG   |130821 13:22:27|----- Finished operation 142 ------
+DEBUG   |130821 13:22:27|  Adding installation/template/angie/php/head.php; Next offset:652278
+DEBUG   |130821 13:22:27|-- Adding installation/template/angie/php/head.php to archive (virtual data)
+DEBUG   |130821 13:22:27|----- Finished operation 143 ------
+DEBUG   |130821 13:22:27|  Adding installation/template/angie/php/messages.php; Next offset:652778
+DEBUG   |130821 13:22:27|-- Adding installation/template/angie/php/messages.php to archive (virtual data)
+DEBUG   |130821 13:22:27|----- Finished operation 144 ------
+DEBUG   |130821 13:22:27|  Adding installation/tmp/.htaccess; Next offset:652862
+DEBUG   |130821 13:22:27|-- Adding installation/tmp/.htaccess to archive (virtual data)
+DEBUG   |130821 13:22:27|----- Finished operation 145 ------
+DEBUG   |130821 13:22:27|  Adding installation/tmp/index.html; Next offset:652946
+DEBUG   |130821 13:22:27|-- Adding installation/tmp/index.html to archive (virtual data)
+DEBUG   |130821 13:22:27|----- Finished operation 146 ------
+DEBUG   |130821 13:22:27|  Adding installation/tmp/web.config; Next offset:653108
+DEBUG   |130821 13:22:27|-- Adding installation/tmp/web.config to archive (virtual data)
+DEBUG   |130821 13:22:27|----- Finished operation 147 ------
+DEBUG   |130821 13:22:27|  Adding installation/version.php; Next offset:653295
+DEBUG   |130821 13:22:27|-- Adding installation/version.php to archive (virtual data)
+DEBUG   |130821 13:22:27|----- Finished operation 148 ------
+DEBUG   |130821 13:22:27|  Skipping installation/sql/
+DEBUG   |130821 13:22:27|----- Finished operation 149 ------
+DEBUG   |130821 13:22:27|Done
+DEBUG   |130821 13:22:27|Initializing with JPA package has finished
+DEBUG   |130821 13:22:27|AECoreDomainInstaller:: archive is initialized
+DEBUG   |130821 13:22:27|----- Finished operation 150 ------
+DEBUG   |130821 13:22:27|Successful Smart algorithm on AECoreDomainInstaller
+DEBUG   |130821 13:22:27|Kettenrad :: Domain 'installer' has finished.
+DEBUG   |130821 13:22:27|====== Finished Step number 1 ======
+DEBUG   |130821 13:22:27|*** Engine steps batching: Break flag detected.
+DEBUG   |130821 13:22:27|*** Batching of engine steps finished. I will now return control to the caller.
+DEBUG   |130821 13:22:27|Sleeping for 1133.88204575 msec, using usleep()
+DEBUG   |130821 13:22:29|Saving Kettenrad instance backend
+DEBUG   |130821 13:22:29| -- Loaded stored Akeeba Factory (backend)
+DEBUG   |130821 13:22:29|====== Starting Step number 2 ======
+DEBUG   |130821 13:22:29|Kettenrad :: BREAKING STEP BEFORE SWITCHING DOMAIN
+DEBUG   |130821 13:22:29|AECoreDomainDb :: New instance
+DEBUG   |130821 13:22:29|AECoreDomainDb :: Preparing instance
+DEBUG   |130821 13:22:29|Fetching filter data from database
+DEBUG   |130821 13:22:29|Loading filters
+DEBUG   |130821 13:22:29|-- Loading filter Components
+DEBUG   |130821 13:22:29|-- Loading filter Extensiondirs
+DEBUG   |130821 13:22:29|-- Loading filter Extensionfiles
+DEBUG   |130821 13:22:29|-- Loading filter Extradirs
+DEBUG   |130821 13:22:29|-- Loading filter Languages
+DEBUG   |130821 13:22:29|-- Loading filter Modules
+DEBUG   |130821 13:22:30|-- Loading filter Multidb
+DEBUG   |130821 13:22:30|-- Loading filter Plugins
+DEBUG   |130821 13:22:30|-- Loading filter Regexdirectories
+DEBUG   |130821 13:22:30|-- Loading filter Regexfiles
+DEBUG   |130821 13:22:30|-- Loading filter Regexskipdirs
+DEBUG   |130821 13:22:30|-- Loading filter Regexskipfiles
+DEBUG   |130821 13:22:30|-- Loading filter Regextabledata
+DEBUG   |130821 13:22:30|-- Loading filter Regextables
+DEBUG   |130821 13:22:30|-- Loading filter Templates
+DEBUG   |130821 13:22:30|-- Loading filter Directories
+DEBUG   |130821 13:22:30|-- Loading filter Files
+DEBUG   |130821 13:22:30|-- Loading filter Incremental
+DEBUG   |130821 13:22:30|-- Loading filter Skipdirs
+DEBUG   |130821 13:22:30|-- Loading filter Skipfiles
+DEBUG   |130821 13:22:30|-- Loading filter Srpdata
+DEBUG   |130821 13:22:30|-- Loading filter Srpdirs
+DEBUG   |130821 13:22:30|-- Loading filter Srpfiles
+DEBUG   |130821 13:22:30|-- Loading filter Srpskipdata
+DEBUG   |130821 13:22:30|-- Loading filter Srpskipfiles
+DEBUG   |130821 13:22:30|-- Loading filter Tabledata
+DEBUG   |130821 13:22:30|-- Loading filter Tables
+DEBUG   |130821 13:22:30|-- Loading filter PlatformFiles
+DEBUG   |130821 13:22:30|-- Loading filter PlatformFolders
+DEBUG   |130821 13:22:30|-- Loading filter PlatformLibraries
+DEBUG   |130821 13:22:30|-- Loading filter PlatformSitedb
+DEBUG   |130821 13:22:30|-- Loading filter PlatformSiteroot
+DEBUG   |130821 13:22:30|-- Loading filter PlatformSkipdirs
+DEBUG   |130821 13:22:30|-- Loading filter PlatformSkipfiles
+DEBUG   |130821 13:22:30|-- Loading filter PlatformSystemcachefiles
+DEBUG   |130821 13:22:30|-- Loading filter PlatformTabledata
+DEBUG   |130821 13:22:30|Loading optional filters
+DEBUG   |130821 13:22:30|-- Loading optional filter StackPlatformFinder
+DEBUG   |130821 13:22:30|----- Finished operation 1 ------
+DEBUG   |130821 13:22:30|AECoreDomainDb :: Iterating next database
+DEBUG   |130821 13:22:30|AEDumpNative :: New instance
+DEBUG   |130821 13:22:30|AEDumpNative :: Processing parameters
+DEBUG   |130821 13:22:30|AEDumpNative :: Instanciating new native database dump engine AEDumpNativeMysql
+DEBUG   |130821 13:22:30|AEDumpNativeMysql :: New instance
+DEBUG   |130821 13:22:30|AEAbstractDump :: Processing parameters
+DEBUG   |130821 13:22:30|AEDumpNativeMysql :: Finding tables to include in the backup set
+DEBUG   |130821 13:22:30|----- Finished operation 2 ------
+ERROR   |130821 13:22:30|Failed Smart algorithm on AECoreDomainDb
+DEBUG   |130821 13:22:30|Kettenrad :: More work required in domain 'PackDB'
+DEBUG   |130821 13:22:30|====== Finished Step number 2 ======
+DEBUG   |130821 13:22:30|*** Engine steps batching: Break flag detected.
+DEBUG   |130821 13:22:30|*** Batching of engine steps finished. I will now return control to the caller.
+DEBUG   |130821 13:22:30|Sleeping for 1766.45302773 msec, using usleep()
+DEBUG   |130821 13:22:31|Saving Kettenrad instance backend
+DEBUG   |130821 13:22:31|Closing SQL dump file.
+DEBUG   |130821 13:22:46|Kettenrad :: Attempting to load from database (backend)
+DEBUG   |130821 13:22:46| -- Loaded stored Akeeba Factory (backend)
+DEBUG   |130821 13:22:46|Closing SQL dump file.
+DEBUG   |130821 13:22:49|

@@ -1,0 +1,17 @@
+<?xml version="1.0" encoding="utf-8"?>
+<extension type="package" method="upgrade" version="2.5.8" zooversion="3.0.3" zlfwversion="3.0">
+	<name>ZOOlanders Package</name>
+	<author>ZOOlanders</author>
+	<creationDate>October 2012</creationDate>
+	<packagename>zoolanders</packagename>
+	<version>3.0</version>
+	<copyright>Copyright (C) 2011 JOOlanders, SL</copyright>
+	<license>http://www.gnu.org/licenses/gpl.html GNU/GPL</license>
+	<authorEmail>info@zoolanders.com</authorEmail>
+	<authorUrl>http://www.zoolanders.com</authorUrl>
+	<description>ZOO extensions for Joomla 2.5+ developed by ZOOlanders (http://www.zoolanders.com)</description>
+	<files folder="packages">
+		<file type="plugin" id="zooaksubs" group="system">plg_zooaksubs.zip</file>
+	</files>
+	<scriptfile>install.script.php</scriptfile>
+</extension>

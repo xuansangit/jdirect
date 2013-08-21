@@ -1,0 +1,16 @@
+<?xml version="1.0" encoding="utf-8"?>
+<renderer>
+	<positions layout="akeebalevel">
+		<position name="level_name">Level Name</position>
+		<position name="level_description">Description</position>
+		<position name="level_duration">Duration</position>
+		<position name="level_price">Price</position>
+		<position name="level_ordertext">Order Text</position>
+		<position name="level_canceltext">Cancel Text</position>
+		<position name="level_image">Image</position>
+		<position name="level_only_once">Forbid renewals</position>
+		<position name="level_recurring">Recurring</position>
+		<position name="level_notify1">First expiration notification</position>
+		<position name="level_notify2">Second expiration notification</position>
+	</positions>
+</renderer>
