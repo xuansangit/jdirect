@@ -1,14 +1,14 @@
 <?xml version="1.0" encoding="utf-8"?>
 <template>
-	<name>Default</name>
-	<version>2.5.0</version>
-	<creationDate>August 2011</creationDate>
-	<author>YOOtheme</author>
-	<authorEmail>info@yootheme.com</authorEmail>
-	<authorUrl>http://www.yootheme.com</authorUrl>
+	<name>jDirect</name>
+	<version>1.0.0</version>
+	<creationDate>Dec 2012</creationDate>
+	<author>Scott Greenwald</author>
+	<authorEmail>scott@joomladirect.com</authorEmail>
+	<authorUrl>http://joomladirect.com</authorUrl>
     <copyright>Copyright (C) YOOtheme GmbH</copyright>
     <license></license>
-	<description>Default template for the Download Archive App</description>
+	<description>Modified Warp6 template for the Download Archive App</description>
 	<params group="category">
 		<param name="show_alpha_index" type="list" default="1" label="Alpha Index" description="Show/Hide alpha index">
 			<option value="0">Hide</option>
