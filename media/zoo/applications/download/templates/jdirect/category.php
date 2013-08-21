@@ -43,11 +43,11 @@ $css_class = $this->application->getGroup().'-'.$this->template->name;
 
 			<?php echo $this->category->name.' '.JText::_('Archive'); ?>
 
-		</h1>
-		<?php endif; ?>
+			<?php if ($this->category->getParams()->get('content.subtitle')) : ?>
+				<span class="subtitle"> - <?php echo $this->category->getParams()->get('content.subtitle'); ?></span>
+			<?php endif; ?>
 
-		<?php if ($this->category->getParams()->get('content.subtitle')) : ?>
-			<h2 class="subtitle"><?php echo $this->category->getParams()->get('content.subtitle'); ?></h2>
+		</h1>
 		<?php endif; ?>
 
 		<?php if ($this->params->get('template.show_description') || $this->params->get('template.show_image')) : ?>
