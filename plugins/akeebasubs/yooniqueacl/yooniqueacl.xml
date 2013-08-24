@@ -1,0 +1,26 @@
+<?xml version="1.0" encoding="utf-8"?>
+<extension version="2.5.0" type="plugin" group="akeebasubs" method="upgrade">
+	<name>Akeeba Subscriptions - yoonique[.]net ACL Integration</name>
+    <version>1.4.17</version>
+    <creationDate>April 2012</creationDate>
+    <author>yoonique[.]net</author>
+    <authorEmail>acl@yoonique.net</authorEmail>
+    <authorUrl>http://www.yoonique.net</authorUrl>
+    <copyright>Copyright (C) 2012 yoonique[.]net</copyright>
+	<license>GNU General Public License version 3, or later</license>
+	<description>PLG_AKEEBASUBS_YOONIQUEACL_DESCRIPTION</description>
+	<files>
+		<filename plugin="yooniqueacl">yooniqueacl.php</filename>
+	</files>
+	<languages folder="language">
+		<language tag="en-GB">en-GB/en-GB.plg_akeebasubs_yooniqueacl.ini</language>
+		<language tag="en-GB">en-GB/en-GB.plg_akeebasubs_yooniqueacl.sys.ini</language> </languages>
+	<config>
+		<fields name="params">
+			<fieldset name="basic">
+				<field name="addgroups" type="textarea" default="" label="PLG_AKEEBASUBS_YOONIQUEACL_ADDGROUPS_TITLE" description="PLG_AKEEBASUBS_YOONIQUEACL_ADDGROUPS_DESCRIPTION" rows="5" cols="30" />
+				<field name="removegroups" type="textarea" default="" label="PLG_AKEEBASUBS_YOONIQUEACL_REMOVEGROUPS_TITLE" description="PLG_AKEEBASUBS_YOONIQUEACL_REMOVEGROUPS_DESCRIPTION" rows="5" cols="30" />
+			</fieldset>
+		</fields>
+	</config>
+</extension>

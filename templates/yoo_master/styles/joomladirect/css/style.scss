@@ -765,6 +765,10 @@ h1.title, #yoo-zoo .details h1.title, .registration h1  {
 	@include clean;
 	background-image: none;
 	background-color: white;
+
+	&.full {
+		padding: 0;
+	}
 }
 
 
@@ -1717,3 +1721,153 @@ p {
 }
 
 // RS Form 
+
+// Zoo Downloads
+
+.download-jdirect  {
+	.pos-media {
+		a, img {
+			display: block;
+			margin: 0 auto 5px auto;
+		}
+	}
+
+	&#yoo-zoo .details div.description {
+		padding: 0;
+	}
+}
+
+//Akeeba Subs tables
+
+.akeeba-bootstrap .akeebasubs-awesome {
+	.columns {
+		border: 1px solid #c8c8c8;
+	}
+
+
+	.akeebasubs-awesome-column {
+		margin-bottom: 0;
+		@include border-radius($radius: 6px !important);
+		@include transition;
+
+		.akeebasubs-awesome-header {
+			background-image: none !important;
+			background-color: #343434 !important;
+			@include border-radius($radius: 6px 6px 0 0 !important);
+			padding-top: 0;
+			padding-bottom: 0;
+			@include transition;
+		}				
+	}
+
+	.columns-1 .column-first {
+		border-right: none;
+		@include border-radius($radius: 6px !important);
+	}
+
+	.akeebasubs-awesome-level {
+		border-top: none;
+		border-bottom: none;
+		background: #282828;
+		@include border-radius($radius: 6px 6px 0 0);
+		padding: 6px;
+		margin-bottom: 0;
+		@include transition;
+
+	}
+
+	.akeebasubs-awesome-price {
+		font-size: 4em;
+		line-height: 1.2em;
+		font-style: normal;
+		padding: 10px 0;
+	}
+	.akeebasubs-awesome-signup {
+		display: none;
+	}
+
+	.akeebasubs-awesome-description {
+		min-height: 140px;
+		margin-bottom: 20px;
+		overflow: hidden;
+	}
+
+	.akeebasubs-awesome-footer {
+		padding-bottom: 25px;
+		text-align: center;
+		background: #f1f1f1;
+		padding: 20px 0;
+	}
+
+	.akeebasubs-awesome-image img {
+		margin: 1.5em auto;
+		@include border-radius($radius: 0);
+	}
+
+	.features {
+		overflow: hidden;
+		//margin: 20px 13%;
+		margin: 10px 13% 10px 35%;
+
+		ul.check  {
+			float: left;
+
+			&.left {
+				margin-right: 50px;
+			}
+		}
+	}
+
+}
+
+
+.akeeba-bootstrap .akeebasubs-awesome {
+
+	.akeebasubs-awesome-column:hover {
+
+		.akeebasubs-awesome-level {
+			background: #282828;
+
+		}
+		
+		.akeebasubs-awesome-header {
+			background-image: none !important;
+			background-color: #343434 !important;
+		}
+
+		@include box-shadow($x:0, $y:0, $blur:10px, $color:rgba(black, .5));
+
+		.akeebasubs-awesome-footer {
+			background-color: darken(#f1f1f1, 10%);
+			@include transition;
+		}
+
+	}
+}
+
+.akeeba-bootstrap .akeebasubs-awesome {
+	.btn-inverse {
+		background-color: #29ad52;
+		background-image: none;
+		border: none;
+		font-size: 18px;
+		padding: 10px 35px;
+		@include transition;
+		@include box-shadow($x:0, $y:4px, $blur:0, $color:#218a41);
+	}
+}
+
+//Akeeba Subs subscribe pages
+
+#akeebasubs-steps, #akeebasubs-subscribe-level {
+	@include no-box-shadow;
+}
+
+#akeebasubs {
+	 img.level-image {
+	 	border: none;
+	 	@include no-box-shadow;
+	 	max-width: 110px;
+	 	max-height: 110px;
+	 }
+}

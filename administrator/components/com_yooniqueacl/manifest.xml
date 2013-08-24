@@ -1,0 +1,62 @@
+<?xml version="1.0" encoding="utf-8"?>
+<extension version="2.5" type="component" method="upgrade">
+    <name>yoonique ACL</name>
+    <version>1.4.17</version>
+    <creationDate>March 2012</creationDate>
+    <author>yoonique[.]net</author>
+    <authorEmail>acl@yoonique.net</authorEmail>
+    <authorUrl>http://www.yoonique.net</authorUrl>
+    <copyright>Copyright (C) 2012 yoonique[.]net
+               Copyright (C) 2011 Dioscouri Design. All rights reserved.
+    </copyright>
+    <license>GNU General Public License v2</license>
+    <description>COM_YOONIQUEACL_DESCRIPTION</description>
+
+	<scriptfile>install.script.php</scriptfile>
+
+	<!-- Installation -->
+	<install>
+		<sql>
+			<file charset="utf8" driver="mysql">install/install.sql</file>
+			<file charset="utf8">install/install.sql</file>
+			<file charset="utf8" driver="mysqli">install/install.sql</file>
+			<file charset="utf8">install/install.sql</file>
+		</sql>
+	</install>
+	
+	<!--  Media -->
+	<media destination="com_yooniqueacl" folder="media">
+		<filename>index.html</filename>
+		<folder>css</folder>
+		<folder>js</folder>
+		<folder>images</folder>
+	</media>
+		
+	<!-- Application/administrator -->
+	<administration>
+		<menu>COM_YOONIQUEACL_MENU</menu>
+
+		<files folder="admin">
+			<filename>yooniqueacl.php</filename>
+			<filename>configfile.php</filename>
+			<filename>credits.php</filename>
+			<filename>controller.php</filename>
+			<filename>index.html</filename>
+			<folder>install</folder>
+			<folder>controllers</folder>
+			<folder>helpers</folder>
+			<folder>models</folder>
+			<folder>tables</folder>
+			<folder>views</folder>
+			<folder>language</folder>
+		</files>
+
+		<languages folder="admin">
+			<language tag="en-GB">language/en-GB/en-GB.com_yooniqueacl.ini</language>
+			<language tag="en-GB">language/en-GB/en-GB.com_yooniqueacl.sys.ini</language>
+		</languages>
+	</administration>
+
+    <scriptfile>install.script.php</scriptfile>
+	
+</extension>

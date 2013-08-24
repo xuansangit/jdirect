@@ -1,0 +1,42 @@
+<?xml version="1.0" encoding="utf-8"?>
+<extension version="2.5.0" type="plugin" group="system" method="upgrade">
+	<name>yoonique[.]net ACL</name>
+    <version>1.4.17</version>
+    <creationDate>March 2012</creationDate>
+    <author>yoonique[.]net</author>
+    <authorEmail>acl@yoonique.net</authorEmail>
+    <authorUrl>http://www.yoonique.net</authorUrl>
+    <copyright>Copyright (C) 2012 yoonique[.]net
+               Copyright (C) 2011 Dioscouri Design. All rights reserved.
+    </copyright>
+    <license>GNU General Public License v2</license>
+	<description>PLUGINDESC</description>
+
+	<files>
+		<filename plugin="yooniqueacl">yooniqueacl.php</filename>
+	</files>
+
+	<config>
+	<fields name="params">
+	<fieldset name="main" label="yoonique ACL settings">
+		<field name="frontend" type="radio" default="0" label="Enable Frontend Restrictions" description="Enable Frontend Restrictions Desc" >
+			<option value="0">Disable</option>
+			<option value="1">Enable</option>
+		</field>
+		<field type="spacer" />
+		<field name="displayErrorMessage" type="radio" default="0" label="Display Restricted Message" description="Display Restricted Message Desc" >
+			<option value="0">Disable</option>
+			<option value="1">Enable</option>
+		</field>
+		<field name="errorMessage" type="text" default="" label="Error Message" description="Error Message Desc" size="50"></field>
+		<field type="spacer" />
+		<field name="debug" type="radio" default="0" label="Enable Debugging" description="Enable Debugging Desc" >
+			<option value="0">Disable</option>
+			<option value="1">Enable</option>
+		</field>
+		<field name="debugid" type="text" default="0" label="Debug User ID" description="Debug User ID Desc" size="10"></field>
+		<field type="spacer" />
+	</fieldset>
+	</fields>
+	</config>
+</extension>

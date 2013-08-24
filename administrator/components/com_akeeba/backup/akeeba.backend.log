@@ -585,3 +585,12 @@ DEBUG   |130821 13:22:46|Kettenrad :: Attempting to load from database (backend)
 DEBUG   |130821 13:22:46| -- Loaded stored Akeeba Factory (backend)
 DEBUG   |130821 13:22:46|Closing SQL dump file.
 DEBUG   |130821 13:22:49|
+DEBUG   |130822 06:11:14|Kettenrad :: Attempting to load from database (backend)
+DEBUG   |130822 06:11:14| -- Stored Akeeba Factory (backend) not found - hard reset
+DEBUG   |130822 06:11:16|
+DEBUG   |130822 07:07:42|Kettenrad :: Attempting to load from database (backend)
+DEBUG   |130822 07:07:42| -- Stored Akeeba Factory (backend) not found - hard reset
+DEBUG   |130822 07:07:45|
+DEBUG   |130822 10:57:20|Kettenrad :: Attempting to load from database (backend)
+DEBUG   |130822 10:57:20| -- Stored Akeeba Factory (backend) not found - hard reset
+DEBUG   |130822 10:57:22|

@@ -1,0 +1,302 @@
+/**
+* Author: Dioscouri Design - www.dioscouri.com
+* @package JUGA - Joomla User Group Access
+* @copyright Copyright (C) 2007 Dioscouri Design. All rights reserved.
+* @license http://www.gnu.org/copyleft/gpl.html GNU/GPL, see LICENSE.php
+*/
+.icon-48-yooniqueacl { 
+	background-image: url(../../../media/com_yooniqueacl/images/yooniqueacl.png); 
+}
+.icon-32-revert { 
+	background-image: url(../../../../administrator/templates/khepri/images/toolbar/icon-32-revert.png); 
+}
+
+table.adminlist th.title a, table.adminlist th.title a:hover {
+	/*color: #FFFFFF;*/
+}
+
+table.adminheading {
+	width: 100%;
+	text-align: left;
+	font-weight: bold;
+}
+
+table.adminheading th {
+	width: 80%;
+	text-align: left;
+}
+
+.right {
+	text-align: right;
+}
+
+table.adminheading th.yooniqueacl {
+	background: url(../../../media/com_yooniqueacl/images/yooniqueacl.png) no-repeat left;
+	padding-left: 60px;
+}
+
+table.adminheading th.yooniqueacl_config {
+	background: url(../../../media/com_yooniqueacl/images/config.png) no-repeat left;
+	padding-left: 60px;
+	height: 50px;
+}
+
+table.adminheading th.yooniqueacl_groups {
+	background: url(../../../media/com_yooniqueacl/images/groups.png) no-repeat left;
+	padding-left: 60px;
+	height: 50px;
+}
+
+table.adminheading th.yooniqueacl_assignusers {
+	background: url(../../../media/com_yooniqueacl/images/assignusers.png) no-repeat left;
+	padding-left: 60px;
+	height: 50px;
+}
+
+table.adminheading th.yooniqueacl_users {
+	background: url(../../../media/com_yooniqueacl/images/users.png) no-repeat left;
+	padding-left: 60px;
+	height: 50px;
+}
+
+table.adminheading th.yooniqueacl_variables {
+	background: url(../../../media/com_yooniqueacl/images/variables.png) no-repeat left;
+	padding-left: 60px;
+	height: 50px;
+}
+
+table.adminheading th.yooniqueacl_siteitems {
+	background: url(../../../media/com_yooniqueacl/images/siteitems.png) no-repeat left;
+	padding-left: 60px;
+	height: 50px;
+}
+
+
+@charset "utf-8";
+/* CSS Document */
+
+span.small {
+	font-size: smaller;
+	color: #FF9900; 
+
+}
+
+span.href {
+	cursor:pointer;
+	color: #3F9273;
+	text-decoration:none;
+	padding-left: 10px;
+	font-size: 12px; 
+	font-weight: bold;
+}
+span.href:hover {
+	cursor:pointer;
+	color: #3F9273;
+	font-weight: bold;
+	text-decoration:underline;	
+}
+div.billets_paddedl {
+	padding-left: 10px;
+}
+td.billets_faded {
+	color:#999999;
+}
+#main_column {
+	vertical-align: top;
+	padding-left: 10px;
+	font-size:12px;
+}
+
+#left_column {
+	width: 180px;
+	min-width: 180px;
+	vertical-align: top;
+	border-right: #FDB813 1px solid;
+	font-size:12px;
+	text-align: left;
+}
+table.invisible {
+	width: 100%;
+}
+td.noborder {
+	border: none; 
+}
+.note {
+	background-color: #FFFFDD;
+	margin: 5px;
+	margin-bottom: 10px;
+	margin-right: 10px;
+	padding: 10px;
+	font-size:12px;
+	text-align: justify;
+	border: 1px solid #DDDDBB;
+	border-spacing: 0px;
+	border-collapse: collapse;
+}
+.notepi {
+	background-color: #FDE8FD;
+	margin: 5px;
+	margin-right: 10px;
+	margin-bottom: 10px;
+	padding: 10px;
+	font-size:12px;
+	text-align: justify;
+	border: 1px solid #FFCCCC;
+	border-spacing: 0px;
+	border-collapse: collapse;
+}
+.noteg {
+	background-color: #EBF6DF;
+	margin: 5px;
+	margin-right: 10px;
+	margin-bottom: 10px;
+	padding: 10px;
+	font-size:12px;
+	text-align: justify;
+	border: 1px solid #289728;
+	border-spacing: 0px;
+	border-collapse: collapse;	
+}
+
+table.userlist td.inv_right {
+	text-align:right;
+	padding-left: 1px;
+}
+table.userlist td.top {
+	vertical-align: top;
+}
+table.userlist td.topnowrap {
+	vertical-align: top;
+	white-space:nowrap;
+}
+
+table.userlist {
+	padding: 5px;
+	width: 99%;
+	margin-bottom: 10px; 
+	border-collapse: collapse;
+}
+table.userlist th {
+	background-color: #e5e5e5;
+	white-space: nowrap;
+	vertical-align: top;
+	padding: 5px;	
+}
+
+table.userlist th.title {
+	width: 20%;
+	text-align:left;
+	vertical-align:middle;
+	white-space:nowrap;
+}
+
+table.userlist th.data {
+	width: 75%;
+	text-align:right;
+	vertical-align:middle;
+}
+table.userlist th.fee {
+	padding-right: 5px;
+	padding-left: 5px;
+	text-align:right;
+	vertical-align:middle;
+	white-space:nowrap;
+	width: 50px;
+}
+table.userlist th.amount {
+	padding-right: 5px;
+	padding-left: 5px;
+	text-align:right;
+	vertical-align:middle;
+	white-space:nowrap;
+}
+table.userlist td {
+	border-bottom: 1px solid #e5e5e5; 
+	padding: 5px;
+	vertical-align: top;
+}
+table.userlist td.title {
+	width: 20%;
+	text-align:left;
+	vertical-align:middle;
+	white-space:nowrap;
+}
+table.userlist td.data {
+	width: 75%;
+	text-align:right;
+	vertical-align:middle;
+}
+table.userlist td.tooltip {
+	width: 5%;
+	text-align:right;
+	vertical-align:middle;
+}
+table.userlist td.headingnormal {
+	padding-right: 0px;
+	padding-left: 0px;
+	text-align:left;
+	vertical-align:middle;
+	white-space:nowrap;
+	font-weight: bold;
+	text-decoration:underline;
+	border: none;
+}
+table.userlist td.headingamount {
+	padding-right: 0px;
+	padding-left: 0px;
+	text-align:right;
+	vertical-align:middle;
+	white-space:nowrap;
+	font-weight: bold;
+	text-decoration:underline;
+	border: none;
+}
+table.userlist td.amount {
+	text-align:right;
+	vertical-align:middle;
+	white-space: nowrap;
+}
+table.userlist td.noborder {
+	border: none;
+	padding: 2px;
+	padding-top: 10px;
+}
+
+
+
+/** toolbar icons **/
+.icon-32-switch_f2 { 
+	background-image: url(../../../media/com_yooniqueacl/images/switch_f2.png); 
+}
+
+.icon-32-world_add { 
+	background-image: url(../../../media/com_yooniqueacl/images/world_add.png); 
+}
+
+.icon-32-world_remove { 
+	background-image: url(../../../media/com_yooniqueacl/images/world_remove.png); 
+}
+
+.icon-32-world_close { 
+	background-image: url(../../../media/com_yooniqueacl/images/world_close.png); 
+}
+
+.icon-32-world_ok { 
+	background-image: url(../../../media/com_yooniqueacl/images/world_ok.png); 
+}
+
+.icon-32-book_add { 
+	background-image: url(../../../media/com_yooniqueacl/images/book_add.png); 
+}
+
+.icon-32-book_remove { 
+	background-image: url(../../../media/com_yooniqueacl/images/book_remove.png); 
+}
+
+.icon-32-paste_add { 
+	background-image: url(../../../media/com_yooniqueacl/images/paste_add.png); 
+}
+
+.icon-32-paste_remove { 
+	background-image: url(../../../media/com_yooniqueacl/images/paste_remove.png); 
+}
