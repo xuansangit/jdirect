@@ -8,6 +8,8 @@
  /* Variables */
 
  $heading-color: #C66E2D;
+ $callout-bdr: #59c3b0;
+ $callout-bg: #62d7c2;
 
  /* Mixins*/
 
@@ -1428,6 +1430,89 @@ p {
 }
 
 #sidebar-a .mod-box.subscribe-form {
+
+	&.clean.callout {
+
+		background: $callout-bg;
+		border: 8px solid $callout-bdr;
+		color: white;
+
+		div#subform {
+			background: transparent;
+			border: none;
+			padding: 0;
+
+			.heading {
+				background: $callout-bdr;
+				text-align: center;
+				padding: 8px 22px 33px 22px;
+				position: relative;
+
+				&:before {
+					position: absolute;
+					top: 69px;
+					left: 0;
+					display: inline-block;
+					border-top: 40px solid transparent;
+					border-left: 166px solid $callout-bg;
+					border-right: 165px solid $callout-bg;
+					content: '';
+				}
+			}
+
+			h3 {
+				color: white;
+				font-size: 20px;
+				font-family: 'Arial Black', Arial, Helvetica, sans-serif;
+				text-shadow: 0 1px 0 darken($callout-bdr, 15%);
+			}
+
+			p {
+				margin: 0;
+				font-size: 1.1em;
+				text-shadow: 0 -1px 0 darken($callout-bdr, 15%);
+			}
+
+			form {
+				padding: 15px 20px 18px;
+				position: relative;
+			}
+
+			input.email {
+				border: 1px solid $callout-bdr;
+				background: #f2f2f2;
+				font-size: 1.1em;
+				@include inner-shadow($x:0, $y:3px, $blur:3px, $color: rgba(black, .1));
+
+				&.placeholder {
+					color: #6a6a6a;
+				}
+
+				&::-webkit-input-placeholder {
+					color: #6a6a6a;
+				}
+				&::-moz-placeholder {
+					color: #6a6a6a;
+				}
+				&:-moz-placeholder {
+					color: #6a6a6a;
+				} 
+				&:-ms-input-placeholder {
+					color: #6a6a6a;
+				}
+			}
+
+
+			input.submit.button.gold {
+				font-size: 1.1em;
+				@include v-gradient($color1:#f6901e, $color2:#e67a00);
+				font-weight: bold;
+				padding-left: 25px;
+				padding-right: 25px;
+			}
+		}
+	}
+
 	div#subform {
 		background: #ffffff;
 		border: 1px solid #E5E5E5;
@@ -1458,7 +1543,14 @@ p {
 		padding: 8px 14px;
 	}
 
+	&.solo {
+		div#follow {
+			border-top: 1px solid #E5E5E5;
+		}
+	}
+
 	div#follow {
+
 		padding: 10px 0 10px 10px;
 		background: #f8f8f8;
 		border: {
@@ -1757,7 +1849,15 @@ p {
 			padding-top: 0;
 			padding-bottom: 0;
 			@include transition;
-		}				
+		}
+
+		.akeebasubs-awesome-footer {
+			padding-bottom: 25px;
+			text-align: center;
+			background: #f1f1f1;
+			padding: 20px 0;
+			@include transition;
+		}		
 	}
 
 	.columns-1 .column-first {
@@ -1790,13 +1890,6 @@ p {
 		min-height: 140px;
 		margin-bottom: 20px;
 		overflow: hidden;
-	}
-
-	.akeebasubs-awesome-footer {
-		padding-bottom: 25px;
-		text-align: center;
-		background: #f1f1f1;
-		padding: 20px 0;
 	}
 
 	.akeebasubs-awesome-image img {
