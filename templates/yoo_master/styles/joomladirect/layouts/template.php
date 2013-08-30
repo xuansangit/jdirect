@@ -36,19 +36,15 @@ include($this['path']->path('layouts:template.config.php'));
 
 					<?php if ($this['modules']->count('toolbar-l')) : ?>
 					<div class="float-left">
-					
+						<?php if ($this['config']->get('date')) : ?>
+						<time datetime="<?php echo $this['config']->get('datetime'); ?>"><?php echo $this['config']->get('actual_date'); ?></time>
+						<?php endif; ?>
 						<?php echo $this['modules']->render('toolbar-l'); ?>
-						
 					</div>
 					<?php endif; ?>
 						
 					<?php if ($this['modules']->count('toolbar-r') || $this['config']->get('date')) : ?>
 					<div class="float-right">
-
-						<?php if ($this['config']->get('date')) : ?>
-						<time datetime="<?php echo $this['config']->get('datetime'); ?>"><?php echo $this['config']->get('actual_date'); ?></time>
-						<?php endif; ?>
-
 						<?php echo $this['modules']->render('toolbar-r'); ?>
 					</div>
 					<?php endif; ?>
