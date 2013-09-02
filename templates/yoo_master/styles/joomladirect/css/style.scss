@@ -236,8 +236,13 @@ body {
 			@include image-link-hover;
 		}
 
-		.clean, img.clean, a[rel=clean] img {
+		.clean, img.clean, a[rel=clean] img, .facebook-connect img {
 			@include clean;
+		}
+
+		.facebook-connect:hover img {
+			border: none;
+			@include opacity($alpha:1);
 		}
 		
 		/* Teaser */
@@ -392,7 +397,7 @@ body {
 }
 
 h1.title, #yoo-zoo .details h1.title, .registration h1  {
-	color: #C66E2D;
+	color: $heading-color;
 	font-weight: bold;
 	font-size: 2.5em;
 	line-height: 1.2em;
@@ -737,6 +742,27 @@ h1.title, #yoo-zoo .details h1.title, .registration h1  {
 				.module {
 					padding: 10px;
 					
+				}
+
+			}
+
+			
+			&.columns2, &.columns3 {
+				.dropdown-bg > div {
+					background: rgba(#000000, .7);
+					border: 2px solid #000000;
+					@include border-radius($radius: 10px);
+					-webkit-box-shadow: inset 0px 0 3px rgba(#ffffff, 0.5), 0px 0px 10px (#000000, .7);
+					-moz-box-shadow: inset 0px 0 3px rgba(#ffffff, 0.5), 0px 0px 10px rgba(#000000, .7);
+					box-shadow: inset 0px 0 3px rgba(#ffffff, 0.5), 0px 0px 10px rgba(#000000, .7);
+					margin: 10px;
+
+					.column {
+						background: transparent;
+						border: none;
+						@include border-radius($radius: 0);
+						@include no-box-shadow;
+					}
 				}
 			}
 		}
@@ -1141,12 +1167,28 @@ h1.title, #yoo-zoo .details h1.title, .registration h1  {
 	font-size: .9em;
 
 	a {
-		color: #C66E2D;
+		color: $heading-color;
 	}
 
 	strong {
 		font-weight: normal;
 		color: #a2a2a2;
+	}
+}
+
+#search {
+	border: none;
+	background: #1f1f1f;
+	margin-top: 8px;
+	@include border-radius($radius: 20px);
+
+	.searchbox {
+		border: none;
+		width: 140px;
+
+		input {
+			color: #a2a2a2;
+		}
 	}
 }
 
@@ -1191,7 +1233,7 @@ h3 {
 	font-weight: bold;
 	padding-top: 10px;
 	padding-bottom: 16px;
-	color: #C66E2D;
+	color: $heading-color;
 }
 hr, .yoo-zoo .item .element-textarea > hr {
 	border-bottom: 0;
@@ -1332,6 +1374,30 @@ p {
 	
 }
 
+.search-results {
+	#system {
+		#searchForm {
+			.inputbox {
+				@include border-radius;
+				border: 1px solid #D2D2D2;
+				background: #F6F6F6;
+				padding: 8px;
+			}
+			.button {
+				@extend .button.black;
+			}
+		}
+		h1.title {
+			background: none;
+			padding-bottom: 0;
+
+			a:hover {
+				color: $heading-color;
+			}
+		}
+	}
+}
+
 .element-textarea li ul {
 	margin-top: 0;
 }
@@ -1448,7 +1514,7 @@ p {
 				padding: 8px 22px 33px 22px;
 				position: relative;
 
-				&:before {
+				&:after {
 					position: absolute;
 					top: 69px;
 					left: 0;
@@ -1542,90 +1608,10 @@ p {
 	input.submit {
 		padding: 8px 14px;
 	}
-
-	&.solo {
-		div#follow {
-			border-top: 1px solid #E5E5E5;
-		}
-	}
-
-	div#follow {
-
-		padding: 10px 0 10px 10px;
-		background: #f8f8f8;
-		border: {
-			top: 1px solid white;
-			left: 1px solid #E5E5E5;
-			right: 1px solid #E5E5E5;
-			bottom: 1px solid #E5E5E5;
-			};
-		ul {
-			margin: 0;
-			padding: 0;
-			list-style-type: none;
-			overflow: hidden;
-
-			li {
-				display: block;
-				float: left;
-				height: 32px;
-				width: 32px;
-				margin-right: 8px;
-				a, span {
-					display: block;
-					height: 32px;
-					text-indent: -1000em;
-				}
-
-				@include transition;
-
-				&.follow-us {
-					background: url(../images/social-follow-us.png) no-repeat left top;
-					width: 80px;
-
-					span {
-						font-size: 1.2em;
-					}
-
-					&:hover {
-						-webkit-transform: none;
-						-moz-transform: none;
-						transform: none;
-						@include opacity($alpha:1.0);
-					}
-				}
-				&.twitter {
-					background: url(../images/social-twitter-round.png) no-repeat left top;
-				}
-				&.facebook {
-					background: url(../images/social-facebook-round.png) no-repeat left top;
-				}
-				&.googleplus {
-					background: url(../images/social-googleplus-round.png) no-repeat left top;
-				}
-				&.youtube {
-					background: url(../images/social-youtube-round.png) no-repeat left top;
-				}
-				&.feed {
-					background: url(../images/social-feed-round.png) no-repeat left top;
-				}
-
-				&:hover {
-					-webkit-transform: scale(.9);
-					-moz-transform: scale(1.9);
-					transform: scale(.9);
-					@include opacity($alpha:.5);
-					@include transition($duration:.2s);
-				}
-
-			}
-		}
-	}
 }
 
 .item .subscribe-form {
 	background: #D9EAFA;
-	//background: #EBF5FA;
 	border: {
 		bottom: 1px solid #BEDDFC;
 		top: 1px solid #BEDDFC;
@@ -1673,7 +1659,6 @@ p {
 			border: 1px solid #cccccc;
 			@include inner-shadow($x:0, $y:1px, $blur:1px, $color: rgba(#000000, .2));
 			background: #eeeeee;
-			//height: 20px;
 			margin-right: 6px;
 			@include border-radius($radius:6px);
 
@@ -1686,6 +1671,100 @@ p {
 		input.submit {
 			padding: 8px 14px;
 			font-weight: bold;
+		}
+	}
+}
+
+//Social icons in sidebar
+#sidebar-a .mod-box.social {
+
+	div.follow {
+
+		padding: 0;
+		background: #e5e5e5;
+		border: 1px solid #e5e5e5;
+		//@include inner-shadow($x:0px, $y:1px, $blur:0, $color: #f8f8f8);
+
+		ul {
+			margin: 0;
+			padding: 0;
+			list-style-type: none;
+			overflow: hidden;
+
+			li {
+				display: block;
+				float: left;
+				padding: 10px 0;
+				height: 30px;
+				width: 30px;
+				margin-right: 8px;
+				a, span {
+					display: block;
+					height: 30px;
+					text-indent: -1000em;
+				}
+
+				background: url(../images/flat-social-icons.png) no-repeat left top;
+				@include transition($duration:.2s);
+
+				&.follow-us {
+					background: #fafafa url(../images/social-follow-us.png) no-repeat 10px 10px;
+					width: 75px;
+					height: 50px;
+					margin-right: 35px;
+					padding: 0 0 0 10px;
+					position: relative;
+
+					span {
+						font-size: 1.2em;
+						display: inline-block;
+						height: 48px;
+
+						&:after {
+							position: absolute;
+							top: 0;
+							right: -25px;
+							display: inline-block;
+							border-top: 25px solid transparent;
+							border-left: 25px solid white;
+							border-bottom: 25px solid transparent;
+							content: '';
+						}
+					}
+
+					&:hover {
+						-webkit-transform: none;
+						-moz-transform: none;
+						transform: none;
+						@include opacity($alpha:1.0);
+					}
+				}
+
+				&.twitter {
+					background-position: 0 10px;
+				}
+				&.facebook {
+					background-position: -36px 10px;
+				}
+				&.googleplus {
+					background-position: -72px 10px;
+				}
+				&.youtube {
+					background-position: -108px 10px;
+				}
+				&.feed {
+					background-position: -144px 10px;
+				}
+
+				&:hover {
+					/*-webkit-transform: scale(.9);
+					-moz-transform: scale(1.9);
+					transform: scale(.9);*/
+					@include opacity($alpha:.5);
+					@include transition($duration:.2s);
+				}
+
+			}
 		}
 	}
 }
