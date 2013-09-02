@@ -312,7 +312,14 @@ body {
 
 		/* Full article */
 
-		.element-textarea {
+		.pos-content .element-textarea {
+
+			> *:first-child {
+				p {
+					font-size: 18px;
+					line-height: 24px;
+				}
+			}
 
 			p {
 				margin: 0 0 20px 0;
