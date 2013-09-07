@@ -1507,8 +1507,9 @@ p {
 	&.clean.callout {
 
 		background: $callout-bg;
-		border: 8px solid $callout-bdr;
+		border: 1px solid $callout-bdr;
 		color: white;
+		@include border-radius(4px);
 
 		div#subform {
 			background: transparent;
@@ -1520,6 +1521,7 @@ p {
 				text-align: center;
 				padding: 8px 22px 33px 22px;
 				position: relative;
+				@include border-radius(4px);
 
 				&:after {
 					position: absolute;
@@ -1527,8 +1529,8 @@ p {
 					left: 0;
 					display: inline-block;
 					border-top: 40px solid transparent;
-					border-left: 166px solid $callout-bg;
-					border-right: 165px solid $callout-bg;
+					border-left: 173px solid $callout-bg;
+					border-right: 173px solid $callout-bg;
 					content: '';
 				}
 			}
@@ -1733,7 +1735,7 @@ p {
 							right: -25px;
 							display: inline-block;
 							border-top: 25px solid transparent;
-							border-left: 25px solid white;
+							border-left: 25px solid #fafafa;
 							border-bottom: 25px solid transparent;
 							content: '';
 						}
